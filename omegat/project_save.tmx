@@ -288,6 +288,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>A [deploy](/codebase) of the twelve-factor app should be able to swap out a local MySQL database with one managed by a third party (such as [Amazon RDS](http://aws.amazon.com/rds/)) without any changes to the app's code.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T162950Z" creationid="nacyot" creationdate="20140517T162937Z">
+        <seg>Twelve-Factor App의 [배포](/codebase)는 어플리케이션 코드의 변경 없이도 로컬에서 관리되는 Mysql 데이터베이스와 써드 파티에서 관리되는 서비스(예를 들어 [Amazon RDS](http://aws.amazon.com/rds/))를 변경할 수 있어야합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Admin code must ship with application code to avoid synchronization issues.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T160452Z" creationid="nacyot" creationdate="20140517T160452Z">
@@ -310,6 +318,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T161355Z" creationid="nacyot" creationdate="20140517T161355Z">
         <seg>과거에 데이터베이스와 같은 백엔드 서비스는 배포된 어플리케이션과 같은 시스템 관리자에 의해서 관리되었다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Each distinct backing service is a *resource*.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T163104Z" creationid="nacyot" creationdate="20140517T163104Z">
+        <seg>각각의 벡엔드 서비스는 *리소스*입니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -342,6 +358,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140511T153713Z" creationid="nacyot" creationdate="20140511T153622Z">
         <seg>예를 들어 루비에서 사용되는 [Gem Bundler](http://gembundler.com/)는 의존성 정의를 위한 `Gemfile`이라는 선언 형식을 지원하며 `bundle exec`를 통해서 의존성을 분리한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For example, a MySQL database is a resource;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T163113Z" creationid="nacyot" creationdate="20140517T163113Z">
+        <seg>예를 들어 Mysql 데이터베이스는 하나의 리소스입니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -410,6 +434,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>In both cases, only the resource handle in the config needs to change.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T163041Z" creationid="nacyot" creationdate="20140517T163041Z">
+        <seg>두 사례 모두 변경이 필요한 부분은 설정의 리소스 핸들 부분입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>In deployment, a routing layer handles routing requests from a public-facing hostname to the port-bound web processes.</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20140517T070838Z" creationid="hsin" creationdate="20140517T070838Z">
@@ -464,6 +496,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T160716Z" creationid="nacyot" creationdate="20140517T160716Z">
         <seg>마찬가지로 Virtualenv를 사용하는 파이썬  프로그램의 경우 가상환경 내의`bin/python`을 Tornado 웹서버를 비롯해 모든 `manage.py`를 사용하는 명령어에 마찬가지로 사용해야한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Likewise, a local SMTP server could be swapped with a third-party SMTP service (such as Postmark) without code changes.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T163021Z" creationid="nacyot" creationdate="20140517T163011Z">
+        <seg>마찬가지로 로컬에서 관리되는 SMTP 서버도 코드 변경없이 Postmark와 같은 써드파티 SMTP  서비스와 교체될 수 있어야합니다.</seg>
       </tuv>
     </tu>
     <tu>
