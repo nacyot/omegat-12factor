@@ -408,6 +408,38 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Contributions from: James Lindenbaum, Mark McGranaghan, Chris Stolt, Ryan
+Daigle, Mark Imbriaco, Keith Rarick, Will Leinweber, Jesper Jørgensen, James
+Ward, Adam Seligman, Phil Hagelberg, Jon Mountjoy, Matthew Turland, Daniel
+Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T170905Z" creationid="nacyot" creationdate="20140517T170905Z">
+        <seg>Contributions from: James Lindenbaum, Mark McGranaghan, Chris Stolt, Ryan
+Daigle, Mark Imbriaco, Keith Rarick, Will Leinweber, Jesper Jørgensen, James
+Ward, Adam Seligman, Phil Hagelberg, Jon Mountjoy, Matthew Turland, Daniel
+Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Created by Adam Wiggins</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T170904Z" creationid="nacyot" creationdate="20140517T170904Z">
+        <seg>Created by Adam Wiggins</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Development
+-----------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T170902Z" creationid="nacyot" creationdate="20140517T170902Z">
+        <seg>Development
+-----------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Each distinct backing service is a *resource*.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T163104Z" creationid="nacyot" creationdate="20140517T163104Z">
@@ -634,6 +666,16 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Meta
+----</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T170903Z" creationid="nacyot" creationdate="20140517T170903Z">
+        <seg>Meta
+----</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Most languages provide a REPL by running the interpreter without any arguments (e.g. `python` or `erl`) or in some cases have a separate command (e.g. `irb` for Ruby, `rails console` for Rails).</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T160202Z" creationid="nacyot" creationdate="20140517T160202Z">
@@ -682,6 +724,24 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Production deploy
+-----------------</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T170903Z" creationid="nacyot" creationdate="20140517T170903Z">
+        <seg>Production deploy
+-----------------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Released under the MIT License: http://www.opensource.org/licenses/mit-license.php</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T170913Z" creationid="nacyot" creationdate="20140517T170913Z">
+        <seg>Released under the MIT License: http://www.opensource.org/licenses/mit-license.php</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Resources can be attached and detached to deploys at will.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T163354Z" creationid="nacyot" creationdate="20140517T163354Z">
@@ -698,12 +758,38 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Sometimes apps batch config into named groups (often called "environments") named after specific deploys, such as the `development`, `test`, and `production` environments in Rails.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T170743Z" creationid="nacyot" creationdate="20140517T170743Z">
+        <seg>어플리케이션 설정은 이름 공간으로 구분되는 그룹(주로 "환경(environment)"라고 이야기된다)으로 구분된다. 예를 들어 레일스에서는 `development`와 `test`, `production`를 일반적으로 사용ㅎㄴ다. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Source for the content app running at: http://www.12factor.net/</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T170902Z" creationid="nacyot" creationdate="20140517T170902Z">
+        <seg>Source for the content app running at: http://www.12factor.net/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The Twelve Factors
 ==================</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140429T154426Z" creationid="nacyot" creationdate="20140429T154426Z">
         <seg>The Twelve Factors
 ==================</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The Twelve-Factor App
+=====================</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T170902Z" creationid="nacyot" creationdate="20140517T170902Z">
+        <seg>The Twelve-Factor App
+=====================</seg>
       </tuv>
     </tu>
     <tu>
@@ -876,10 +962,34 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>bundle install
+    foreman start
+    open http://localhost:5000</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T170902Z" creationid="nacyot" creationdate="20140517T170902Z">
+        <seg>bundle install
+    foreman start
+    open http://localhost:5000</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>but this is only an output format.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140430T235628Z" creationid="nacyot" creationdate="20140430T232754Z">
         <seg>하지만 이는 한 가지 출력 방법일 뿐이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>heroku create -s cedar
+    git push heroku master
+    heroku open</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T170903Z" creationid="nacyot" creationdate="20140517T170903Z">
+        <seg>heroku create -s cedar
+    git push heroku master
+    heroku open</seg>
       </tuv>
     </tu>
     <tu>
