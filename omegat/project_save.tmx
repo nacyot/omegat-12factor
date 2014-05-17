@@ -326,6 +326,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>A litmus test for whether an app has all config correctly factored out of the code is whether the codebase could be made open source at any moment, without compromising any credentials.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T164744Z" creationid="nacyot" creationdate="20140517T164741Z">
+        <seg>어플리케이션으로부터 설정이 적절하게 분리되어있는 여부를 테스트할 수 있는 간단한 방법은 어떠한 인증 정보도 포함하지 않고 지금 당장 코드를 오픈소스화 가능한지 여부에 달려있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Admin code must ship with application code to avoid synchronization issues.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T160452Z" creationid="nacyot" creationdate="20140517T160452Z">
@@ -606,6 +614,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140511T154111Z" creationid="nacyot" creationdate="20140511T154111Z">
         <seg>어떤 툴을 사용하건 간에 의존관계 선언과 분리는 항상 함께 사용되어야 한다. 어느 한 쪽만을 사용하는 것은 twelve factor의 조건을 만족하지 않는다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Note that this definition of "config" does **not** include internal application config, such as `config/routes.rb` in Rails, or how [code modules are connected](http://static.springsource.org/spring/docs/2.5.x/reference/beans.html) in [Spring](http://www.springsource.org/).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T164913Z" creationid="nacyot" creationdate="20140517T164913Z">
+        <seg>또한 여기서 "설정"이라는 단어의 정의는 어플리케이션 내부의 설정을 포함하지 않는다는 점에 주의할 필요가 있다. 예를 들어 레일스의 `config/routes.rb`나 스프링의 [코드 모듈이 어떻게 연결되어있는지](http://static.springsource.org/spring/docs/2.5.x/reference/beans.html)는 어플리케이션 내부 설정이다.</seg>
       </tuv>
     </tu>
     <tu>
