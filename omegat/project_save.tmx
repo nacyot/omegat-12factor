@@ -544,6 +544,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>But an individual VM can only grow so large (vertical scale), so the application must also be able to span multiple processes running on multiple physical machines.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T174122Z" creationid="nacyot" creationdate="20140517T174122Z">
+        <seg>하지만 각각의 VM은 어느 정도 이상 커지지(Vertical scale) 않기 때문에 어플리케이션은 복수의 물리 머신에서 동작하는 복수의 프로세스로 확대되지 않으면 안 된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>But they all share the same codebase, thus making them identifiable as different deploys of the same app.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T172859Z" creationid="nacyot" creationdate="20140517T172859Z">
@@ -1018,10 +1026,26 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The [share-nothing, horizontally partitionable nature of twelve-factor app processes](/processes) means that adding more concurrency is a simple and reliable operation.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T174224Z" creationid="nacyot" creationdate="20140517T174224Z">
+        <seg>아무것도 공유하지 않는 수평 분할 가능한 Twelve-Fatro App의 프로세스 설질은 병행성을 높이는 조작이 단순할 분만 아니라 확실하다는 의미를 가진다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The app is executed in the execution environment as one or more *processes*.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T171504Z" creationid="nacyot" creationdate="20140517T171504Z">
         <seg>어플리케이션은 실행 환경 안에서 하나나 여러개의 *프로세스들*로 실행됩니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The array of process types and number of processes of each type is known as the *process formation*.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T174307Z" creationid="nacyot" creationdate="20140517T174307Z">
+        <seg>프로세스 타입과 각 타입의 프로세수 수 배열은 *프로세스 포메이션*이라고 불린다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1062,6 +1086,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140511T154313Z" creationid="nacyot" creationdate="20140511T154313Z">
         <seg>새로운 프로그래머는 사용하는 언어의 런타임과 의존성 관리 도구만 설치되어있다면 어플리케이션의 코드베이스를 개발 머신에 체크아웃할 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The process model truly shines when it comes time to scale out.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T174138Z" creationid="nacyot" creationdate="20140517T174138Z">
+        <seg>이러한 프로세스 모델의 진가는 스케일 아웃이 필요한 경우이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1146,6 +1178,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This does not exclude individual processes from handling their own internal multiplexing, via threads inside the runtime VM, or the async/evented model found in tools such as [EventMachine](http://rubyeventmachine.com/), [Twisted](http://twistedmatrix.com/trac/), or [Node.js](http://nodejs.org/).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T174015Z" creationid="nacyot" creationdate="20140517T174015Z">
+        <seg>이러한 모델은 런타임 VM 내의 쓰레드나 [EventMachine](http://rubyeventmachine.com/), [Twisted](http://twistedmatrix.com/trac/), [Node.js](http://nodejs.org/) 등 비동기 이번트 모델에 의해 각각의 프로세스가 프로세스 내부에서 다중화되는 것을 금지하지 않는다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This includes:</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T164317Z" creationid="nacyot" creationdate="20140517T164317Z">
@@ -1182,6 +1222,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T165849Z" creationid="nacyot" creationdate="20140517T165849Z">
         <seg>이러한 종류의 설정은 배포 환견 간에 큰 차이가 없으며, 따라서 코드에서 저장하는 게 최선이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Twelve-factor app processes [should never daemonize](http://dustin.github.com/2010/02/28/running-processes.html) or write PID files.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T174414Z" creationid="nacyot" creationdate="20140517T174414Z">
+        <seg>Twelve-Factor App 프로세스는 [결코 데몬화](http://dustin.github.com/2010/02/28/running-processes.html)되어서는 안되며 PID 파일을 작성할 필요도 없다.</seg>
       </tuv>
     </tu>
     <tu>
