@@ -294,6 +294,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>**The twelve-factor app stores config in *environment variables*** (often shortened to *env vars* or *env*).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T170416Z" creationid="nacyot" creationdate="20140517T170416Z">
+        <seg>**Twelve-Factor App은 설정을 *환경 변수(environment variables)*에 저장한다***(*env var*나 *env*라고 줄여말하기도 한다)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>*Logs* provide visibility into the behavior of a running app.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140430T235621Z" creationid="nacyot" creationdate="20140430T232705Z">
@@ -358,6 +366,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Another aspect of config management is grouping.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T170638Z" creationid="nacyot" creationdate="20140517T170638Z">
+        <seg>설정 관리에서 또 하나 염두해야할 부분은 그룹핑이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Apps sometimes store config as constants in the code.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T164508Z" creationid="nacyot" creationdate="20140517T164508Z">
@@ -396,6 +412,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T163104Z" creationid="nacyot" creationdate="20140517T163104Z">
         <seg>각각의 벡엔드 서비스는 *리소스*입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Env vars are easy to change between deploys without changing any code;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T170502Z" creationid="nacyot" creationdate="20140517T170454Z">
+        <seg>환경변수는 코드를 변경하지 않고도 쉽게 변경할 수 있다는 장점이 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -460,6 +484,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140511T154711Z" creationid="nacyot" creationdate="20140511T154711Z">
         <seg>예를 들어 루비 번들러의 빌드 명령어는 `bundle install`이며 클로저(Clojure)의 Leiningen에서는 `lein deps` 명령어가 사용된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Further, these formats tend to be language- or framework-specific.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T170318Z" creationid="nacyot" creationdate="20140517T170318Z">
+        <seg>더욱이 이러한 포맷은 언어나 프레임워크에 지나치게 의존적일 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -836,6 +868,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>and unlike custom config files, or other config mechanisms such as Java System Properties, they are a language- and OS-agnostic standard.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T170607Z" creationid="nacyot" creationdate="20140517T170607Z">
+        <seg>또한 독자적인 형식의 설정 파일이나 자바 시스템 프로퍼티와 같은 설정 형식과 달리 환경변수는 언어나 OS에 의존하지 않는 표준이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>but this is only an output format.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140430T235628Z" creationid="nacyot" creationdate="20140430T232754Z">
@@ -844,10 +884,26 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>there is a tendency for config files to be scattered about in different places and different formats, making it hard to see and manage all the config in one place.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T170240Z" creationid="nacyot" creationdate="20140517T170240Z">
+        <seg>또한 설정파일이 서로 다른 장소에 서로 다른 포맷으로 저장될 가능성이 있어 설정을 같은 곳에서 일괄적으로 관리하기 어려워진다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>two MySQL databases (used for sharding at the application layer) qualify as two distinct resources.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T163151Z" creationid="nacyot" creationdate="20140517T163151Z">
         <seg>두 개의 Mysql 데이터베이스들은(어플리케이션 레이어에서 샤딩으로 사용) 두개의 다른 리소스라고 할 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>unlike config files, there is little chance of them being checked into the code repo accidentally;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T170530Z" creationid="nacyot" creationdate="20140517T170530Z">
+        <seg>설정 파일과는 달리 저장소에 실수로 포함시킬 가능성도 거의 없다.</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
