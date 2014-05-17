@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.8_4" segtype="sentence" srclang="EN"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.8_3" segtype="sentence" srclang="EN"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -32,6 +32,16 @@
       <tuv lang="KO" changeid="nacyot" changedate="20140430T232640Z" creationid="nacyot" creationdate="20140430T232622Z">
         <seg>## 11. 로그
 ### 로그를 이벤트 스트림으로 다루기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## XII. Admin processes
+### Run admin/management tasks as one-off processes</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T155750Z" creationid="nacyot" creationdate="20140517T155724Z">
+        <seg>## 12. 관리 프로세스
+### 관리 테스크를 한 번만 사용하는 프로세스로 실행하기</seg>
       </tuv>
     </tu>
     <tu>
@@ -192,6 +202,22 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140429T230610Z" creationid="nacyot" creationdate="20140429T230610Z">
         <seg>* 어플리케이션 배포의 기반이 되는 운영체제의 의존관계를 명확하게 하고, 실행 환경 간의 **이동성을 최대화**한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Running a console (also known as a [REPL](http://en.wikipedia.org/wiki/Read-eval-print_loop) shell) to run arbitrary code or inspect the app's models against the live database.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T160106Z" creationid="nacyot" creationdate="20140517T160106Z">
+        <seg>* 임의의 코드를 실행하거나 데이터베이스에 대한 어플리케이션의 모델을 확인하기 위한 콘솔([REPL](http://en.wikipedia.org/wiki/Read-eval-print_loop)이라고도 한다)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Running database migrations (e.g. `manage.py syncdb` in Django, `rake db:migrate` in Rails).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T160007Z" creationid="nacyot" creationdate="20140517T160007Z">
+        <seg>* 데이터베이스 마이그레이션(예를 들면 Django의 `manage.py sincdb`나 레일스의 `rake db`)</seg>
       </tuv>
     </tu>
     <tu>
@@ -392,12 +418,28 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Separately, developers will often wish to do one-off administrative or maintenance tasks for the app, such as:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T155925Z" creationid="nacyot" creationdate="20140517T155925Z">
+        <seg>이와는 별개로 개발자는 관리나 유지보수 목적으로 한번만 실행되는 태스크를 실행하고 싶을 수 있다. 예를 들면 아래와 같은 것들이 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The Twelve Factors
 ==================</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140429T154426Z" creationid="nacyot" creationdate="20140429T154426Z">
         <seg>The Twelve Factors
 ==================</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The [process formation](/concurrency) is the array of processes that are used to do the app's regular business (such as handling web requests) as it runs.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T155842Z" creationid="nacyot" creationdate="20140517T155842Z">
+        <seg>[프로세스 포메이션](/concurrency)이란 어플리케이션을 실행할 때 통상적인 역할(웹 리퀘스트 처리 등)을 다루기 위한 프로세스들을 이야기한다.</seg>
       </tuv>
     </tu>
     <tu>
