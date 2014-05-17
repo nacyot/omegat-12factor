@@ -16,6 +16,16 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>## IV. Backing Services
+### Treat backing services as attached resources</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T161049Z" creationid="nacyot" creationdate="20140517T161049Z">
+        <seg>## 4. 백엔드 서비스
+### 백엔드 서비스를 붙여둔 리소스로 다루기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>## VII. Port binding
 ### Export services via port binding</seg>
       </tuv>
@@ -262,6 +272,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>A *backing service* is any service the app consumes over the network as part of its normal operation.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T161124Z" creationid="nacyot" creationdate="20140517T161124Z">
+        <seg>백엔드 서비스란 어플리케이션이 실행되는 가운데 네트워크를 통해서 사용될 수 있는 모든 서비스를 일컫는다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Admin code must ship with application code to avoid synchronization issues.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T160452Z" creationid="nacyot" creationdate="20140517T160452Z">
@@ -344,10 +362,26 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>In a local deploy, developers invoke one-off admin processes by a direct shell command inside the app's checkout directory.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T160957Z" creationid="nacyot" creationdate="20140517T160957Z">
+        <seg>로컬 배포에서 개발자는 한 번만 사용하는 관리 프로세스를 어플리케이션을 체크아웃한 디렉토리 안에서 쉘 명령어로서 직접 실행한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>In a local development environment, the developer visits a service URL like `http://localhost:5000/` to access the service exported by their app.</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20140517T070710Z" creationid="hsin" creationdate="20140517T063952Z">
         <seg>로컬 개발환경에서 개발자는 어플리케이션에 의해 공개된 서비스에 접근하기 위해 `http://localhost:5000`와 같은 서비스 URL에 접근합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>In a production deploy, developers can use ssh or other remote command execution mechanism provided by that deploy's execution environment to run such a process.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T160959Z" creationid="nacyot" creationdate="20140517T160959Z">
+        <seg>실제 배포 과정에서 개발자는 SSH나 배포 환경이 제공하는 다른 리모트 커맨드 실행 방법을 사용해 해당하는 프로세스를 실행한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -398,6 +432,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140511T153218Z" creationid="nacyot" creationdate="20140511T153218Z">
         <seg>패키지 관리 시스템을 통한 라이브러리 설치는 시스템 전체("site packages"라고 한다)에 설치하는 경우와 어플리케이션이 포함된 디레토리 범위에서 설치되는 경우가 있다("vendoring"이나 "bundling"라고 한다). </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Likewise, a Python program using Virtualenv should use the vendored `bin/python` for running both the Tornado webserver and any `manage.py` admin processes.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T160716Z" creationid="nacyot" creationdate="20140517T160716Z">
+        <seg>마찬가지로 Virtualenv를 사용하는 파이썬  프로그램의 경우 가상환경 내의`bin/python`을 Tornado 웹서버를 비롯해 모든 `manage.py`를 사용하는 명령어에 마찬가지로 사용해야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -560,6 +602,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140511T154815Z" creationid="nacyot" creationdate="20140511T154815Z">
         <seg>또한 Twelve-Factor App은 어떠한 시스템 툴에도 의존하지 않는다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Twelve-factor strongly favors languages which provide a REPL shell out of the box, and which make it easy to run one-off scripts.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T160839Z" creationid="nacyot" creationdate="20140517T160839Z">
+        <seg>Twelve-factor는 특별한 설정없이도 REPL을 사용할 수 있는 언어를 선호한다. 이는 1번만 사용하는 스크립트를 실행하기 쉽기 때문이다.</seg>
       </tuv>
     </tu>
     <tu>
