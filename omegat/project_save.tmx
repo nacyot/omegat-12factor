@@ -256,6 +256,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>**The code for a twelve-factor app makes no distinction between local and third party services.**  To the app, both are attached resources, accessed via a URL or other locator/credentials stored in the [config](/config).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T161627Z" creationid="nacyot" creationdate="20140517T161627Z">
+        <seg>** Twelve-Factor App의 코드는 로컬 서비스와 써드 파티 서비스의 차이를 구분하지 않는다. 어플리케이션 입장에서 보자면 어느 쪽이건 붙여진 리소스로써 [설정](/config)에 저장된 URL이나 기타 로케터/인증 정보로 접근 가능하다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>**The twelve-factor app is completely self-contained** and does not rely on runtime injection of a webserver into the execution environment to create a web-facing service.</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20140517T063416Z" creationid="hsin" creationdate="20140517T063416Z">
@@ -294,6 +302,14 @@
       <tuv lang="KO" changeid="nacyot" changedate="20140430T231835Z" creationid="nacyot" creationdate="20140430T231835Z">
         <seg>배경
 ==========</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Backing services like the database are traditionally managed by the same systems administrators as the app's runtime deploy.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T161355Z" creationid="nacyot" creationdate="20140517T161355Z">
+        <seg>과거에 데이터베이스와 같은 백엔드 서비스는 배포된 어플리케이션과 같은 시스템 관리자에 의해서 관리되었다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -382,6 +398,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T160959Z" creationid="nacyot" creationdate="20140517T160959Z">
         <seg>실제 배포 과정에서 개발자는 SSH나 배포 환경이 제공하는 다른 리모트 커맨드 실행 방법을 사용해 해당하는 프로세스를 실행한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>In addition to these locally-managed services, the app may also have services provided and managed by third parties.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T161430Z" creationid="nacyot" creationdate="20140517T161430Z">
+        <seg>또한 이러한 로컬에서 관리되는 서비스와 더불어 서드 파티에서 제공하고 관리되는 서비스도 있다.</seg>
       </tuv>
     </tu>
     <tu>
