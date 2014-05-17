@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.8_4" segtype="sentence" srclang="EN"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="EN">
+        <seg>## II. Dependencies
+### Explicitly declare and isolate dependencies</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140511T152634Z" creationid="nacyot" creationdate="20140511T152626Z">
+        <seg>## 2. 의존성
+### 의존성의 명시적인 선언과 분리</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## VII. Port binding
+### Export services via port binding</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140517T062932Z" creationid="hsin" creationdate="20140517T062932Z">
+        <seg>## 7. 포트 바인딩
+### 포트 바인딩으로 서비스 공개하기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## XI. Logs
+### Treat logs as event streams</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140430T232640Z" creationid="nacyot" creationdate="20140430T232622Z">
+        <seg>## 11. 로그
+### 로그를 이벤트 스트림으로 다루기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## [I.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140429T154428Z" creationid="nacyot" creationdate="20140429T154428Z">
+        <seg>## [I.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## [I. Codebase](/codebase)
+### One codebase tracked in revision control, many deploys</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140429T154845Z" creationid="nacyot" creationdate="20140429T154803Z">
+        <seg>## [1. 코드 베이스](/codebase)
+### 버전 관리되는 하나의 코드 베이스와 다수의 배포</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## [II. Dependencies](/dependencies)
+### Explicitly declare and isolate dependencies</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140429T155025Z" creationid="nacyot" creationdate="20140429T154951Z">
+        <seg>## [2. 의존성](/dependencies)
+### 의존성의 명시적인 선언과 분리</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## [III. Config](/config)
+### Store config in the environment</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140429T155056Z" creationid="nacyot" creationdate="20140429T155033Z">
+        <seg>## [3. 설정](/config)
+### 환경 변수에 설정 저장하기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## [IV. Backing Services](/backing-services)
+### Treat backing services as attached resources</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140429T224330Z" creationid="nacyot" creationdate="20140429T224330Z">
+        <seg>## [4. 백엔드 서비스](/backing-services)
+### 백엔드 서비스를 붙여둔@@@ 리소스로 다루기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## [IX. Disposability](/disposability)
+### Maximize robustness with fast startup and graceful shutdown</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140429T224545Z" creationid="nacyot" creationdate="20140429T224545Z">
+        <seg>## [9. 일회용성](/disposability)
+### 빠른 실행과 깔금한 종료를 통해 견고성 최대화하기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## [V. Build, release, run](/build-release-run)
+### Strictly separate build and run stages</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140429T224352Z" creationid="nacyot" creationdate="20140429T224352Z">
+        <seg>## [5. 빌드, 릴리즈, 실행](/build-release-run)
+### 빌드와 실행 단계 엄격하게 분리하기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## [VI. Processes](/processes)
+### Execute the app as one or more stateless processes</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140429T224417Z" creationid="nacyot" creationdate="20140429T224417Z">
+        <seg>## [6. 프로세스](/processes)
+### 어플리케이션을 하나나 그 이상의 상태 없는 프로세스로 실행하기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## [VII. Port binding](/port-binding)
+### Export services via port binding</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140429T224443Z" creationid="nacyot" creationdate="20140429T224435Z">
+        <seg>## [7. 포트 바인딩](/port-binding)
+### 포트 바인딩으로 서비스 공개하기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## [VIII. Concurrency](/concurrency)
+### Scale out via the process model</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140429T224500Z" creationid="nacyot" creationdate="20140429T224500Z">
+        <seg>## [8. 병행성](/concurrency)
+### 프로세스 모델을 스케일 아웃하기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## [X. Dev/prod parity](/dev-prod-parity)
+### Keep development, staging, and production as similar as possible</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140429T224617Z" creationid="nacyot" creationdate="20140429T224617Z">
+        <seg>## [10. 개발 / 배포 일치](/dev-prod-parity)
+### 개발, 스테이징, 배포를 최대한 일치시키기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## [XI. Logs](/logs)
+### Treat logs as event streams</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140429T224644Z" creationid="nacyot" creationdate="20140429T224644Z">
+        <seg>## [11. 로그](/logs)
+### 로그를 이벤트 스트림으로 다루기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## [XII. Admin processes](/admin-processes)
+### Run admin/management tasks as one-off processes</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140429T224727Z" creationid="nacyot" creationdate="20140429T224727Z">
+        <seg>## [12. 관리 프로세스](/admin-processes)
+### 관리 테스트를 한 번만 사용하는 프로세스로 실행하기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* **Minimize divergence** between development and production, enabling **continuous deployment** for maximum agility;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140429T231656Z" creationid="nacyot" creationdate="20140429T231656Z">
+        <seg>* 개발 환경과 배포 환경의 **차이를 최소화**하고, 에자일리티(agility)를 최대화하는 **계속적 배포**를 가능하게 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* And can **scale up** without significant changes to tooling, architecture, or development practices.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140429T231717Z" creationid="nacyot" creationdate="20140429T231717Z">
+        <seg>* 도구, 아키텍쳐, 개발적 요소들의 큰 변화 없이 스케일 아웃을 가능하게 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Are suitable for **deployment** on modern **cloud platforms**, obviating the need for servers and systems administration;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140429T231553Z" creationid="nacyot" creationdate="20140429T231553Z">
+        <seg>* 현대적인 **클라우드 플랫폼**에서 배포하는데 적합하시며 서버 관리와 시스템 관리를 피할 수 있게 한다. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Have a **clean contract** with the underlying operating system, offering **maximum portability** between execution environments;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140429T230610Z" creationid="nacyot" creationdate="20140429T230610Z">
+        <seg>* 어플리케이션 배포의 기반이 되는 운영체제의 의존관계를 명확하게 하고, 실행 환경 간의 **이동성을 최대화**한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Use **declarative** formats for setup automation, to minimize time and cost for new developers joining the project;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140429T230414Z" creationid="nacyot" creationdate="20140429T230414Z">
+        <seg>* 셋업 자동화에 **선언적인** 포맷을 사용해서 새로운 개발자가 프로젝트에 참여하는데 드는 시간과 비용을 최소화한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>**A twelve-factor app never relies on implicit existence of system-wide packages.**  It declares all dependencies, completely and exactly, via a *dependency declaration* manifest.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140511T153441Z" creationid="nacyot" creationdate="20140511T153353Z">
+        <seg>**Twelve-Factor App은 결코 암묵적으로 시스템 전체에 설치된 패키지가 존재한다고 전제하지 않는다.** 모든 의존 관계는 *의존 관계 선언 manifest*를 통해서 완전하고 정확하고 선언해야한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>**The twelve-factor app is completely self-contained** and does not rely on runtime injection of a webserver into the execution environment to create a web-facing service.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140517T063416Z" creationid="hsin" creationdate="20140517T063416Z">
+        <seg>**Twelve-Factor App은 철저히 스스로 완결되며** 웹에 공개되는 서비스를 만들기 위한 컨테이너가 실행환경에 웹서버 런타임을 주입하는 것에 의존하지 않는다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>*Logs* provide visibility into the behavior of a running app.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140430T235621Z" creationid="nacyot" creationdate="20140430T232705Z">
+        <seg>*Logs*는 실행중인 어플리케이션에서 일어나는 일들을 보여준다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Background
+==========</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140430T231835Z" creationid="nacyot" creationdate="20140430T231835Z">
+        <seg>배경
+==========</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Even C has [Autoconf](http://www.gnu.org/s/autoconf/) for dependency declaration, and static linking can provide dependency isolation.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140511T154010Z" creationid="nacyot" creationdate="20140511T154010Z">
+        <seg>심지어 C에서도 [Autoconf](http://www.gnu.org/s/autoconf/)는 의존성 선언을 지원하고, 정적 링크를 통해서 의존성 분리를 실현할 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Examples include shelling out to ImageMagick or `curl`.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140511T154946Z" creationid="nacyot" creationdate="20140511T154946Z">
+        <seg>예를 들어 어플리케이션에서 ImageMagick이나 `curl` 같은 툴을 이용하는 경우가 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For example, PHP apps might run as a module inside [Apache HTTPD](http://httpd.apache.org/), or Java apps might run inside [Tomcat](http://tomcat.apache.org/).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140517T063204Z" creationid="hsin" creationdate="20140517T063103Z">
+        <seg>예를 들어 PHP 어플리케이션은 [Apache HTTPD](httpd.apache.org/) 내부의 모듈로 실행되기도 하며, Java 어플리케이션은 [Tomcat](http://tomcat.apache.org/) 안에서 실행되기도 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For example, [Gem Bundler](http://gembundler.com/) for Ruby offers the `Gemfile` manifest format for dependency declaration and `bundle exec` for dependency isolation.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140511T153713Z" creationid="nacyot" creationdate="20140511T153622Z">
+        <seg>예를 들어 루비에서 사용되는 [Gem Bundler](http://gembundler.com/)는 의존성 정의를 위한 `Gemfile`이라는 선언 형식을 지원하며 `bundle exec`를 통해서 의존성을 분리한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For example, the build command for Ruby/Bundler is `bundle install`, while for Clojure/[Leiningen](https://github.com/technomancy/leiningen#readme) it is `lein deps`.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140511T154711Z" creationid="nacyot" creationdate="20140511T154711Z">
+        <seg>예를 들어 루비 번들러의 빌드 명령어는 `bundle install`이며 클로저(Clojure)의 Leiningen에서는 `lein deps` 명령어가 사용된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Furthermore, it uses a *dependency isolation* tool during execution to ensure that no implicit dependencies "leak in" from the surrounding system.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140511T153535Z" creationid="nacyot" creationdate="20140511T153428Z">
+        <seg>더욱이 실행중에 *의존성 분리* 툴을 사용해 @@@</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>If the app needs to shell out to a system tool, that tool should be vendored into the app.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140511T155146Z" creationid="nacyot" creationdate="20140511T155146Z">
+        <seg>어플리케이션에서 시스템 툴을 사용하는 경우엔 그 툴이 어플리케이션에 포함되어야한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>In a local development environment, the developer visits a service URL like `http://localhost:5000/` to access the service exported by their app.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140517T063952Z" creationid="hsin" creationdate="20140517T063952Z">
+        <seg>로컬 개발환경에서 개발자는 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>In server-based environments they are commonly written to a file on disk (a "logfile");</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140430T235625Z" creationid="nacyot" creationdate="20140430T232740Z">
+        <seg>일반적으로 서버 기반 환경 위에서 로그는 파일 시스템("로그 파일")에 쓰여진다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>In the modern era, software is commonly delivered as a service: called *web apps*, or *software-as-a-service*.  The twelve-factor app is a methodology for building software-as-a-service apps that:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140429T225110Z" creationid="nacyot" creationdate="20140429T224933Z">
+        <seg>현대에 소프트웨어는 서비스로 제공되며 *웹 어플리케이션(web apps)*이나 *Soft as a Service*라고 이야기되곤 합니다. The Twelve-factor App은 Software as a service을 작성하는 방법론을 담고 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>In, Python there are two separate tools for these steps -- [Pip](http://www.pip-installer.org/en/latest/) is used for declaration and [Virtualenv](http://www.virtualenv.org/en/latest/) for isolation.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140511T153919Z" creationid="nacyot" creationdate="20140511T153919Z">
+        <seg>파이썬에서는 이러한 분리가 두 단계에 걸쳐서 이루어진다. [Pip](http://www.pip-installer.org/en/latest/)은 의존성 선언에 사용되며 [Virtualenv](http://www.virtualenv.org/en/latest/)는 의존성 분리에 사용된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Introduction
+============</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140429T224822Z" creationid="nacyot" creationdate="20140429T224822Z">
+        <seg>시작하며
+============</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Libraries installed through a packaging system can be installed system-wide (known as "site packages") or scoped into the directory containing the app (known as "vendoring" or "bundling").</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140511T153218Z" creationid="nacyot" creationdate="20140511T153218Z">
+        <seg>패키지 관리 시스템을 통한 라이브러리 설치는 시스템 전체("site packages"라고 한다)에 설치하는 경우와 어플리케이션이 포함된 디레토리 범위에서 설치되는 경우가 있다("vendoring"이나 "bundling"라고 한다). </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Logs are the [stream](http://adam.heroku.com/past/2011/4/1/logs_are_streams_not_files/) of aggregated, time-ordered events collected from the output streams of all running processes and backing services.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140430T235633Z" creationid="nacyot" creationdate="20140430T235612Z">
+        <seg>로그는 모든 실행중인 프로세스와 백엔드 서비스에서 시간순으로 정렬되고 쌓여있는 이벤트를 수집하는 스트림이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Logs in their raw form are typically a text format with one event per line (though backtraces from exceptions may span multiple lines).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140512T225912Z" creationid="nacyot" creationdate="20140512T225912Z">
+        <seg>일반적으로 어플리케이션이 직접 생성한 로그는 한 줄에 하나의 이벤트를 기록하고 있는 텍스)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Most programming languages offer a packaging system for distributing support libraries, such as [CPAN](http://www.cpan.org/) for Perl or [Rubygems](http://rubygems.org/) for Ruby.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140511T152934Z" creationid="nacyot" creationdate="20140511T152411Z">
+        <seg>대부분의 프로그래밍 언어는 Perl의 [CPAN](http://www.cpan.org/)이나 루비의 [루비젬](http://rubygems.org/)과 같이 의존 라이브러리 관리를 위한 패키지 관리 시스템을 제공한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>No matter what the toolchain, dependency declaration and isolation must always be used together -- only one or the other is not sufficient to satisfy twelve-factor.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140511T154111Z" creationid="nacyot" creationdate="20140511T154111Z">
+        <seg>어떤 툴을 사용하건 간에 의존관계 선언과 분리는 항상 함께 사용되어야 한다. 어느 한 쪽만을 사용하는 것은 twelve factor의 조건을 만족하지 않는다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>One benefit of explicit dependency declaration is that it simplifies setup for developers new to the app.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140511T154201Z" creationid="nacyot" creationdate="20140511T154201Z">
+        <seg>의존성을 명시적으로 선언하면 새로운 프로그래머가 어플리케이션 개발에 참여할 때 개발 환경을 쉽게 구성할 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The Twelve Factors
+==================</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140429T154426Z" creationid="nacyot" creationdate="20140429T154426Z">
+        <seg>The Twelve Factors
+==================</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The contributors to this document have been directly involved in the development and deployment of hundreds of apps, and indirectly witnessed the development, operation, and scaling of hundreds of thousands of apps via our work on the [Heroku](http://www.heroku.com/) platform.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140429T232056Z" creationid="nacyot" creationdate="20140429T232056Z">
+        <seg>이 문서의 작성자는 직접적으로 수백개의 어플리케이션의 개발과 배포에 참가했으며 [히로쿠(Heroku)](http://www.heroku.com/) 플랫폼에서 일하면서 수천개 어플리케이션의 개발(development), 운용(operation), 스케일(scaling)에 간접적으로 참여했다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The full and explicit dependency specification is applied uniformly to both production and development.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140511T153612Z" creationid="nacyot" creationdate="20140511T153612Z">
+        <seg>완전하고 명시적은 의존성 선언은 배포 환경과 개발 환경 모두에 마찬가지로 적용한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The new developer can check out the app's codebase onto their development machine, requiring only the language runtime and dependency manager installed as prerequisites.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140511T154313Z" creationid="nacyot" creationdate="20140511T154313Z">
+        <seg>새로운 프로그래머는 사용하는 언어의 런타임과 의존성 관리 도구만 설치되어있다면 어플리케이션의 코드베이스를 개발 머신에 체크아웃할 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The twelve-factor methodology can be applied to apps written in any programming language, and which use any combination of backing services (database, queue, memory cache, etc).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140429T231829Z" creationid="nacyot" creationdate="20140429T231829Z">
+        <seg>The Twelve-Factor 방법론은 어떤 프로그래밍 언어로 쓰여진 어플리케이션에도 적용가능하며, 어떤 백엔드 서비스(데이터베이스, 큐, 메모리 캐시 등등)에도 적용될 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The web app **exports HTTP as a service by binding to a port**, and listening to requests coming in on that port.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140517T063720Z" creationid="hsin" creationdate="20140517T063720Z">
+        <seg>웹 어플리케이션은 ** 포트 바인딩을 통해서 HTTP를 서비스로 공개하며 이 포트에 오는 요청을 기다린다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>They will be able to set up everything needed to run the app's code with a deterministic *build command*.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140511T154629Z" creationid="nacyot" creationdate="20140511T154629Z">
+        <seg>프로그래머는 정해진 빌드 커맨드 하나로 어플리케이션 개발에 필요한 모든 설정을 할 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This document synthesizes all of our experience and observations on a wide variety of software-as-a-service apps in the wild.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140430T232055Z" creationid="nacyot" creationdate="20140430T232055Z">
+        <seg>이 문서는 현실에서 다양하게 사용되는 software-as-a-service 앱 세계에 대한 우리의 모든 경험과 관찰을 집약한 책입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Twelve-factor apps also do not rely on the implicit existence of any system tools.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140511T154815Z" creationid="nacyot" creationdate="20140511T154815Z">
+        <seg>또한 Twelve-Factor App은 어떠한 시스템 툴에도 의존하지 않는다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Web apps are sometimes executed inside a webserver container.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="hsin" changedate="20140517T063126Z" creationid="hsin" creationdate="20140517T062951Z">
+        <seg>웹 어플리케이션은 웹 서버 컨테이너 안에서 실행되기도 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>While these tools may exist on many or even most systems, there is no guarantee that they will exist on all systems where the app may run in the future, or whether the version found on a future system will be compatible with the app.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140511T155114Z" creationid="nacyot" creationdate="20140511T155114Z">
+        <seg>이러한 툴들은 대개 시스템 기반으로 설치되는 경우가 많은데, 미래에 이 어플리케이션을 돌릴 모든 시스템에 툴이 설치되어있는지 알 수 없으며 설치되어있다고 한들 어플리케이션과 호환되는 버전이라는 보장은 어디에도 업스다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>but this is only an output format.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140430T235628Z" creationid="nacyot" creationdate="20140430T232754Z">
+        <seg>하지만 이는 한 가지 출력 방법일 뿐이다.</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>
