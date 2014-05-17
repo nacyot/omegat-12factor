@@ -6,6 +6,14 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN">
+        <seg>![One codebase maps to many deploys](/images/codebase-deploys.png)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T172139Z" creationid="nacyot" creationdate="20140517T172139Z">
+        <seg>![One codebase maps to many deploys](/images/codebase-deploys.png)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>## I. Codebase
 ### One codebase tracked in revision control, many deploys</seg>
       </tuv>
@@ -256,6 +264,22 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* If there are multiple codebases, it's not an app -- it's a distributed system.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T172231Z" creationid="nacyot" creationdate="20140517T172226Z">
+        <seg>* 코드베이스가 여럿이라면, 단일 어플리케이션이 아니다. 그것은 분산 시스템이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Multiple apps sharing the same code is a violation of twelve-factor.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T172331Z" creationid="nacyot" creationdate="20140517T172331Z">
+        <seg>* 하나의 코드를 공유하는 다수의 어플리케이션은 Twelve-Fator에 위배된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* Resource handles to the database, Memcached, and other [backing services](/backing-services)
 * Credentials to external services such as Amazon S3 or Twitter
 * Per-deploy values such as the canonical hostname for the deploy</seg>
@@ -364,10 +388,26 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>A *codebase* is any single repo (in a centralized revision control system like Subversion), or any set of repos who share a root commit (in a decentralized revision control system like Git).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T172123Z" creationid="nacyot" creationdate="20140517T172123Z">
+        <seg>*코드 베이스*란 하나의 저장소(Subversion과 같은 중앙 관리형 버전 관리 시스템)나 루트 커밋을 공유하는 다수의 저장소(Git과 같은 분산형 버전 관리 시스템)을 일컫는다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>A [deploy](/codebase) of the twelve-factor app should be able to swap out a local MySQL database with one managed by a third party (such as [Amazon RDS](http://aws.amazon.com/rds/)) without any changes to the app's code.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T162950Z" creationid="nacyot" creationdate="20140517T162937Z">
         <seg>Twelve-Factor App의 [배포](/codebase)는 어플리케이션 코드의 변경 없이도 로컬에서 관리되는 Mysql 데이터베이스와 써드 파티에서 관리되는 서비스(예를 들어 [Amazon RDS](http://aws.amazon.com/rds/))를 변경할 수 있어야합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>A copy of the revision tracking database is known as a *code repository*, often shortened to *code repo* or just *repo*.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T172002Z" creationid="nacyot" creationdate="20140517T171936Z">
+        <seg>버전 관리 시스템의 데이터베이스는 *코드 저장소(code repository)*나 줄여서 *코드 리포(code repo)*나 *리포(repo)*라고 불립니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -490,6 +530,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T170902Z" creationid="nacyot" creationdate="20140517T170902Z">
         <seg>Development
 -----------</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Each component in a distributed system is an app, and each can individually comply with twelve-factor.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T172310Z" creationid="nacyot" creationdate="20140517T172310Z">
+        <seg>각각의 컴포넌트는 분산 시스템에서 어플리케이션에 해당하며 Twelve-Factor를 따를 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -920,6 +968,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The solution here is to factor shared code into libraries which can be included through the [dependency manager](/dependencies).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T172430Z" creationid="nacyot" creationdate="20140517T172430Z">
+        <seg>이런 경우 해결책은 공통된 부분을 라이브러리로 분리하고 이 라이브러리를 [의존성 관리](/dependencies)를 통해서 사용한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The twelve-factor app treats these databases as *attached resources*, which indicates their loose coupling to the deploy they are attached to.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T163327Z" creationid="nacyot" creationdate="20140517T163327Z">
@@ -940,6 +996,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20140517T063720Z" creationid="hsin" creationdate="20140517T063720Z">
         <seg>웹 어플리케이션은 ** 포트 바인딩을 통해서 HTTP를 서비스로 공개하며 이 포트에 오는 요청을 기다린다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>There is always a one-to-one correlation between the codebase and the app:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T172158Z" creationid="nacyot" creationdate="20140517T172158Z">
+        <seg>코드베이스와 어플리케이션 간에는 항상 1:1의 관계가 성립한다.</seg>
       </tuv>
     </tu>
     <tu>
