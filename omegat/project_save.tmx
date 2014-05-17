@@ -6,6 +6,16 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN">
+        <seg>## I. Codebase
+### One codebase tracked in revision control, many deploys</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T171736Z" creationid="nacyot" creationdate="20140517T171736Z">
+        <seg>## 1. 코드 베이스
+### 버전 관리되는 하나의 코드 베이스와 다수의 배포</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>## II. Dependencies
 ### Explicitly declare and isolate dependencies</seg>
       </tuv>
@@ -32,6 +42,26 @@
       <tuv lang="KO" changeid="nacyot" changedate="20140517T161049Z" creationid="nacyot" creationdate="20140517T161049Z">
         <seg>## 4. 백엔드 서비스
 ### 백엔드 서비스를 붙여둔 리소스로 다루기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## V. Build, release, run
+### Strictly separate build and run stages</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T171720Z" creationid="nacyot" creationdate="20140517T171708Z">
+        <seg>## 5. 빌드, 릴리즈, 런
+### 빌드와 실행 단계 엄격하게 구분하기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>## VI. Processes
+### Execute the app as one or more stateless processes</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T171442Z" creationid="nacyot" creationdate="20140517T171442Z">
+        <seg>## 6. 프로세스
+### 어플리케이션을 하나나 그 이상의 상태 없는 프로세스로 실행하기</seg>
       </tuv>
     </tu>
     <tu>
@@ -350,6 +380,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>A twelve-factor app is always tracked in a version control system, such as [Git](http://git-scm.com/), [Mercurial](http://mercurial.selenic.com/), or [Subversion](http://subversion.apache.org/).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T171823Z" creationid="nacyot" creationdate="20140517T171823Z">
+        <seg>Twelve-Factor App은 항상 [Git](http://git-scm.com/), [Mercurial](http://mercurial.selenic.com/), [Subversion](http://subversion.apache.org/)과 같은 버전 관리 시스템에서 관리된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Admin code must ship with application code to avoid synchronization issues.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T160452Z" creationid="nacyot" creationdate="20140517T160452Z">
@@ -624,6 +662,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>In the simplest case, the code is a stand-alone script, the execution environment is a developer's local laptop with an installed language runtime, and the process is launched via the command line (for example, `python my_script.py`).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T171606Z" creationid="nacyot" creationdate="20140517T171606Z">
+        <seg>가장 간단한 경우를 예로 들자면 코드는 하나의 스크립트이고 실행 환경은 개발자의 로컬 노트북이라고 할 때 프로세스는 명령행을 통해 실행됩니다(for example, `python my_script.py`). </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>In, Python there are two separate tools for these steps -- [Pip](http://www.pip-installer.org/en/latest/) is used for declaration and [Virtualenv](http://www.virtualenv.org/en/latest/) for isolation.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140511T153919Z" creationid="nacyot" creationdate="20140511T153919Z">
@@ -822,6 +868,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T155842Z" creationid="nacyot" creationdate="20140517T155842Z">
         <seg>[프로세스 포메이션](/concurrency)이란 어플리케이션을 실행할 때 통상적인 역할(웹 리퀘스트 처리 등)을 다루기 위한 프로세스들을 이야기한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The app is executed in the execution environment as one or more *processes*.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T171504Z" creationid="nacyot" creationdate="20140517T171504Z">
+        <seg>어플리케이션은 실행 환경 안에서 하나나 여러개의 *프로세스들*로 실행됩니다.</seg>
       </tuv>
     </tu>
     <tu>
