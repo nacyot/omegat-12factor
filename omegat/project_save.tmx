@@ -222,6 +222,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* Running one-time scripts committed into the app's repo (e.g. `php scripts/fix_bad_records.php`).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T160244Z" creationid="nacyot" creationdate="20140517T160244Z">
+        <seg>* 어플리케이션 저장소에 커밋된 한 번만 실행하기 위한 스크립트.(예를 들어 `php scripts/fix_bad_records.php`)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* Use **declarative** formats for setup automation, to minimize time and cost for new developers joining the project;</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140429T230414Z" creationid="nacyot" creationdate="20140429T230414Z">
@@ -250,6 +258,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140430T235621Z" creationid="nacyot" creationdate="20140430T232705Z">
         <seg>*Logs*는 실행중인 어플리케이션에서 일어나는 일들을 보여준다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Admin code must ship with application code to avoid synchronization issues.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T160452Z" creationid="nacyot" creationdate="20140517T160452Z">
+        <seg>관리용 코드는 동기 문제를 피하기 위해 어플리케이션과 함께 배포되어야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -292,6 +308,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140511T153713Z" creationid="nacyot" creationdate="20140511T153622Z">
         <seg>예를 들어 루비에서 사용되는 [Gem Bundler](http://gembundler.com/)는 의존성 정의를 위한 `Gemfile`이라는 선언 형식을 지원하며 `bundle exec`를 통해서 의존성을 분리한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For example, if the Ruby web process uses the command `bundle exec thin start`, then a database migration should use `bundle exec rake db:migrate`.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T160555Z" creationid="nacyot" creationdate="20140517T160555Z">
+        <seg>예를 들어 루비 웹 프로세스가 `bundle exec thin start`로 실행된다면 데이터베이스 마이그레이션은 `bundle exec rake db:migrate` 명령어를 통해서 실행되어야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -394,6 +418,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Most languages provide a REPL by running the interpreter without any arguments (e.g. `python` or `erl`) or in some cases have a separate command (e.g. `irb` for Ruby, `rails console` for Rails).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T160202Z" creationid="nacyot" creationdate="20140517T160202Z">
+        <seg>많은 언어에서는 별다른 인자없이 인터프리터를 실행하면 REPL을 실행할 수 있다. 혹은 루비의 `irb`나 `rails console`과 같이 별도의 명령어를 제공하기도 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Most programming languages offer a packaging system for distributing support libraries, such as [CPAN](http://www.cpan.org/) for Perl or [Rubygems](http://rubygems.org/) for Ruby.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140511T152934Z" creationid="nacyot" creationdate="20140511T152411Z">
@@ -414,6 +446,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140511T154201Z" creationid="nacyot" creationdate="20140511T154201Z">
         <seg>의존성을 명시적으로 선언하면 새로운 프로그래머가 어플리케이션 개발에 참여할 때 개발 환경을 쉽게 구성할 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>One-off admin processes should be run in an identical environment as the regular [long-running processes](/processes) of the app.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T160321Z" creationid="nacyot" creationdate="20140517T160321Z">
+        <seg>한 번만 실행되는 프로세스들은 일반적으로 [장기간 실행되는 프로세스들](/processes)과 같은 환경에서 실행되어야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -468,6 +508,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The same [dependency isolation](/dependencies) techniques should be used on all process types.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T160558Z" creationid="nacyot" creationdate="20140517T160529Z">
+        <seg>모든 프로세스 타입들에 대해서 같은 [의존성 분리](/dependencies) 기법들이 사용되어야한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The twelve-factor methodology can be applied to apps written in any programming language, and which use any combination of backing services (database, queue, memory cache, etc).</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140429T231829Z" creationid="nacyot" creationdate="20140429T231829Z">
@@ -480,6 +528,14 @@
       </tuv>
       <tuv lang="KO" changeid="hsin" changedate="20140517T063720Z" creationid="hsin" creationdate="20140517T063720Z">
         <seg>웹 어플리케이션은 ** 포트 바인딩을 통해서 HTTP를 서비스로 공개하며 이 포트에 오는 요청을 기다린다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>They run against a [release](/build-release-run), using the same [code](/code) and [config](/config) as any process run against that release.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T160433Z" creationid="nacyot" creationdate="20140517T160433Z">
+        <seg>이러한 프로세스들은 특정 [릴리스](/build-release-run)에 대해서 실행되어야 하면 이 릴리스에 대해서 실행되는 모든 프로세스와 같은 [코드](/code)와 [설정](/config)을 사용해야한다.</seg>
       </tuv>
     </tu>
     <tu>
