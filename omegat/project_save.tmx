@@ -16,6 +16,16 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>## III. Config
+### Store config in the environment</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T163540Z" creationid="nacyot" creationdate="20140517T163532Z">
+        <seg>## 3. Config
+### 환경 변수에 설정 저자하기</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>## IV. Backing Services
 ### Treat backing services as attached resources</seg>
       </tuv>
@@ -280,6 +290,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>&lt;img src="/images/attached-resources.png" class="full" alt="A production deploy attached to four backing services." /&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T163331Z" creationid="nacyot" creationdate="20140517T163331Z">
+        <seg>&lt;img src="/images/attached-resources.png" class="full" alt="A production deploy attached to four backing services." /&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>A *backing service* is any service the app consumes over the network as part of its normal operation.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T161124Z" creationid="nacyot" creationdate="20140517T161124Z">
@@ -300,6 +318,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T160452Z" creationid="nacyot" creationdate="20140517T160452Z">
         <seg>관리용 코드는 동기 문제를 피하기 위해 어플리케이션과 함께 배포되어야한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>An app's *config* is everything that is likely to vary between [deploys](/codebase) (staging, production, developer environments, etc).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T163558Z" creationid="nacyot" creationdate="20140517T163533Z">
+        <seg>어플리케이션의 *설정*은 </seg>
       </tuv>
     </tu>
     <tu>
@@ -374,6 +400,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T160555Z" creationid="nacyot" creationdate="20140517T160555Z">
         <seg>예를 들어 루비 웹 프로세스가 `bundle exec thin start`로 실행된다면 데이터베이스 마이그레이션은 `bundle exec rake db:migrate` 명령어를 통해서 실행되어야한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For example, if the app's database is misbehaving due to a hardware issue, the app's administrator might spin up a new database server restored from a recent backup.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T163429Z" creationid="nacyot" creationdate="20140517T163429Z">
+        <seg>예를 들어 하드웨어 문제로 어플리케이션 동작이 이상하다면 어플리케이션 관리자는 백업으로부터 새로운 데이터베이스 서버를 실행시킬 수 있습니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -564,6 +598,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Resources can be attached and detached to deploys at will.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T163354Z" creationid="nacyot" creationdate="20140517T163354Z">
+        <seg>리소스는 자유롭게 어태치되거나 디태치될 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Separately, developers will often wish to do one-off administrative or maintenance tasks for the app, such as:</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T155925Z" creationid="nacyot" creationdate="20140517T155925Z">
@@ -598,6 +640,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The current production database could be detached, and the new database attached -- all without any code changes.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T163506Z" creationid="nacyot" creationdate="20140517T163506Z">
+        <seg>그리고 기존의 프로덕션 데이터베이션를 디테치하고 새로운 데이터베이스를 어태치합니다. 이 과정에 어떠한 코드 변화도 없습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The full and explicit dependency specification is applied uniformly to both production and development.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140511T153612Z" creationid="nacyot" creationdate="20140511T153612Z">
@@ -618,6 +668,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T160558Z" creationid="nacyot" creationdate="20140517T160529Z">
         <seg>모든 프로세스 타입들에 대해서 같은 [의존성 분리](/dependencies) 기법들이 사용되어야한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The twelve-factor app treats these databases as *attached resources*, which indicates their loose coupling to the deploy they are attached to.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T163327Z" creationid="nacyot" creationdate="20140517T163327Z">
+        <seg>Twelve-Factor App은 이러한 데이터베이스들을 *붙어있는 리소스*로 다룹니다. 이는 어태치된 리소스와 어태치되는 대상의 배포가 얕은 커플링을 가진다는 의미입니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -698,6 +756,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140430T235628Z" creationid="nacyot" creationdate="20140430T232754Z">
         <seg>하지만 이는 한 가지 출력 방법일 뿐이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>two MySQL databases (used for sharding at the application layer) qualify as two distinct resources.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T163151Z" creationid="nacyot" creationdate="20140517T163151Z">
+        <seg>두 개의 Mysql 데이터베이스들은(어플리케이션 레이어에서 샤딩으로 사용) 두개의 다른 리소스라고 할 수 있습니다.</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
