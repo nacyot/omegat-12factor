@@ -226,6 +226,18 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* Resource handles to the database, Memcached, and other [backing services](/backing-services)
+* Credentials to external services such as Amazon S3 or Twitter
+* Per-deploy values such as the canonical hostname for the deploy</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T164450Z" creationid="nacyot" creationdate="20140517T164353Z">
+        <seg>* 데이터베이스, Memcached를 비롯한 [백엔드 서비스](/backing-services)에 대한 리소스 핸들
+* Amazon S3와 Twitter와 같은 외부 서비스에 대한 인증 정보
+* 배포된 호스트의 정규화(canonical)된 호스트 이름을 비롯해 배포환경별 값</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* Running a console (also known as a [REPL](http://en.wikipedia.org/wiki/Read-eval-print_loop) shell) to run arbitrary code or inspect the app's models against the live database.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T160106Z" creationid="nacyot" creationdate="20140517T160106Z">
@@ -324,8 +336,16 @@
       <tuv lang="EN">
         <seg>An app's *config* is everything that is likely to vary between [deploys](/codebase) (staging, production, developer environments, etc).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T163558Z" creationid="nacyot" creationdate="20140517T163533Z">
-        <seg>어플리케이션의 *설정*은 </seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T164307Z" creationid="nacyot" creationdate="20140517T163533Z">
+        <seg>어플리케이션의 *설정*은 다양한 [배포](/codebase) 환경(개발, 스테이징, 프로덕션)에 대해서 다른 점을 가지는 유일한 요소이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Apps sometimes store config as constants in the code.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T164508Z" creationid="nacyot" creationdate="20140517T164508Z">
+        <seg>어플리케이션에는 때때로 코드에 환경 설정을 저장한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -344,6 +364,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T161355Z" creationid="nacyot" creationdate="20140517T161355Z">
         <seg>과거에 데이터베이스와 같은 백엔드 서비스는 배포된 어플리케이션과 같은 시스템 관리자에 의해서 관리되었다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Config varies substantially across deploys, code does not.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T164610Z" creationid="nacyot" creationdate="20140517T164610Z">
+        <seg>설정은 배포 환경에 따라서 달라지지만 코드는 그렇지 않다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -716,6 +744,22 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140430T232055Z" creationid="nacyot" creationdate="20140430T232055Z">
         <seg>이 문서는 현실에서 다양하게 사용되는 software-as-a-service 앱 세계에 대한 우리의 모든 경험과 관찰을 집약한 책입니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This includes:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T164317Z" creationid="nacyot" creationdate="20140517T164317Z">
+        <seg>설정은 다음과 같은 것들을 포함한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This is a violation of twelve-factor, which requires **strict separation of config from code**.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140517T164542Z" creationid="nacyot" creationdate="20140517T164542Z">
+        <seg>이는 Twelve-Factor에 위배되는 것으로 설정은 엄격하게 코드와 분리되어야한다.</seg>
       </tuv>
     </tu>
     <tu>
