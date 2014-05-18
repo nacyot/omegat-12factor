@@ -760,8 +760,8 @@
       <tuv lang="EN">
         <seg>A twelve-factor app prefers to do this compiling during the [build stage](/build-release-run), such as the [Rails asset pipeline](http://ryanbigg.com/guides/asset_pipeline.html), rather than at runtime.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T124356Z" creationid="nacyot" creationdate="20140518T124356Z">
-        <seg>Twelve-Factor App은 컴파일을 실행 중에 하기보다는 [Rails 에셋 파이프라인](http://ryanbigg.com/guides/asset_pipeline.html)과 같이 [빌드 단계](/build-release-run)에서 실행한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T160201Z" creationid="nacyot" creationdate="20140518T124356Z">
+        <seg>Twelve-Factor App에선 컴파일을 프로세스 실행 중에 하기보다는 [레일스 에셋 파이프라인](http://ryanbigg.com/guides/asset_pipeline.html)와 마찬가지로 [빌드 단계](/build-release-run)에서 실행한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1106,8 +1106,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>For example, PHP apps might run as a module inside [Apache HTTPD](http://httpd.apache.org/), or Java apps might run inside [Tomcat](http://tomcat.apache.org/).</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20140517T063204Z" creationid="hsin" creationdate="20140517T063103Z">
-        <seg>예를 들어 PHP 어플리케이션은 [Apache HTTPD](httpd.apache.org/) 내부의 모듈로 실행되기도 하며, Java 어플리케이션은 [Tomcat](http://tomcat.apache.org/) 안에서 실행되기도 한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T160639Z" creationid="hsin" creationdate="20140517T063103Z">
+        <seg>예를 들어 PHP 어플리케이션은 [Apache HTTPD](httpd.apache.org/) 내부의 모듈로 실행될 수 있으며, Java 어플리케이션은 [Tomcat](http://tomcat.apache.org/) 안에서 실행될 수도 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1696,8 +1696,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Session state data is a good candidate for a datastore that offers time-expiration, such as [Memcached](http://memcached.org/) or [Redis](http://redis.io/).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T124710Z" creationid="nacyot" creationdate="20140518T124710Z">
-        <seg>세션 상태 데이터는 만료 시간(혹은 유효시간)과 함께 [Memcached](http://memcached.org/)나 [Redis](http://redis.io/)에 저장되어야한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T160459Z" creationid="nacyot" creationdate="20140518T124710Z">
+        <seg>세션 상태 데이터는 만료 시간과 함께 [Memcached](http://memcached.org/)나 [Redis](http://redis.io/) 같은 데이터스토어에 저장되어야 한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1720,8 +1720,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Some web systems rely on ["sticky sessions"](http://en.wikipedia.org/wiki/Load_balancing_%28computing%29#Persistence) -- that is, caching user session data in memory of the app's process and expecting future requests from the same visitor to be routed to the same process.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T124655Z" creationid="nacyot" creationdate="20140518T124649Z">
-        <seg>몇몇 웹 시스템은 ["Sticky 세션](http://en.wikipedia.org/wiki/Load_balancing_%28computing%29#Persistence)에 의존하기도 한다. 이는 사용자 세션 데이터를 어플리케이션 프로세스의 메모리에 캐시해 같은 방문자의 이후 요청이 같은 프로세스에 보내질 것을 기대하는 것을 말한다.   </seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T160358Z" creationid="nacyot" creationdate="20140518T124649Z">
+        <seg>어플리케이션에 따라서는 [스티키 세션(sticky sessions)](http://en.wikipedia.org/wiki/Load_balancing_%28computing%29#Persistence)에 의존한 처리를 하기도 한다. 스티키 세션이란 사용자 세션 데이터를 어플리케이션 프로세스의 메모리에 캐시하고 같은 방문자의 미래 요청이 이전에 요청을 처리했던 것과 같은 프로세스에서 처리될 것으로 기대하는 것이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1744,8 +1744,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Sticky sessions are a violation of twelve-factor and should never be used or relied upon.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T124651Z" creationid="nacyot" creationdate="20140518T124651Z">
-        <seg>스티키 세션은 Twelve-Factor에 위배되며 결코 이에 의존해서는 안된다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T160419Z" creationid="nacyot" creationdate="20140518T124651Z">
+        <seg>스티키 세션은 Twelve-Factor에 위배되며 세션 관리를 할 때 결코 이러한 방식에 의존해서는 안 된다.</seg>
       </tuv>
     </tu>
     <tu>
