@@ -1026,8 +1026,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Even C has [Autoconf](http://www.gnu.org/s/autoconf/) for dependency declaration, and static linking can provide dependency isolation.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140511T154010Z" creationid="nacyot" creationdate="20140511T154010Z">
-        <seg>심지어 C에서도 [Autoconf](http://www.gnu.org/s/autoconf/)는 의존성 선언을 지원하고, 정적 링크를 통해서 의존성 분리를 실현할 수 있다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T143251Z" creationid="nacyot" creationdate="20140511T154010Z">
+        <seg>심지어 C에서도 [Autoconf](http://www.gnu.org/s/autoconf/)를 통해 의존성 선언을 할 수 있으며, 정적 링크를 이용해 의존성 분리를 실현할 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1122,8 +1122,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>For example, [Gem Bundler](http://gembundler.com/) for Ruby offers the `Gemfile` manifest format for dependency declaration and `bundle exec` for dependency isolation.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140511T153713Z" creationid="nacyot" creationdate="20140511T153622Z">
-        <seg>예를 들어 루비에서 사용되는 [Gem Bundler](http://gembundler.com/)는 의존성 정의를 위한 `Gemfile`이라는 선언 형식을 지원하며 `bundle exec`를 통해서 의존성을 분리한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T143211Z" creationid="nacyot" creationdate="20140511T153622Z">
+        <seg>예를 들어 루비에서 사용되는 [Gem Bundler](http://gembundler.com/)는 `Gemfile` 형식을 의존성 정의에 사용하며 `bundle exec`를 통해서 의존성을 분리한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1210,8 +1210,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Furthermore, it uses a *dependency isolation* tool during execution to ensure that no implicit dependencies "leak in" from the surrounding system.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140511T153535Z" creationid="nacyot" creationdate="20140511T153428Z">
-        <seg>더욱이 실행중에 *의존성 분리* 툴을 사용해 @@@</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T143013Z" creationid="nacyot" creationdate="20140511T153428Z">
+        <seg>나아가 어플리케이션 실행 중에는 *의존성 분리(dependency isolation)* 툴을 사용해 어플리케이션에서만 사용되는 의존 라이브러리가 암묵적으로 외부에 공개되지 않도록 해야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1370,8 +1370,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>In, Python there are two separate tools for these steps -- [Pip](http://www.pip-installer.org/en/latest/) is used for declaration and [Virtualenv](http://www.virtualenv.org/en/latest/) for isolation.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140511T153919Z" creationid="nacyot" creationdate="20140511T153919Z">
-        <seg>파이썬에서는 이러한 분리가 두 단계에 걸쳐서 이루어진다. [Pip](http://www.pip-installer.org/en/latest/)은 의존성 선언에 사용되며 [Virtualenv](http://www.virtualenv.org/en/latest/)는 의존성 분리에 사용된다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T143231Z" creationid="nacyot" creationdate="20140511T153919Z">
+        <seg>파이썬에서는 이러한 작업이 두 단계에 걸쳐서 이루어진다. [Pip](http://www.pip-installer.org/en/latest/)는 의존성 선언에 사용되며, [Virtualenv](http://www.virtualenv.org/en/latest/)는 의존성 분리에 사용된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1884,8 +1884,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The full and explicit dependency specification is applied uniformly to both production and development.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140511T153612Z" creationid="nacyot" creationdate="20140511T153612Z">
-        <seg>완전하고 명시적은 의존성 선언은 배포 환경과 개발 환경 모두에 마찬가지로 적용한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T143127Z" creationid="nacyot" creationdate="20140511T153612Z">
+        <seg>의존성 선언 명시적이어야하며 모든 의존 라이브러리를 포함해야한다. 이러한 의존성 선언은 개발 환경과 프로덕션 환경 모두에 적용된다.</seg>
       </tuv>
     </tu>
     <tu>
