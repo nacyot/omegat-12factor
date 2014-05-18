@@ -280,8 +280,8 @@
       <tuv lang="EN">
         <seg>* **Minimize divergence** between development and production, enabling **continuous deployment** for maximum agility;</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140429T231656Z" creationid="nacyot" creationdate="20140429T231656Z">
-        <seg>* 개발 환경과 배포 환경의 **차이를 최소화**하고, 에자일리티(agility)를 최대화하는 **계속적 배포**를 가능하게 한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T135330Z" creationid="nacyot" creationdate="20140429T231656Z">
+        <seg>* 개발 환경과 배포 환경의 **차이를 최소한 줄이고**, 에자일리티(agility)를 극대화하는 **계속적 배포(continuous deployment)**가 가능하다</seg>
       </tuv>
     </tu>
     <tu>
@@ -320,16 +320,16 @@
       <tuv lang="EN">
         <seg>* And can **scale up** without significant changes to tooling, architecture, or development practices.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140429T231717Z" creationid="nacyot" creationdate="20140429T231717Z">
-        <seg>* 도구, 아키텍쳐, 개발적 요소들의 큰 변화 없이 스케일 아웃을 가능하게 한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T135324Z" creationid="nacyot" creationdate="20140429T231717Z">
+        <seg>* 도구와 아키텍쳐를 비롯한 개발적 요소를 크게 바꾸지 않아도 스케일 아웃이 가능하다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>* Are suitable for **deployment** on modern **cloud platforms**, obviating the need for servers and systems administration;</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140429T231553Z" creationid="nacyot" creationdate="20140429T231553Z">
-        <seg>* 현대적인 **클라우드 플랫폼**에서 배포하는데 적합하시며 서버 관리와 시스템 관리를 피할 수 있게 한다. </seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T135112Z" creationid="nacyot" creationdate="20140429T231553Z">
+        <seg>* 현대적인 **클라우드 플랫폼**에서 배포하기에 적합하며, 서버와 시스템 관리를 피할 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -344,8 +344,8 @@
       <tuv lang="EN">
         <seg>* Have a **clean contract** with the underlying operating system, offering **maximum portability** between execution environments;</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140429T230610Z" creationid="nacyot" creationdate="20140429T230610Z">
-        <seg>* 어플리케이션 배포의 기반이 되는 운영체제의 의존관계를 명확하게 하고, 실행 환경 간의 **이동성을 최대화**한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T134956Z" creationid="nacyot" creationdate="20140429T230610Z">
+        <seg>* 어플리케이션의 기반이 되는 운영체제에 대한 **의존관계를 명확하게 하고**, 실행 환경 간의 **이동성을 극대화한다.**</seg>
       </tuv>
     </tu>
     <tu>
@@ -1964,8 +1964,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The twelve-factor methodology can be applied to apps written in any programming language, and which use any combination of backing services (database, queue, memory cache, etc).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140429T231829Z" creationid="nacyot" creationdate="20140429T231829Z">
-        <seg>The Twelve-Factor 방법론은 어떤 프로그래밍 언어로 쓰여진 어플리케이션에도 적용가능하며, 어떤 백엔드 서비스(데이터베이스, 큐, 메모리 캐시 등등)에도 적용될 수 있습니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T135425Z" creationid="nacyot" creationdate="20140429T231829Z">
+        <seg>Twelve-Factor App 방법론은 어떤 프로그래밍 언어로 만들어진 어플리케이션에도 적용할 수 있다. 또한 어떤 백엔드 서비스(데이터베이스, 큐, 메모리 캐시 등등)에도 적용할 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
