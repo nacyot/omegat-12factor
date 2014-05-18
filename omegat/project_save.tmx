@@ -268,6 +268,22 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* **The personnel gap**: Developers write code, ops engineers deploy it.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T005449Z" creationid="nacyot" creationdate="20140518T005449Z">
+        <seg>* **사람 차이:** 프로그래머가 작성한 코드를 ops 엔지니어가 배포한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* **The time gap:** A developer may work on code that takes days, weeks, or even months to go into production.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T005418Z" creationid="nacyot" creationdate="20140518T005418Z">
+        <seg>* **시간 차이**: 프로그래머가 작업 중인 코드가 프로덕션 환경에 반영되기 까지는 수 일에서 수주, 심지어 수 개월이 걸린다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* And can **scale up** without significant changes to tooling, architecture, or development practices.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140429T231717Z" creationid="nacyot" creationdate="20140429T231717Z">
@@ -738,6 +754,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Historically, there have been substantial gaps between development (a developer making live edits to a local [deploy](/codebase) of the app) and production (a running deploy of the app accessed by end users).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T005328Z" creationid="nacyot" creationdate="20140518T005322Z">
+        <seg>역사적으로 개발 환경(개발자가 직접 변경할 수 있는 어플리케이션의 로컬 배포) 프로덕션 환경(사용자가 어플리케이션을 사용할 수 있는 배포) 간에는 큰 차이가 있었다. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If the app needs to shell out to a system tool, that tool should be vendored into the app.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140511T155146Z" creationid="nacyot" creationdate="20140511T155146Z">
@@ -1168,6 +1192,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T172458Z" creationid="nacyot" creationdate="20140517T172458Z">
         <seg>코드베이스는 어플리케이션에 단 하나만 존재하지만, 어플리케이션은 여러 가지로 배포될 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>These gaps manifest in three areas:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T005335Z" creationid="nacyot" creationdate="20140518T005335Z">
+        <seg>이러한 차이는 크게 3가지로 나타난다.</seg>
       </tuv>
     </tu>
     <tu>
