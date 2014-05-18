@@ -448,6 +448,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>**The twelve-factor developer resists the urge to use different backing services between development and production**, even when adapters theoretically abstract away any differences in backing services.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T010724Z" creationid="nacyot" creationdate="20140518T010724Z">
+        <seg>비록 어댑터가 이론적으로 서로 다른 백엔드 서비스들의 완벽히 추상화해내고 있다고 할지라도, **Twelve-Factor App 개발자는 개발 환경과 프로덕션 환경 간에 다른 백엔드 서비스를 사용하고자 하는 마음을 견뎌내야한다. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>*Logs* provide visibility into the behavior of a running app.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140430T235621Z" creationid="nacyot" creationdate="20140430T232705Z">
@@ -541,31 +549,31 @@
   &lt;/tr&gt;
 &lt;/table&gt;</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T010221Z" creationid="nacyot" creationdate="20140518T010221Z">
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T010334Z" creationid="nacyot" creationdate="20140518T010221Z">
         <seg>&lt;table&gt;
   &lt;tr&gt;
     &lt;th&gt;분류&lt;/th&gt;
-    &lt;th&gt;Language&lt;/th&gt;
-    &lt;th&gt;Library&lt;/th&gt;
-    &lt;th&gt;Adapters&lt;/th&gt;
+    &lt;th&gt;언어&lt;/th&gt;
+    &lt;th&gt;라이브러리&lt;/th&gt;
+    &lt;th&gt;어댑터&lt;/th&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td&gt;Database&lt;/td&gt;
-    &lt;td&gt;Ruby/Rails&lt;/td&gt;
-    &lt;td&gt;ActiveRecord&lt;/td&gt;
+    &lt;td&gt;데이터베이스&lt;/td&gt;
+    &lt;td&gt;루비 온 레일스&lt;/td&gt;
+    &lt;td&gt;Active Record&lt;/td&gt;
     &lt;td&gt;MySQL, PostgreSQL, SQLite&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td&gt;Queue&lt;/td&gt;
-    &lt;td&gt;Python/Django&lt;/td&gt;
+    &lt;td&gt;큐&lt;/td&gt;
+    &lt;td&gt;파이썬 / Django&lt;/td&gt;
     &lt;td&gt;Celery&lt;/td&gt;
     &lt;td&gt;RabbitMQ, Beanstalkd, Redis&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;td&gt;Cache&lt;/td&gt;
-    &lt;td&gt;Ruby/Rails&lt;/td&gt;
+    &lt;td&gt;캐시&lt;/td&gt;
+    &lt;td&gt;루비 온 레일스&lt;/td&gt;
     &lt;td&gt;ActiveSupport::Cache&lt;/td&gt;
-    &lt;td&gt;Memory, filesystem, Memcached&lt;/td&gt;
+    &lt;td&gt;메모리, 파일, Memcached&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;</seg>
       </tuv>
@@ -764,6 +772,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Developers sometimes find great appeal in using a lightweight backing service in their local environments, while a more serious and robust backing service will be used in production.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T010438Z" creationid="nacyot" creationdate="20140518T010438Z">
+        <seg>일반적으로 프로덕션 환경에서는 더 신뢰가 있는 백엔드 서비스가 사용되지만ㅡ 개발자들은 자신의 로컬 개발 환경에서는 좀 더 가벼운 백엔드 서비스를 찾기도 한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Development
 -----------</seg>
       </tuv>
@@ -882,6 +898,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140511T154711Z" creationid="nacyot" creationdate="20140511T154711Z">
         <seg>예를 들어 루비 번들러의 빌드 명령어는 `bundle install`이며 클로저(Clojure)의 Leiningen에서는 `lein deps` 명령어가 사용된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For example, using SQLite locally and PostgreSQL in production;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T010513Z" creationid="nacyot" creationdate="20140518T010513Z">
+        <seg>예를 들어 프로덕션 환경에서는 PostgreSQL을 사용하지만 개발에는 SQLite를 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1556,6 +1580,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
         <seg>heroku create -s cedar
     git push heroku master
     heroku open</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>or local process memory for caching in development and Memcached in production.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T010539Z" creationid="nacyot" creationdate="20140518T010539Z">
+        <seg>개발 중에는 메모리 캐시를 사용하지만 프로덕션에서는 Memcached를 사용하기도 한다.</seg>
       </tuv>
     </tu>
     <tu>
