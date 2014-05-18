@@ -644,6 +644,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Adapters to different backing services are still useful, because they make porting to new backing services relatively painless.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T020441Z" creationid="nacyot" creationdate="20140518T020441Z">
+        <seg>서로 다른 백엔드 서비스를 사용할 수 있게 해주는 어댑터는 여전히 유용하다. 이러한 어댑터는 새로운 백엔드 서비스를 사용하는 데 드는 노력을 줄여준다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Additionally, every developer has a copy of the app running in their local development environment, each of which also qualifies as a deploy.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T172649Z" creationid="nacyot" creationdate="20140517T172649Z">
@@ -730,6 +738,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T161355Z" creationid="nacyot" creationdate="20140517T161355Z">
         <seg>과거에 데이터베이스와 같은 백엔드 서비스는 배포된 어플리케이션과 같은 시스템 관리자에 의해서 관리되었다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>But all deploys of the app (developer environments, staging, production) should be using the same type and version of each of the backing services.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T020757Z" creationid="nacyot" creationdate="20140518T020757Z">
+        <seg>하지만 개발 환경, 스테이징, 프로덕션과 같은 모든 종류의 배포에서 같은 종류, 같은 버전의 백엔드 서비스를 사용해야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1332,6 +1348,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140429T232056Z" creationid="nacyot" creationdate="20140429T232056Z">
         <seg>이 문서의 작성자는 직접적으로 수백개의 어플리케이션의 개발과 배포에 참가했으며 [히로쿠(Heroku)](http://www.heroku.com/) 플랫폼에서 일하면서 수천개 어플리케이션의 개발(development), 운용(operation), 스케일(scaling)에 간접적으로 참여했다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The cost of installing and using these systems is low compared to the benefit of dev/prod parity and continuous deployment.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T020358Z" creationid="nacyot" creationdate="20140518T020358Z">
+        <seg>개발 프로덕션 환경 일치와 계속적 배포의 이점을 생각하면 이러한 백엔드 서비스를 설치하는 비용은 매우 작다.</seg>
       </tuv>
     </tu>
     <tu>
