@@ -16,8 +16,8 @@
       <tuv lang="EN">
         <seg>![One codebase maps to many deploys](/images/codebase-deploys.png)</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T172139Z" creationid="nacyot" creationdate="20140517T172139Z">
-        <seg>![One codebase maps to many deploys](/images/codebase-deploys.png)</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T141238Z" creationid="nacyot" creationdate="20140517T172139Z">
+        <seg>![다수의 배포에 대한 하나의 코드베이스](/images/codebase-deploys.png)</seg>
       </tuv>
     </tu>
     <tu>
@@ -352,8 +352,8 @@
       <tuv lang="EN">
         <seg>* If there are multiple codebases, it's not an app -- it's a distributed system.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T172231Z" creationid="nacyot" creationdate="20140517T172226Z">
-        <seg>* 코드베이스가 여럿이라면, 단일 어플리케이션이 아니다. 그것은 분산 시스템이다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T141323Z" creationid="nacyot" creationdate="20140517T172226Z">
+        <seg>* 코드베이스가 다수 존재한다면, 이는 단일 어플리케이션이 아니라 분산 시스템이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -696,16 +696,16 @@
       <tuv lang="EN">
         <seg>A *codebase* is any single repo (in a centralized revision control system like Subversion), or any set of repos who share a root commit (in a decentralized revision control system like Git).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T172123Z" creationid="nacyot" creationdate="20140517T172123Z">
-        <seg>*코드 베이스*란 하나의 저장소(Subversion과 같은 중앙 관리형 버전 관리 시스템)나 루트 커밋을 공유하는 다수의 저장소(Git과 같은 분산형 버전 관리 시스템)을 일컫는다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T141230Z" creationid="nacyot" creationdate="20140517T172123Z">
+        <seg>*코드베이스*란 Subversion과 같은 중앙 관리형 버전 관리 시스템에서 하나의 저장소나, Git과 같은 분산형 버전 관리 시스템에서 루트 커밋을 공유하는 다수의 저장소를 일컫는다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>A *deploy* is a running instance of the app.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T172527Z" creationid="nacyot" creationdate="20140517T172523Z">
-        <seg>*배포*란 어플리케이션의 인스턴스에 해당한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T141655Z" creationid="nacyot" creationdate="20140517T172523Z">
+        <seg>*배포(deploy)*란 어플리케이션의 인스턴스에 해당한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -994,8 +994,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Each component in a distributed system is an app, and each can individually comply with twelve-factor.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T172310Z" creationid="nacyot" creationdate="20140517T172310Z">
-        <seg>각각의 컴포넌트는 분산 시스템에서 어플리케이션에 해당하며 Twelve-Factor를 따를 수 있다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T141442Z" creationid="nacyot" creationdate="20140517T172310Z">
+        <seg>물론 분산 시스템에서도 구성 요소가 되는 각각의 컴포넌트는 하나의 어플리케이션이며, 따라서 Twelve-Factor를 따를 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1932,8 +1932,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The solution here is to factor shared code into libraries which can be included through the [dependency manager](/dependencies).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T172430Z" creationid="nacyot" creationdate="20140517T172430Z">
-        <seg>이런 경우 해결책은 공통된 부분을 라이브러리로 분리하고 이 라이브러리를 [의존성 관리](/dependencies)를 통해서 사용한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T141609Z" creationid="nacyot" creationdate="20140517T172430Z">
+        <seg>이러한 문제를 해결하려면, 먼저 공통된 부분을 라이브러리로 분리하고 이 라이브러리를 [의존성 관리](/dependencies)를 통해서 사용하면 된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1988,8 +1988,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>There is only one codebase per app, but there will be many deploys of the app.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T172458Z" creationid="nacyot" creationdate="20140517T172458Z">
-        <seg>코드베이스는 어플리케이션에 단 하나만 존재하지만, 어플리케이션은 여러 가지로 배포될 수 있다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T141648Z" creationid="nacyot" creationdate="20140517T172458Z">
+        <seg>코드베이스는 각 어플리케이션마다 단 하나만 존재하지만, 어플리케이션은 여러 번 배포될 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
