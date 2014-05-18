@@ -888,6 +888,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>For a worker process, graceful shutdown is achieved by returning the current job to the work queue.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T023154Z" creationid="nacyot" creationdate="20140518T023154Z">
+        <seg>워커 프로세스는 처리중인 잡을 워크 ㅋ에 되돌리는 것으로 정상적인 종료를 실현할 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>For example, HTTP requests may be handled by a web process, and long-running background tasks handled by a worker process.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T173752Z" creationid="nacyot" creationdate="20140517T173752Z">
@@ -952,6 +960,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>For example, on [RabbitMQ](http://www.rabbitmq.com/) the worker can send a [`NACK`](http://www.rabbitmq.com/amqp-0-9-1-quickref.html#basic.nack);</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T023219Z" creationid="nacyot" creationdate="20140518T023219Z">
+        <seg>예를 들어 [RabbitMQ](http://www.rabbitmq.com/) 워커는 [`NACK`](http://www.rabbitmq.com/amqp-0-9-1-quickref.html#basic.nack)을 보낼 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>For example, the build command for Ruby/Bundler is `bundle install`, while for Clojure/[Leiningen](https://github.com/technomancy/leiningen#readme) it is `lein deps`.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140511T154711Z" creationid="nacyot" creationdate="20140511T154711Z">
@@ -1004,6 +1020,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140511T155146Z" creationid="nacyot" creationdate="20140511T155146Z">
         <seg>어플리케이션에서 시스템 툴을 사용하는 경우엔 그 툴이 어플리케이션에 포함되어야한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Implicit in this model is that HTTP requests are short (no more than a few seconds), or in the case of long polling, the client should seamlessly attempt to reconnect when the connection is lost.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T022905Z" creationid="nacyot" creationdate="20140518T022905Z">
+        <seg>이러한 모델은 HTTP 요청이 짧다고 가정하고 있으며(길어야 몇 초) 롱 풀링을 하는 경우 클라이언트는 접속이 종료될 때 지속적으로 재접속을 시도한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1150,6 +1174,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T163021Z" creationid="nacyot" creationdate="20140517T163011Z">
         <seg>마찬가지로 로컬에서 관리되는 SMTP 서버도 코드 변경없이 Postmark와 같은 써드파티 SMTP  서비스와 교체될 수 있어야합니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Lock-based systems such as [Delayed Job](https://github.com/collectiveidea/delayed_job#readme) need to be sure to release their lock on the job record.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T023346Z" creationid="nacyot" creationdate="20140518T023346Z">
+        <seg>[Delayed Job](https://github.com/collectiveidea/delayed_job#readme)과 같은 락을 베이스로 한 시스템에서는 잡 레코드에서 해당하는 락을 확실히 풀어줄 필요가 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1718,6 +1750,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
         <seg>heroku create -s cedar
     git push heroku master
     heroku open</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>on [Beanstalkd](http://kr.github.com/beanstalkd/), the job is returned to the queue automatically whenever a worker disconnects.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T023257Z" creationid="nacyot" creationdate="20140518T023257Z">
+        <seg>[Beanstalkd](http://kr.github.com/beanstalkd/)에서는 워커가 접속이 종료 되었을 때 잡이 자동적으로 큐로 되돌아간다.</seg>
       </tuv>
     </tu>
     <tu>
