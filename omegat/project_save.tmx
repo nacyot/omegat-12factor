@@ -1836,8 +1836,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The contributors to this document have been directly involved in the development and deployment of hundreds of apps, and indirectly witnessed the development, operation, and scaling of hundreds of thousands of apps via our work on the [Heroku](http://www.heroku.com/) platform.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140429T232056Z" creationid="nacyot" creationdate="20140429T232056Z">
-        <seg>이 문서의 작성자는 직접적으로 수백개의 어플리케이션의 개발과 배포에 참가했으며 [히로쿠(Heroku)](http://www.heroku.com/) 플랫폼에서 일하면서 수천개 어플리케이션의 개발(development), 운용(operation), 스케일(scaling)에 간접적으로 참여했다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T135529Z" creationid="nacyot" creationdate="20140429T232056Z">
+        <seg>이 문서의 작성자는 수백개 어플리케이션의 개발과 배포에 직접적으로 관여했으며, [히로쿠(Heroku)](http://www.heroku.com/) 플랫폼에서 일하면서 수천개 어플리케이션의 개발(development), 운용(operation), 확장(scaling)에 간접적으로 참여했다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2060,8 +2060,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>This document synthesizes all of our experience and observations on a wide variety of software-as-a-service apps in the wild.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140430T232055Z" creationid="nacyot" creationdate="20140430T232055Z">
-        <seg>이 문서는 현실에서 다양하게 사용되는 software-as-a-service 앱 세계에 대한 우리의 모든 경험과 관찰을 집약한 책입니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T135628Z" creationid="nacyot" creationdate="20140430T232055Z">
+        <seg>이 문서는 실무에서 다양하게 사용되는 "서비스로서의 소프트웨어" 어플리케이션 세계에 대한 우리의 모든 경험과 관찰을 집약한 책입니다.</seg>
       </tuv>
     </tu>
     <tu>
