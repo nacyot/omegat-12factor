@@ -774,6 +774,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Any change must create a new release.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T091443Z" creationid="nacyot" creationdate="20140518T091443Z">
+        <seg>모든 변화는 새로운 릴리스를 통해서 만들어져야한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Any computer program, once run, is represented by one or more processes.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T173008Z" creationid="nacyot" creationdate="20140517T173003Z">
@@ -812,6 +820,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T161355Z" creationid="nacyot" creationdate="20140517T161355Z">
         <seg>과거에 데이터베이스와 같은 백엔드 서비스는 배포된 어플리케이션과 같은 시스템 관리자에 의해서 관리되었다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Builds are initiated by the app's developers whenever new code is deployed.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T091512Z" creationid="nacyot" creationdate="20140518T091512Z">
+        <seg>빌드 스테이지는 새로운 코드가 배포되는 시점에 반드시 프로그래머에 의해 시작된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -940,6 +956,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140511T154010Z" creationid="nacyot" creationdate="20140511T154010Z">
         <seg>심지어 C에서도 [Autoconf](http://www.gnu.org/s/autoconf/)는 의존성 선언을 지원하고, 정적 링크를 통해서 의존성 분리를 실현할 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Every release should always have a unique release ID, such as a timestamp of the release (such as `2011-04-06-20:32:17`) or an incrementing number (such as `v100`).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T091332Z" creationid="nacyot" creationdate="20140518T091332Z">
+        <seg>모든 릴리스는 자기 고유의 릴리스 ID를 가져야한다. 이러한 릴리스 아이디로는 릴리스 시점의 타임스탬프(예를 들어 `2011-04-06-20:32:17`)나 자동으로 증가하는 번호(예를 들어 v100)이 사용될 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1422,10 +1446,26 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Releases are an append-only ledger and a release cannot be mutated once it is created.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T091435Z" creationid="nacyot" creationdate="20140518T091435Z">
+        <seg>릴리스는 기업만 가능한 원장이자 한번 만들어진 릴리스는 변경할 수 없다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Resources can be attached and detached to deploys at will.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T163354Z" creationid="nacyot" creationdate="20140517T163354Z">
         <seg>리소스는 자유롭게 어태치되거나 디태치될 수 있습니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Runtime execution, by contrast, can happen automatically in cases such as a server reboot, or a crashed process being restarted by the process manager.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T091557Z" creationid="nacyot" creationdate="20140518T091557Z">
+        <seg>반면에 실행 단계는 서버의 재시작이나 종료된 프로세스가 프로세스 매니저에 의해 재시작 되는 등 자동적으로 개시된다.</seg>
       </tuv>
     </tu>
     <tu>
