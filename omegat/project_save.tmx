@@ -123,9 +123,9 @@
         <seg>## X. Dev/prod parity
 ### Keep development, staging, and production as similar as possible</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T174712Z" creationid="nacyot" creationdate="20140517T174652Z">
-        <seg>## 10. 개발 / 프로덕션 일치
-### 개발, 스테이징, 프로덕션을 최대한 일치시키기</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T170158Z" creationid="nacyot" creationdate="20140517T174652Z">
+        <seg>## 10. 개발 / 프로덕션 일치(Dev/Prod parity)
+### 개발, 스테이징, 프로덕션 환경을 최대한 일치시키기</seg>
       </tuv>
     </tu>
     <tu>
@@ -251,9 +251,9 @@
         <seg>## [X. Dev/prod parity](/dev-prod-parity)
 ### Keep development, staging, and production as similar as possible</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T134043Z" creationid="nacyot" creationdate="20140429T224617Z">
-        <seg>## [10. 개발 / 배포 일치(Dev/Prod parity)](/dev-prod-parity)
-### 개발, 스테이징, 프로덕션를 최대한 일치시키기</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T170211Z" creationid="nacyot" creationdate="20140429T224617Z">
+        <seg>## [10. 개발 / 프로덕션 일치(Dev/Prod parity)](/dev-prod-parity)
+### 개발, 스테이징, 프로덕션 환경을 최대한 일치시키기</seg>
       </tuv>
     </tu>
     <tu>
@@ -2236,8 +2236,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>[Crash-only design](http://lwn.net/Articles/191059/) takes this concept to its [logical conclusion](http://docs.couchdb.org/en/latest/intro/overview.html).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T165728Z" creationid="nacyot" creationdate="20140518T090358Z">
-        <seg>[Crash-only](http://lwn.net/Articles/191059/) 설계는 이러한 새념의 이론적 결론을 보여준다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T170121Z" creationid="nacyot" creationdate="20140518T090358Z">
+        <seg>[Crash-only 설계](http://lwn.net/Articles/191059/)의 결론은 이 개념으로 귀결된다.</seg>
       </tuv>
     </tu>
     <tu>
