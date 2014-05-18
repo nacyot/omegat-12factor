@@ -647,7 +647,7 @@
   &lt;/tr&gt;
 &lt;/table&gt;</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T010334Z" creationid="nacyot" creationdate="20140518T010221Z">
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T171030Z" creationid="nacyot" creationdate="20140518T010221Z">
         <seg>&lt;table&gt;
   &lt;tr&gt;
     &lt;th&gt;분류&lt;/th&gt;
@@ -657,7 +657,7 @@
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;데이터베이스&lt;/td&gt;
-    &lt;td&gt;루비 온 레일스&lt;/td&gt;
+    &lt;td&gt;루비 / 레일스&lt;/td&gt;
     &lt;td&gt;Active Record&lt;/td&gt;
     &lt;td&gt;MySQL, PostgreSQL, SQLite&lt;/td&gt;
   &lt;/tr&gt;
@@ -669,7 +669,7 @@
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;td&gt;캐시&lt;/td&gt;
-    &lt;td&gt;루비 온 레일스&lt;/td&gt;
+    &lt;td&gt;루비 / 레일스&lt;/td&gt;
     &lt;td&gt;ActiveSupport::Cache&lt;/td&gt;
     &lt;td&gt;메모리, 파일, Memcached&lt;/td&gt;
   &lt;/tr&gt;
@@ -960,8 +960,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Developers sometimes find great appeal in using a lightweight backing service in their local environments, while a more serious and robust backing service will be used in production.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T010438Z" creationid="nacyot" creationdate="20140518T010438Z">
-        <seg>일반적으로 프로덕션 환경에서는 더 신뢰가 있는 백엔드 서비스가 사용되지만ㅡ 개발자들은 자신의 로컬 개발 환경에서는 좀 더 가벼운 백엔드 서비스를 찾기도 한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T171147Z" creationid="nacyot" creationdate="20140518T010438Z">
+        <seg>보통 프로덕션 환경에서는 더 신뢰성이 높은 백엔드 서비스를 사용한다. 반면에 프로그래머들은 자신의 로컬 개발 환경에서는 좀 더 가벼운 백엔드 서비스를 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1194,8 +1194,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>For example, using SQLite locally and PostgreSQL in production;</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T010513Z" creationid="nacyot" creationdate="20140518T010513Z">
-        <seg>예를 들어 프로덕션 환경에서는 PostgreSQL을 사용하지만 개발에는 SQLite를 사용한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T171224Z" creationid="nacyot" creationdate="20140518T010513Z">
+        <seg>예를 들어 프로덕션 환경에서는 PostgreSQL이 많이 사용되지만, 개발용도로는 SQLite가 많이 사용된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1492,8 +1492,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Many languages offer libraries which simplify access to the backing service, including *adapters* to different types of services.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T010153Z" creationid="nacyot" creationdate="20140518T010153Z">
-        <seg>많은 언어는 서로 다른 종류의 서비스에 대한 어답타를 포함해 특정 백엔드 서비스에 대해 간단히 사용할 수 있게 라이브러리를 제공한다. </seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T170947Z" creationid="nacyot" creationdate="20140518T010153Z">
+        <seg>많은 프로그래밍 언어에는 특정 백엔드 서비스를 간단히 사용할 수 있게 해주는 라이브러리가 존재하며 이런 라이브러리는 대개 비슷한 종류의 백엔드 서비스들을 지원하는 어댑터를 포함한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2228,8 +2228,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>[Backing services](/backing-services), such as the app's database, queueing system, or cache, is one area where dev/prod parity is important.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T010052Z" creationid="nacyot" creationdate="20140518T010052Z">
-        <seg>데이터베이스나 큐, 캐시와 같은 [백엔드 서비스](/backing-services) 개발 / 프로덕션 환경의 동일화가 중요시 되는 지점중 하나이다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T170744Z" creationid="nacyot" creationdate="20140518T010052Z">
+        <seg>같은 데이터베이스, 큐, 캐시와 같은 [백엔드 서비스](/backing-services)를 사용하는 것은 개발 / 배포 환경 일치에서 매우 중요하다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2300,8 +2300,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>or local process memory for caching in development and Memcached in production.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T010539Z" creationid="nacyot" creationdate="20140518T010539Z">
-        <seg>개발 중에는 메모리 캐시를 사용하지만 프로덕션에서는 Memcached를 사용하기도 한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T171240Z" creationid="nacyot" creationdate="20140518T010539Z">
+        <seg>개발 용도로는 메모리 캐시를 사용하다가 프로덕션에서는 Memcached를 사용하기도 한다.</seg>
       </tuv>
     </tu>
     <tu>
