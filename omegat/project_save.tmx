@@ -500,8 +500,8 @@
       <tuv lang="EN">
         <seg>**The twelve-factor app is completely self-contained** and does not rely on runtime injection of a webserver into the execution environment to create a web-facing service.</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20140517T063416Z" creationid="hsin" creationdate="20140517T063416Z">
-        <seg>**Twelve-Factor App은 철저히 스스로 완결되며** 웹에 공개되는 서비스를 만들기 위한 컨테이너가 실행환경에 웹서버 런타임을 주입하는 것에 의존하지 않는다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T161158Z" creationid="hsin" creationdate="20140517T063416Z">
+        <seg>**Twelve-Factor App은 스스로 완결된다.** 달리 말해 웹에 공개되는 서비스를 만들기 위해, 실행 환경에서 어플리케이션 실행을 위해 웹서버에 직접적으로 사용하지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1106,8 +1106,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>For example, PHP apps might run as a module inside [Apache HTTPD](http://httpd.apache.org/), or Java apps might run inside [Tomcat](http://tomcat.apache.org/).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T160639Z" creationid="hsin" creationdate="20140517T063103Z">
-        <seg>예를 들어 PHP 어플리케이션은 [Apache HTTPD](httpd.apache.org/) 내부의 모듈로 실행될 수 있으며, Java 어플리케이션은 [Tomcat](http://tomcat.apache.org/) 안에서 실행될 수도 있다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T160650Z" creationid="hsin" creationdate="20140517T063103Z">
+        <seg>예를 들어 PHP 어플리케이션은 [Apache HTTPD](httpd.apache.org/) 내부의 모듈로 실행될 수 있으며, Java 어플리케이션은 [Tomcat](http://tomcat.apache.org/) 내부에서 실행될 수도 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1274,8 +1274,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>In a local development environment, the developer visits a service URL like `http://localhost:5000/` to access the service exported by their app.</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20140517T070710Z" creationid="hsin" creationdate="20140517T063952Z">
-        <seg>로컬 개발환경에서 개발자는 어플리케이션에 의해 공개된 서비스에 접근하기 위해 `http://localhost:5000`와 같은 서비스 URL에 접근합니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T161256Z" creationid="hsin" creationdate="20140517T063952Z">
+        <seg>로컬 개발환경에서 개발자는 어플리케이션에 의해 공개된 서비스에 접근하기 위해 `http://localhost:5000`와 서비스 URL을 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1322,8 +1322,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>In deployment, a routing layer handles routing requests from a public-facing hostname to the port-bound web processes.</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20140517T070838Z" creationid="hsin" creationdate="20140517T070838Z">
-        <seg>배포 환경에서는 라우팅 레이어가 외부에 공개된 호스트 이름으로부터 내부의 포트에 바인딩된 웹 프로세스에 요청을 라우트합니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T161354Z" creationid="hsin" creationdate="20140517T070838Z">
+        <seg>프로덕션 배포에서는 라우팅 계층을 추가해 외부에 공개된 호스트 이름을 통해 내부 포트에 바인딩된 웹 프로세스로 요청을 라우트한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1972,8 +1972,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The web app **exports HTTP as a service by binding to a port**, and listening to requests coming in on that port.</seg>
       </tuv>
-      <tuv lang="KO" changeid="hsin" changedate="20140517T063720Z" creationid="hsin" creationdate="20140517T063720Z">
-        <seg>웹 어플리케이션은 ** 포트 바인딩을 통해서 HTTP를 서비스로 공개하며 이 포트에 오는 요청을 기다린다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T161229Z" creationid="hsin" creationdate="20140517T063720Z">
+        <seg>웹 어플리케이션은 **포트 바인딩을 통해서 HTTP를 서비스로 공개하며** 이 포트로 들어오는 요청을 기다린다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2076,8 +2076,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>This happens entirely in *user space*, that is, within the app's code.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T111502Z" creationid="nacyot" creationdate="20140518T111502Z">
-        <seg>이는 이른바 *사용자 공간*, 즉 어플리케이션 코드 내에서 완결된다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T161627Z" creationid="nacyot" creationdate="20140518T111502Z">
+        <seg>이 구현은 완전히 *사용자 공간*에서 일어나는 일로, 다르게 말하자면 어플리케이션 코드 내에서 구현된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2124,8 +2124,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>This is typically implemented by using [dependency declaration](/dependencies) to add a webserver library to the app, such as [Tornado](http://www.tornadoweb.org/) for Python, [Thin](http://code.macournoyer.com/thin/) for Ruby, or [Jetty](http://jetty.codehaus.org/jetty/) for Java and other JVM-based languages.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T111438Z" creationid="nacyot" creationdate="20140518T111438Z">
-        <seg>이는 일반적으로 [의존성 선언](/dependencies)을 통해서 웹 서버 라이브리러를 어플리케이션에 추가하는 방법으로 구현된다. 웹 서버 라이브러리의 예로는 Python의 [Tornado](http://www.tornadoweb.org/), 루비의 [Thin](http://code.macournoyer.com/thin/), 자바나 JVM 기반 언어들의 [Jetty](http://jetty.codehaus.org/jetty/) 등이 있다. </seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T161443Z" creationid="nacyot" creationdate="20140518T111438Z">
+        <seg>이를 구현하기 위해 일반적으로 [의존성 선언](/dependencies) 시에 웹 서버 라이브리러를 어플리케이션에 추가한다. 웹 서버 라이브러리의 예로는 Python의 [Tornado](http://www.tornadoweb.org/), 루비의 [Thin](http://code.macournoyer.com/thin/), 자바나 JVM 기반 언어들의 [Jetty](http://jetty.codehaus.org/jetty/) 등이 있다. </seg>
       </tuv>
     </tu>
     <tu>
