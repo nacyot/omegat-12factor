@@ -654,6 +654,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>A recommended approach is use of a robust queueing backend, such as Beanstalkd, that returns jobs to the queue when clients disconnect or time out.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T023746Z" creationid="nacyot" creationdate="20140518T023746Z">
+        <seg>추천되는 방법은 먼저 Beanstalkd와 같은 견고한 큐잉 백엔드 시스템을 사용해야하며 클라이언트의 접속이 끊기거나 타임아웃됐을 때 잡을 다시 큐로 돌려주어야한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>A twelve-factor app is always tracked in a version control system, such as [Git](http://git-scm.com/), [Mercurial](http://mercurial.selenic.com/), or [Subversion](http://subversion.apache.org/).</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T171823Z" creationid="nacyot" creationdate="20140517T171823Z">
@@ -1032,6 +1040,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Implicit in this model is that all jobs are [reentrant](http://en.wikipedia.org/wiki/Reentrant_%28subroutine%29), which typically is achieved by wrapping the results in a transaction, or making the operation [idempotent](http://en.wikipedia.org/wiki/Idempotence).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T023456Z" creationid="nacyot" creationdate="20140518T023456Z">
+        <seg>이러한 모델은 암묵적으로 모든 잡이 다시 큐로 되돌아 올 수 있다고 가정하고 있다. 다시 돌아올 수 있다는 것은 일반적으로 결과를 트랜젝션으로 감싸거나 처리를 멱등으로 다룬다는 것을 의미한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>In a local deploy, developers invoke one-off admin processes by a direct shell command inside the app's checkout directory.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T160957Z" creationid="nacyot" creationdate="20140517T160957Z">
@@ -1288,6 +1304,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140518T022424Z" creationid="nacyot" creationdate="20140518T022424Z">
         <seg>프로세스들은 프로세스 매니저로부터 **[SIGTERM](http://en.wikipedia.org/wiki/SIGTERM) 받을 때 정상적으로 종료된다**.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Processes should also be **robust against sudden death**, in the case of a failure in the underlying hardware.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T023543Z" creationid="nacyot" creationdate="20140518T023543Z">
+        <seg>프로세스는 저수준의 하드웨어 이상한에 대해서도 **갑작스러운 종료로 부터 견고해야한다.**</seg>
       </tuv>
     </tu>
     <tu>
@@ -1686,6 +1710,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140511T155114Z" creationid="nacyot" creationdate="20140511T155114Z">
         <seg>이러한 툴들은 대개 시스템 기반으로 설치되는 경우가 많은데, 미래에 이 어플리케이션을 돌릴 모든 시스템에 툴이 설치되어있는지 알 수 없으며 설치되어있다고 한들 어플리케이션과 호환되는 버전이라는 보장은 어디에도 업스다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>While this is a much less common occurrence than a graceful shutdown with `SIGTERM`, it can still happen.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T023613Z" creationid="nacyot" creationdate="20140518T023613Z">
+        <seg>이러한 일은 `SIGTERM`의 신호에 의한 정상적인 종료에 비해서는 드물게 일어나지만 분명 일어날 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
