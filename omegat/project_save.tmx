@@ -880,6 +880,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>For a web process, graceful shutdown is achieved by ceasing to listen on the service port (thereby refusing any new requests), allowing any current requests to finish, and then exiting.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T022755Z" creationid="nacyot" creationdate="20140518T022755Z">
+        <seg>Web 프로세스는 서비스 포트로 리슨을 중단하고 (따라서 새로운 요청을 받지 않고) 처리중인 요청이 처리될 때까지 기다린 후 종료된다. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>For example, HTTP requests may be handled by a web process, and long-running background tasks handled by a worker process.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T173752Z" creationid="nacyot" creationdate="20140517T173752Z">
@@ -1240,6 +1248,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T171014Z" creationid="nacyot" creationdate="20140517T170953Z">
         <seg>그러한 어플리케이션을 관리하고 배포하는 Ops 엔지니어</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Processes **shut down gracefully when they receive a [SIGTERM](http://en.wikipedia.org/wiki/SIGTERM)** signal from the process manager.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T022424Z" creationid="nacyot" creationdate="20140518T022424Z">
+        <seg>프로세스들은 프로세스 매니저로부터 **[SIGTERM](http://en.wikipedia.org/wiki/SIGTERM) 받을 때 정상적으로 종료된다**.</seg>
       </tuv>
     </tu>
     <tu>
