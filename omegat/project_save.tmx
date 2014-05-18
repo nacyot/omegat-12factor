@@ -1638,6 +1638,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Session state data is a good candidate for a datastore that offers time-expiration, such as [Memcached](http://memcached.org/) or [Redis](http://redis.io/).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T124710Z" creationid="nacyot" creationdate="20140518T124710Z">
+        <seg>세션 상태 데이터는 만료 시간(혹은 유효시간)과 함께 [Memcached](http://memcached.org/)나 [Redis](http://redis.io/)에 저장되어야한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Short startup time provides more agility for the [release](/build-release-run) process and scaling up;</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140518T022215Z" creationid="nacyot" creationdate="20140518T022215Z">
@@ -1654,6 +1662,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Some web systems rely on ["sticky sessions"](http://en.wikipedia.org/wiki/Load_balancing_%28computing%29#Persistence) -- that is, caching user session data in memory of the app's process and expecting future requests from the same visitor to be routed to the same process.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T124655Z" creationid="nacyot" creationdate="20140518T124649Z">
+        <seg>몇몇 웹 시스템은 ["Sticky 세션](http://en.wikipedia.org/wiki/Load_balancing_%28computing%29#Persistence)에 의존하기도 한다. 이는 사용자 세션 데이터를 어플리케이션 프로세스의 메모리에 캐시해 같은 방문자의 이후 요청이 같은 프로세스에 보내질 것을 기대하는 것을 말한다.   </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Sometimes apps batch config into named groups (often called "environments") named after specific deploys, such as the `development`, `test`, and `production` environments in Rails.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T170743Z" creationid="nacyot" creationdate="20140517T170743Z">
@@ -1666,6 +1682,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T170902Z" creationid="nacyot" creationdate="20140517T170902Z">
         <seg>Source for the content app running at: http://www.12factor.net/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Sticky sessions are a violation of twelve-factor and should never be used or relied upon.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T124651Z" creationid="nacyot" creationdate="20140518T124651Z">
+        <seg>스티키 세션은 Twelve-Factor에 위배되며 결코 이에 의존해서는 안된다.</seg>
       </tuv>
     </tu>
     <tu>
