@@ -744,8 +744,8 @@
       <tuv lang="EN">
         <seg>A recommended approach is use of a robust queueing backend, such as Beanstalkd, that returns jobs to the queue when clients disconnect or time out.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T023746Z" creationid="nacyot" creationdate="20140518T023746Z">
-        <seg>추천되는 방법은 먼저 Beanstalkd와 같은 견고한 큐잉 백엔드 시스템을 사용해야하며 클라이언트의 접속이 끊기거나 타임아웃됐을 때 잡을 다시 큐로 돌려주어야한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T165641Z" creationid="nacyot" creationdate="20140518T023746Z">
+        <seg>이를 해결하기 위해 추천하는 방법으로는, 먼저 Beanstalkd와 같은 견고한 큐잉 백엔드 시스템을 사용할 것, 그리고 클라이언트의 접속이 끊기거나 타임아웃이 발생하면 작업을 다시 큐로 돌려주는 방법이 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1010,8 +1010,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Either way, a twelve-factor app is architected to handle unexpected, non-graceful terminations.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T090318Z" creationid="nacyot" creationdate="20140518T090318Z">
-        <seg>어느 쪽이건 Twelve-Factor App은 예상되지 않은 정상적이지 않은 종료에 대응해야한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T165410Z" creationid="nacyot" creationdate="20140518T090318Z">
+        <seg>어느 쪽이건 Twelve-Factor App은 예상할 수 없는 비정상적인 종료에 대응해야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1630,8 +1630,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Processes should also be **robust against sudden death**, in the case of a failure in the underlying hardware.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T023543Z" creationid="nacyot" creationdate="20140518T023543Z">
-        <seg>프로세스는 저수준의 하드웨어 이상한에 대해서도 **갑작스러운 종료로 부터 견고해야한다.**</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T165254Z" creationid="nacyot" creationdate="20140518T023543Z">
+        <seg>또한 프로세스는 하드웨어 이상에 따른 **갑작스러운 종료에 대해서도 대응할 수 있어야한다.**</seg>
       </tuv>
     </tu>
     <tu>
@@ -2212,8 +2212,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>While this is a much less common occurrence than a graceful shutdown with `SIGTERM`, it can still happen.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T023613Z" creationid="nacyot" creationdate="20140518T023613Z">
-        <seg>이러한 일은 `SIGTERM`의 신호에 의한 정상적인 종료에 비해서는 드물게 일어나지만 분명 일어날 수 있다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T165323Z" creationid="nacyot" creationdate="20140518T023613Z">
+        <seg>이런 경우는 `SIGTERM` 신호에 의한 정상적인 종료에 비해서는 드물게 일어나지만 얼마든지 일어날 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2236,8 +2236,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>[Crash-only design](http://lwn.net/Articles/191059/) takes this concept to its [logical conclusion](http://docs.couchdb.org/en/latest/intro/overview.html).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T090358Z" creationid="nacyot" creationdate="20140518T090358Z">
-        <seg>[Crash-only](http://lwn.net/Articles/191059/) 설계는 이 컨셉을 이론적 귀결로 이끌어간다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T165728Z" creationid="nacyot" creationdate="20140518T090358Z">
+        <seg>[Crash-only](http://lwn.net/Articles/191059/) 설계는 이러한 새념의 이론적 결론을 보여준다.</seg>
       </tuv>
     </tu>
     <tu>
