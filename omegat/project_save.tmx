@@ -33,8 +33,8 @@
         <seg>## I. Codebase
 ### One codebase tracked in revision control, many deploys</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T140904Z" creationid="nacyot" creationdate="20140517T171736Z">
-        <seg>## 1. 코드베이스
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T142241Z" creationid="nacyot" creationdate="20140517T171736Z">
+        <seg>## 1. 코드베이스(Codebase)
 ### 버전 관리되는 하나의 코드베이스와 다수의 배포</seg>
       </tuv>
     </tu>
