@@ -548,8 +548,8 @@
       <tuv lang="EN">
         <seg>**Twelve-factor processes are stateless and [share-nothing](http://en.wikipedia.org/wiki/Shared_nothing_architecture).**  Any data that needs to persist must be stored in a stateful [backing service](/backing-services), typically a database.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T121840Z" creationid="nacyot" creationdate="20140518T121840Z">
-        <seg>**Twelve-Factor의 프로세스들은 상태가 없으며 [share-nothing](http://en.wikipedia.org/wiki/Shared_nothing_architecture)이다.** 장기적으로 저장되어야하는 모든 데이터는 데이터베이스와 같이 상태를 가지는 [백엔드 서비스](/backing-services)에 저장되어야한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T155621Z" creationid="nacyot" creationdate="20140518T121840Z">
+        <seg>**Twelve-Factor의 프로세스들은 상태가 없고 [아무것도 공유하지 않는다(share-nothing).](http://en.wikipedia.org/wiki/Shared_nothing_architecture)** 장시간에 거쳐 보존되어야하는 모든 데이터는 데이터베이스와 같이 상태를 가지는 [백엔드 서비스](/backing-services)에 저장되어야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1362,8 +1362,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>In the simplest case, the code is a stand-alone script, the execution environment is a developer's local laptop with an installed language runtime, and the process is launched via the command line (for example, `python my_script.py`).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T171606Z" creationid="nacyot" creationdate="20140517T171606Z">
-        <seg>가장 간단한 경우를 예로 들자면 코드는 하나의 스크립트이고 실행 환경은 개발자의 로컬 노트북이라고 할 때 프로세스는 명령행을 통해 실행됩니다(for example, `python my_script.py`). </seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T155451Z" creationid="nacyot" creationdate="20140517T171606Z">
+        <seg>가장 간단한 예를 들면 코드가 하나의 스크립트이고 실행 환경이 개발자의 로컬 노트북일 때, 프로세스는 명령행에서 `python my_script.py`와 같은 명령어로 실행된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1574,8 +1574,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>On the other end of the spectrum, a production deploy of a sophisticated app may use many [process types, instantiated into zero or more running processes](/concurrency).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T121626Z" creationid="nacyot" creationdate="20140518T121626Z">
-        <seg>다른 방향의 끝에는 0개나 여러개의 실행중인 프로세스들로 초기화되는 다양한 타입의 프로세스를 사용하는 세련된 어플리케이션이 있다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T155458Z" creationid="nacyot" creationdate="20140518T121626Z">
+        <seg>복잡한 예로는, 실행되고 종료되거나 여러개의 프로세스들로 실행되는 다양한 타입의 프로세스를 사용하는 어플리케이션의 프로덕션 배포를 생각할 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1796,8 +1796,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The app is executed in the execution environment as one or more *processes*.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T155103Z" creationid="nacyot" creationdate="20140517T171504Z">
-        <seg>어플리케이션은 실행 환경 안에서 하나나 다수의 *프로세스들*로 실행됩니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T155442Z" creationid="nacyot" creationdate="20140517T171504Z">
+        <seg>어플리케이션은 실행 환경 안에서 하나나 다수의 *프로세스들*로 실행된다.</seg>
       </tuv>
     </tu>
     <tu>
