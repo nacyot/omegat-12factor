@@ -161,9 +161,9 @@
         <seg>## [I. Codebase](/codebase)
 ### One codebase tracked in revision control, many deploys</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140429T154845Z" creationid="nacyot" creationdate="20140429T154803Z">
-        <seg>## [1. 코드 베이스](/codebase)
-### 버전 관리되는 하나의 코드 베이스와 다수의 배포</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T133356Z" creationid="nacyot" creationdate="20140429T154803Z">
+        <seg>## [1. 코드베이스(Codebase)](/codebase)
+### 버전 관리되는 하나의 코드베이스와 다수의 배포</seg>
       </tuv>
     </tu>
     <tu>
@@ -171,8 +171,8 @@
         <seg>## [II. Dependencies](/dependencies)
 ### Explicitly declare and isolate dependencies</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140429T155025Z" creationid="nacyot" creationdate="20140429T154951Z">
-        <seg>## [2. 의존성](/dependencies)
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T133403Z" creationid="nacyot" creationdate="20140429T154951Z">
+        <seg>## [2. 의존성(Dependencies)](/dependencies)
 ### 의존성의 명시적인 선언과 분리</seg>
       </tuv>
     </tu>
