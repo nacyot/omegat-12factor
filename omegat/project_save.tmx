@@ -487,27 +487,85 @@
   &lt;/tr&gt;
 &lt;/table&gt;</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T005833Z" creationid="nacyot" creationdate="20140518T005833Z">
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T010005Z" creationid="nacyot" creationdate="20140518T005833Z">
         <seg>&lt;table&gt;
   &lt;tr&gt;
     &lt;th&gt;&lt;/th&gt;
-    &lt;th&gt;Traditional app&lt;/th&gt;
-    &lt;th&gt;Twelve-factor app&lt;/th&gt;
+    &lt;th&gt;기존의 어플리케이션&lt;/th&gt;
+    &lt;th&gt;Twelve-Factor App&lt;/th&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;th&gt;Time between deploys&lt;/th&gt;
-    &lt;td&gt;Weeks&lt;/td&gt;
-    &lt;td&gt;Hours&lt;/td&gt;
+    &lt;th&gt;배포 간격&lt;/th&gt;
+    &lt;td&gt;수 주&lt;/td&gt;
+    &lt;td&gt;몇 시간&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;th&gt;Code authors vs code deployers&lt;/th&gt;
-    &lt;td&gt;Different people&lt;/td&gt;
-    &lt;td&gt;Same people&lt;/td&gt;
+    &lt;th&gt;코드 작성상 vs 코드 배포자&lt;/th&gt;
+    &lt;td&gt;다른 사람&lt;/td&gt;
+    &lt;td&gt;같은 사람&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;th&gt;Dev vs production environments&lt;/th&gt;
-    &lt;td&gt;Divergent&lt;/td&gt;
-    &lt;td&gt;As similar as possible&lt;/td&gt;
+    &lt;th&gt;개발 환경 vs 프로덕션 환경&lt;/th&gt;
+    &lt;td&gt;다름&lt;/td&gt;
+    &lt;td&gt;가능한 비슷하게 구성&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Type&lt;/th&gt;
+    &lt;th&gt;Language&lt;/th&gt;
+    &lt;th&gt;Library&lt;/th&gt;
+    &lt;th&gt;Adapters&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Database&lt;/td&gt;
+    &lt;td&gt;Ruby/Rails&lt;/td&gt;
+    &lt;td&gt;ActiveRecord&lt;/td&gt;
+    &lt;td&gt;MySQL, PostgreSQL, SQLite&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Queue&lt;/td&gt;
+    &lt;td&gt;Python/Django&lt;/td&gt;
+    &lt;td&gt;Celery&lt;/td&gt;
+    &lt;td&gt;RabbitMQ, Beanstalkd, Redis&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Cache&lt;/td&gt;
+    &lt;td&gt;Ruby/Rails&lt;/td&gt;
+    &lt;td&gt;ActiveSupport::Cache&lt;/td&gt;
+    &lt;td&gt;Memory, filesystem, Memcached&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T010221Z" creationid="nacyot" creationdate="20140518T010221Z">
+        <seg>&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;분류&lt;/th&gt;
+    &lt;th&gt;Language&lt;/th&gt;
+    &lt;th&gt;Library&lt;/th&gt;
+    &lt;th&gt;Adapters&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Database&lt;/td&gt;
+    &lt;td&gt;Ruby/Rails&lt;/td&gt;
+    &lt;td&gt;ActiveRecord&lt;/td&gt;
+    &lt;td&gt;MySQL, PostgreSQL, SQLite&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Queue&lt;/td&gt;
+    &lt;td&gt;Python/Django&lt;/td&gt;
+    &lt;td&gt;Celery&lt;/td&gt;
+    &lt;td&gt;RabbitMQ, Beanstalkd, Redis&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Cache&lt;/td&gt;
+    &lt;td&gt;Ruby/Rails&lt;/td&gt;
+    &lt;td&gt;ActiveSupport::Cache&lt;/td&gt;
+    &lt;td&gt;Memory, filesystem, Memcached&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;</seg>
       </tuv>
@@ -1014,6 +1072,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Many languages offer libraries which simplify access to the backing service, including *adapters* to different types of services.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T010153Z" creationid="nacyot" creationdate="20140518T010153Z">
+        <seg>많은 언어는 서로 다른 종류의 서비스에 대한 어답타를 포함해 특정 백엔드 서비스에 대해 간단히 사용할 수 있게 라이브러리를 제공한다. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Meta
 ----</seg>
       </tuv>
@@ -1110,6 +1176,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T155925Z" creationid="nacyot" creationdate="20140517T155925Z">
         <seg>이와는 별개로 개발자는 관리나 유지보수 목적으로 한번만 실행되는 태스크를 실행하고 싶을 수 있다. 예를 들면 아래와 같은 것들이 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Some examples are in the table below.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T010209Z" creationid="nacyot" creationdate="20140518T010209Z">
+        <seg>아래 표는 그 예를 보여준다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1434,6 +1508,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T170933Z" creationid="nacyot" creationdate="20140517T170933Z">
         <seg>이 문서의 대상은</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>[Backing services](/backing-services), such as the app's database, queueing system, or cache, is one area where dev/prod parity is important.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T010052Z" creationid="nacyot" creationdate="20140518T010052Z">
+        <seg>데이터베이스나 큐, 캐시와 같은 [백엔드 서비스](/backing-services) 개발 / 프로덕션 환경의 동일화가 중요시 되는 지점중 하나이다.</seg>
       </tuv>
     </tu>
     <tu>
