@@ -326,6 +326,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* Finding specific events in the past.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T105304Z" creationid="nacyot" creationdate="20140518T105304Z">
+        <seg>* 과거에 발생한 특정한 이벤트를 찾을 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* Have a **clean contract** with the underlying operating system, offering **maximum portability** between execution environments;</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140429T230610Z" creationid="nacyot" creationdate="20140429T230610Z">
@@ -338,6 +346,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T172231Z" creationid="nacyot" creationdate="20140517T172226Z">
         <seg>* 코드베이스가 여럿이라면, 단일 어플리케이션이 아니다. 그것은 분산 시스템이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>* Large-scale graphing of trends (such as requests per minute).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T105329Z" creationid="nacyot" creationdate="20140518T105329Z">
+        <seg>* 큰 규모늬 경향을 그래프로 그릴 수 있다(예를 들어 분당 리퀘스트 수).</seg>
       </tuv>
     </tu>
     <tu>
@@ -1224,6 +1240,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>In staging or production deploys, each process' stream will be captured by the execution environment, collated together with all other streams from the app, and routed to one or more final destinations for viewing and long-term archival.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T104948Z" creationid="nacyot" creationdate="20140518T104948Z">
+        <seg>스테이징이나 프로덕션 배포에서는 각각의 프로세스 스트림은 실행환경에 의해 포착되며 어플리케이션으로부터 발생하는 다른 모든 스트림과 함께 정렬되며 표시나 장기 아카이브를 위해 하나나 여러 목적지에 보내진다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>In the modern era, software is commonly delivered as a service: called *web apps*, or *software-as-a-service*.  The twelve-factor app is a methodology for building software-as-a-service apps that:</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140429T225110Z" creationid="nacyot" creationdate="20140429T224933Z">
@@ -1396,6 +1420,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Most significantly, the stream can be sent to a log indexing and analysis system such as [Splunk](http://www.splunk.com/), or a general-purpose data warehousing system such as [Hadoop/Hive](http://hive.apache.org/).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T105221Z" creationid="nacyot" creationdate="20140518T105221Z">
+        <seg>가장 중요한 용도로 스트림은 로그 인덱스와 분석에 사용되는 [Splunk](http://www.splunk.com/)나 범용 데이터 웨어하우스 시스템은 [Hadoop/Hive](http://hive.apache.org/)에 보내질 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>No matter what the toolchain, dependency declaration and isolation must always be used together -- only one or the other is not sufficient to satisfy twelve-factor.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140511T154111Z" creationid="nacyot" creationdate="20140511T154111Z">
@@ -1424,6 +1456,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T160321Z" creationid="nacyot" creationdate="20140517T160321Z">
         <seg>한 번만 실행되는 프로세스들은 일반적으로 [장기간 실행되는 프로세스들](/processes)과 같은 환경에서 실행되어야한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Open-source log routers (such as [Logplex](https://github.com/heroku/logplex) and [Fluent](https://github.com/fluent/fluentd)) are available for this purpose.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T105054Z" creationid="nacyot" creationdate="20140518T105054Z">
+        <seg>[Logplex](https://github.com/heroku/logplex)나 [Fluent](https://github.com/fluent/fluentd)와 같은 오픈소스 로그 라우터가 이러한 목적으로 사용된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1650,6 +1690,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The event stream for an app can be routed to a file, or watched via realtime tail in a terminal.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T105128Z" creationid="nacyot" creationdate="20140518T105125Z">
+        <seg>어플리케이션의 이벤트 스트림은 파일로 보내지거나 터미널에서 tail 명령어를 사용해 실시간으로 볼 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The full and explicit dependency specification is applied uniformly to both production and development.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140511T153612Z" creationid="nacyot" creationdate="20140511T153612Z">
@@ -1746,10 +1794,26 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>These archival destinations are not visible to or configurable by the app, and instead are completely managed by the execution environment.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T105024Z" creationid="nacyot" creationdate="20140518T105024Z">
+        <seg>이들을 저장하기 위한 목적지는 어플리케이션에서는 볼 수도 없고 설정할 수도 없으며  대신에 실행 환경에 의해 완전히 관리된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>These gaps manifest in three areas:</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140518T005335Z" creationid="nacyot" creationdate="20140518T005335Z">
         <seg>이러한 차이는 크게 3가지로 나타난다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>These systems allow for great power and flexibility for introspecting an app's behavior over time, including:</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T105254Z" creationid="nacyot" creationdate="20140518T105254Z">
+        <seg>이러한 시스템은 장기적인 관점에서 어플리케이션의 작동을 확인하는데 강력한 능력과 유연성을 제공하며 다음과 같은 일을 할 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
