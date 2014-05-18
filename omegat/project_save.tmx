@@ -1614,8 +1614,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Our motivation is to raise awareness of some systemic problems we've seen in modern application development, to provide a shared vocabulary for discussing those problems, and to offer a set of broad conceptual solutions to those problems with accompanying terminology.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T140445Z" creationid="nacyot" creationdate="20140518T125123Z">
-        <seg>이 책을 집필한 동기는, 우리가 모던한 어플리케이션 개발에서 부딪혀온 특정한 종류의 시스템 문제에 대한 관심을 높이고자함이다. 또한 이 문제를 논의 하기 위한 어휘를 제공하고, 이 문제에 대한 넓고 개념적인 해결책을 전문용어와 함께 제공하는 것이다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T140528Z" creationid="nacyot" creationdate="20140518T125123Z">
+        <seg>이 책을 집필한 동기는, 우리가 모던한 어플리케이션 개발에서 부딪혀온 특정한 종류의 시스템 문제에 대한 관심을 높이고자함이다. 나아가 이러한 문제를 논의 하기 위한 어휘를 제공하고, 이 문제에 대한 넓고 개념적인 해결책을 전문용어와 함께 제공하는 것이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1876,8 +1876,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The format is inspired by Martin Fowler's books *[Patterns of Enterprise Application Architecture](http://books.google.com/books/about/Patterns_of_enterprise_application_archi.html?id=FyWZt5DdvFkC)* and *[Refactoring](http://books.google.com/books/about/Refactoring.html?id=1MsETFPD3I0C)*.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T125155Z" creationid="nacyot" creationdate="20140518T125155Z">
-        <seg>포맷은 Martin Fowler의 서적 *[Patterns of Enterprise Application Architecture](http://books.google.com/books/about/Patterns_of_enterprise_application_archi.html?id=FyWZt5DdvFkC)*과 *[Refactoring](http://books.google.com/books/about/Refactoring.html?id=1MsETFPD3I0C)*의 영향을 받았다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T140459Z" creationid="nacyot" creationdate="20140518T125155Z">
+        <seg>이 책의 형식은 Martin Fowler의 서적 *[Patterns of Enterprise Application Architecture](http://books.google.com/books/about/Patterns_of_enterprise_application_archi.html?id=FyWZt5DdvFkC)*과 *[Refactoring](http://books.google.com/books/about/Refactoring.html?id=1MsETFPD3I0C)*의 영향을 받았다.</seg>
       </tuv>
     </tu>
     <tu>
