@@ -8,8 +8,8 @@
       <tuv lang="EN">
         <seg>![Code becomes a build, which is combined with config to create a release.](/images/release.png)</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T090913Z" creationid="nacyot" creationdate="20140518T090913Z">
-        <seg>![Code becomes a build, which is combined with config to create a release.](/images/release.png)</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T152610Z" creationid="nacyot" creationdate="20140518T090913Z">
+        <seg>![코드는 빌드가 되고, 빌드는 설정과 결합되어 하나의 릴리스가 된다.](/images/release.png)</seg>
       </tuv>
     </tu>
     <tu>
@@ -524,8 +524,8 @@
       <tuv lang="EN">
         <seg>**The twelve-factor app uses strict separation between the build, release, and run stages.**  For example, it is impossible to make changes to the code at runtime, since there is no way to propagate those changes back to the build stage.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T091027Z" creationid="nacyot" creationdate="20140518T091027Z">
-        <seg>**Twelve-Fator App은 빌드, 릴리스, 실행 단계를 엄밀히 구분한다. 예를 들어 런타임에서 변경한 코드를 빌드 스테이지에 역전파할 수 있는 방법이 없기 때문에 이러한 변경은 애시당초에 불가능하다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T152653Z" creationid="nacyot" creationdate="20140518T091027Z">
+        <seg>**Twelve-Fator App은 빌드, 릴리스, 실행 단계를 엄밀히 구분한다. 예를 들어 런타임에서 변경한 코드를 빌드 스테이지에 역전파할 수 있는 방법은 존재하지 않으며, 따라서 이러한 코드 수정은 애시당초에 불가능하다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -824,8 +824,8 @@
       <tuv lang="EN">
         <seg>Any change must create a new release.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T091443Z" creationid="nacyot" creationdate="20140518T091443Z">
-        <seg>모든 변화는 새로운 릴리스를 통해서 만들어져야한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T153013Z" creationid="nacyot" creationdate="20140518T091443Z">
+        <seg>모든 변화는 새로운 릴리스를 통해서 적용된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -890,8 +890,8 @@
       <tuv lang="EN">
         <seg>Builds are initiated by the app's developers whenever new code is deployed.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T091512Z" creationid="nacyot" creationdate="20140518T091512Z">
-        <seg>빌드 스테이지는 새로운 코드가 배포되는 시점에 반드시 프로그래머에 의해 시작된다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T153045Z" creationid="nacyot" creationdate="20140518T091512Z">
+        <seg>빌드 스테이지는 새로운 코드가 배포되는 시점에 프로그래머에 의해 실행된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -952,8 +952,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Deployment tools typically offer release management tools, most notably the ability to roll back to a previous release.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T091106Z" creationid="nacyot" creationdate="20140518T091106Z">
-        <seg>배포 툴은 일반적으로 릴리스 관리 툴을 제공하며 이러한 툴에서는 일반적으로 이전 릴리스로 되돌리는 롤백 기능을 제공한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T152747Z" creationid="nacyot" creationdate="20140518T091106Z">
+        <seg>배포 툴은 일반적으로 릴리스 관리 툴을 제공한다. 이러한 릴리스 관리 툴은 이전 릴리스로 되돌리는 롤백(roll back) 기능도 가지고 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1042,8 +1042,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Every release should always have a unique release ID, such as a timestamp of the release (such as `2011-04-06-20:32:17`) or an incrementing number (such as `v100`).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T091332Z" creationid="nacyot" creationdate="20140518T091332Z">
-        <seg>모든 릴리스는 자기 고유의 릴리스 ID를 가져야한다. 이러한 릴리스 아이디로는 릴리스 시점의 타임스탬프(예를 들어 `2011-04-06-20:32:17`)나 자동으로 증가하는 번호(예를 들어 v100)이 사용될 수 있다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T152935Z" creationid="nacyot" creationdate="20140518T091332Z">
+        <seg>모든 릴리스는 자기 고유의 릴리스 ID를 가져야한다. 대개 릴리스 ID로는 릴리스 시점의 타임스탬프(예를 들어 `2011-04-06-20:32:17`)나 자동으로 증가하는 번호(예를 들어 v100)를 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1178,8 +1178,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>For example, the [Capistrano](https://github.com/capistrano/capistrano/wiki) deployment tool stores releases in a subdirectory named `releases`, where the current release is a symlink to the current release directory.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T091203Z" creationid="nacyot" creationdate="20140518T091203Z">
-        <seg>예를 들어 [Capistrano](https://github.com/capistrano/capistrano/wiki) 배포 툴은 릴리스를 `releases`라는 서브 디렉토리 안에 저장한다. 이 디렉토리 아래서 현재 릴리스는 현재 릴리스 디렉토리를 가리키는 심볼릭 링크이다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T152845Z" creationid="nacyot" creationdate="20140518T091203Z">
+        <seg>예를 들어 [Capistrano](https://github.com/capistrano/capistrano/wiki)는 다수의 릴리스를 `releases`라는 서브 디렉토리 안에 저장한다. 이 디렉토리 아래에서 현재 릴리스는 현재 릴리스 디렉토리를 가리키는 심볼릭 링크이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1664,8 +1664,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Releases are an append-only ledger and a release cannot be mutated once it is created.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T091435Z" creationid="nacyot" creationdate="20140518T091435Z">
-        <seg>릴리스는 기업만 가능한 원장이자 한번 만들어진 릴리스는 변경할 수 없다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T153000Z" creationid="nacyot" creationdate="20140518T091435Z">
+        <seg>릴리스는 오직 입력만 가능하며 한번 만들어지면 변경할 수 없다.</seg>
       </tuv>
     </tu>
     <tu>
