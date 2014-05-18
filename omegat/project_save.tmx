@@ -776,8 +776,8 @@
       <tuv lang="EN">
         <seg>Additionally, every developer has a copy of the app running in their local development environment, each of which also qualifies as a deploy.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T172649Z" creationid="nacyot" creationdate="20140517T172649Z">
-        <seg>또한 모든 개발자는 로컬 개발 환경에 작동하는 어플리케이션 복사본을 가지고 있으며 이 또한 하나의 배포라고 볼 수 있다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T141822Z" creationid="nacyot" creationdate="20140517T172649Z">
+        <seg>한편 어플리케이션 개발에 참여하는 프로그래머들은 각자의 로컬 개발 환경에서 실행되는 어플리케이션 복사본을 가지고 있는데, 이 또한 하나의 배포라고 볼 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -914,8 +914,8 @@
       <tuv lang="EN">
         <seg>But they all share the same codebase, thus making them identifiable as different deploys of the same app.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T172859Z" creationid="nacyot" creationdate="20140517T172859Z">
-        <seg>하지만 이는 모두 같은 코드베이스를 공유하기 때문에 같은 어플리케이션의 다른 배포라고 여겨진다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T142210Z" creationid="nacyot" creationdate="20140517T172859Z">
+        <seg>하지만 로컬과 스테이징, 프로덕션은 모두 같은 코드베이스를 공유하고 있으며, 따라서 같은 어플리케이션의 다른 배포라고 할 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1138,8 +1138,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>For example, a developer has some commits not yet deployed to staging;</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T172814Z" creationid="nacyot" creationdate="20140517T172814Z">
-        <seg>예를 들어 개발자는 스테이징 환경에 아직 배포되지 않은 커밋을 포함할 수 있으며</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T142044Z" creationid="nacyot" creationdate="20140517T172814Z">
+        <seg>예를 들어 프로그래머 로컬 환경에는 스테이징 환경에 아직 배포되지 않은 커밋이 포함되어있을 수도 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1820,8 +1820,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The codebase is the same across all deploys, although different versions may be active in each deploy.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T172733Z" creationid="nacyot" creationdate="20140517T172733Z">
-        <seg>각각의 배포는 서로 다른 버전일 수 있지만, 코드베이스는 모든 서로 다른 배포에 대해서 동일하다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T141926Z" creationid="nacyot" creationdate="20140517T172733Z">
+        <seg>다수의 배포들은 서로 다른 버전일 수도 있지만, 모든 배포는 하나의 코드베이스를 가진다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2116,8 +2116,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>This is typically a production site, and one or more staging sites.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T172556Z" creationid="nacyot" creationdate="20140517T172556Z">
-        <seg>일반적으로 하나의 실제 배포 사이트와 하나나 여러 개의 스테이징 사이트가 있다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T141727Z" creationid="nacyot" creationdate="20140517T172556Z">
+        <seg>일반적으로 하나의 어플리케이션은 하나의 프로덕션 사이트와, 다수의 스테이징 사이트로 배포된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2308,8 +2308,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>staging has some commits not yet deployed to production.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T172831Z" creationid="nacyot" creationdate="20140517T172831Z">
-        <seg>스테이징에는 아직 프로덕션 환경에 배포되지 않는 커밋을 포함할 수도 있다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T142053Z" creationid="nacyot" creationdate="20140517T172831Z">
+        <seg>마찬가지로 스테이징에에는 아직 프로덕션 환경에 배포되지 않는 커밋이 포함되어있을 수도 있다.</seg>
       </tuv>
     </tu>
     <tu>
