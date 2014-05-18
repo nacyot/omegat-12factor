@@ -6,6 +6,14 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN">
+        <seg>![Code becomes a build, which is combined with config to create a release.](/images/release.png)</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T090913Z" creationid="nacyot" creationdate="20140518T090913Z">
+        <seg>![Code becomes a build, which is combined with config to create a release.](/images/release.png)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>![One codebase maps to many deploys](/images/codebase-deploys.png)</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T172139Z" creationid="nacyot" creationdate="20140517T172139Z">
@@ -418,6 +426,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* The *run stage* (also known as "runtime") runs the app in the execution environment, by launching some set of the app's [processes](/processes) against a selected release.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T090910Z" creationid="nacyot" creationdate="20140518T090910Z">
+        <seg>* *실행 단계*(혹은 런타임이라고도 하는)에서는 특정한 릴리스에 대해서 필요한 프로세스들을 기동하고 어플리케이션 실행환경에서 실행하고, </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* Use **declarative** formats for setup automation, to minimize time and cost for new developers joining the project;</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140429T230414Z" creationid="nacyot" creationdate="20140429T230414Z">
@@ -470,6 +486,14 @@
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T170416Z" creationid="nacyot" creationdate="20140517T170416Z">
         <seg>**Twelve-Factor App은 설정을 *환경 변수(environment variables)*에 저장한다***(*env var*나 *env*라고 줄여말하기도 한다)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>**The twelve-factor app uses strict separation between the build, release, and run stages.**  For example, it is impossible to make changes to the code at runtime, since there is no way to propagate those changes back to the build stage.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T091027Z" creationid="nacyot" creationdate="20140518T091027Z">
+        <seg>**Twelve-Fator App은 빌드, 릴리스, 실행 단계를 엄밀히 구분한다. 예를 들어 런타임에서 변경한 코드를 빌드 스테이지에 역전파할 수 있는 방법이 없기 때문에 이러한 변경은 애시당초에 불가능하다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -846,6 +870,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Deployment tools typically offer release management tools, most notably the ability to roll back to a previous release.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T091106Z" creationid="nacyot" creationdate="20140518T091106Z">
+        <seg>배포 툴은 일반적으로 릴리스 관리 툴을 제공하며 이러한 툴에서는 일반적으로 이전 릴리스로 되돌리는 롤백 기능을 제공한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Developers sometimes find great appeal in using a lightweight backing service in their local environments, while a more serious and robust backing service will be used in production.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140518T010438Z" creationid="nacyot" creationdate="20140518T010438Z">
@@ -1004,6 +1036,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140518T023219Z" creationid="nacyot" creationdate="20140518T023219Z">
         <seg>예를 들어 [RabbitMQ](http://www.rabbitmq.com/) 워커는 [`NACK`](http://www.rabbitmq.com/amqp-0-9-1-quickref.html#basic.nack)을 보낼 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>For example, the [Capistrano](https://github.com/capistrano/capistrano/wiki) deployment tool stores releases in a subdirectory named `releases`, where the current release is a symlink to the current release directory.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T091203Z" creationid="nacyot" creationdate="20140518T091203Z">
+        <seg>예를 들어 [Capistrano](https://github.com/capistrano/capistrano/wiki) 배포 툴은 릴리스를 `releases`라는 서브 디렉토리 안에 저장한다. 이 디렉토리 아래서 현재 릴리스는 현재 릴리스 디렉토리를 가리키는 심볼릭 링크이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1182,6 +1222,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="KO" changeid="nacyot" changedate="20140429T224822Z" creationid="nacyot" creationdate="20140429T224822Z">
         <seg>시작하며
 ============</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Its `rollback` command makes it easy to quickly roll back to a previous release.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T091231Z" creationid="nacyot" creationdate="20140518T091231Z">
+        <seg>`rollback` 명령어를 사용하면 쉽고 빠르게 이전 릴리스로 되돌릴 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1542,6 +1590,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T174138Z" creationid="nacyot" creationdate="20140517T174138Z">
         <seg>이러한 프로세스 모델의 진가는 스케일 아웃이 필요한 경우이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>The resulting *release* contains both the build and the config and is ready for immediate execution in the execution environment.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T090808Z" creationid="nacyot" creationdate="20140518T090808Z">
+        <seg>*릴리스*의 결과는 빌드와 설정이 포함되며 실행 환경에서 바로 실행될 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
