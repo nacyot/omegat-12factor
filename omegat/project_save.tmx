@@ -864,8 +864,8 @@
       <tuv lang="EN">
         <seg>Asset packagers (such as [Jammit](http://documentcloud.github.com/jammit/) or [django-assetpackager](http://code.google.com/p/django-assetpackager/)) use the filesystem as a cache for compiled assets.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T124259Z" creationid="nacyot" creationdate="20140518T124259Z">
-        <seg>([Jammit](http://documentcloud.github.com/jammit/))이나 [django-assetpackager](http://code.google.com/p/django-assetpackager/)와 같은 에셋 패키저는 컴파일된 에셋을 캐시하기 위해서 파일 시스템을 사용한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T160119Z" creationid="nacyot" creationdate="20140518T124259Z">
+        <seg>([Jammit](http://documentcloud.github.com/jammit/))이나 [django-assetpackager](http://code.google.com/p/django-assetpackager/) 같은 에셋 패키저는 컴파일된 에셋을 캐시하기 위해서 파일 시스템을 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1034,8 +1034,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Even when running only one process, a restart (triggered by code deploy, config change, or the execution environment relocating the process to a different physical location) will usually wipe out all local (e.g., memory and filesystem) state.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T122211Z" creationid="nacyot" creationdate="20140518T122211Z">
-        <seg>하나의 프로세스만 사용하는 경우에도 프로세스를 재실행하면 모든 국소적인 상태(메모리나 파일 시스템 등)은 사라져 버릴 수 있다. 프로세스가 재실행되는 이유는 코드 배포, 설정 변경, 프로세스를 다른 물리 머신의 배치시키는 등이 있다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T160106Z" creationid="nacyot" creationdate="20140518T122211Z">
+        <seg>하나의 프로세스만 사용하더라도 프로세스가 재실행되면 모든 국소적인 상태(메모리나 파일 시스템 등)은 사라져 버릴 수 있다. 코드 배포, 설정 변경, 프로세스가 돌아가는 물리 머신 이동 등 프로세스 재실행은 빈번히 일어날 수 있는 일이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1146,8 +1146,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>For example, downloading a large file, operating on it, and storing the results of the operation in the database.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T121944Z" creationid="nacyot" creationdate="20140518T121944Z">
-        <seg>예를 들어 큰 파일을 다운로드하고, 이 파일을 처리해서 결과를 데이터베이스에 저장하는 일련의 처리에 대해서 파일 시스템을 캐시로 이용해도 된다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T155757Z" creationid="nacyot" creationdate="20140518T121944Z">
+        <seg>용량이 큰 파일을 다운로드해서 이 파일을 처리하고 그 결과를 데이터베이스에 저장하는 과정의 경우, 파일 시스템을 캐시로 이용해도 괜찮다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1892,8 +1892,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The memory space or filesystem of the process can be used as a brief, single-transaction cache.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T121915Z" creationid="nacyot" creationdate="20140518T121915Z">
-        <seg>프로세스의 메모리 공간이나 파일 시스템은 짧은 단일 트랜젝션을 위한 캐시로 사용해도 무방하다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T155648Z" creationid="nacyot" creationdate="20140518T121915Z">
+        <seg>필요하다면 짧은 단일 트랜젝션을 위한 캐시로 프로세스의 메모리 공간이나 파일 시스템을 사용해도 무방하다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1948,8 +1948,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The twelve-factor app never assumes that anything cached in memory or on disk will be available on a future request or job -- with many processes of each type running, chances are high that a future request will be served by a different process.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T122108Z" creationid="nacyot" creationdate="20140518T122108Z">
-        <seg>Twelve-Factor App에서는 메모리나 디스크에 캐시된 정보가 이후에 리퀘스트나 작업을 처리하는 데서 재사용된다고 결코 가정하지 않는다. 각각의 프로세스 타입의 프로세스가 많이 실행되는 경우 미래의 요청이나 작업은 다른 프로세스에서 실행될 가능성이 높다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T155959Z" creationid="nacyot" creationdate="20140518T122108Z">
+        <seg>하지만 Twelve-Factor App에서는 메모리나 디스크에 캐시된 정보가 이후의 요청이나 작업을 처리할 때 재사용된다고는 결코 가정하지 않는다. 각 프로세스 타입의 프로세스가 다수 실행될 때 이후에 일어나는 요청이나 작업이 같은 프로세스에서 일어난다는 보장은 어디에도 없다.</seg>
       </tuv>
     </tu>
     <tu>
