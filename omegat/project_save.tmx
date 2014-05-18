@@ -1680,8 +1680,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Runtime execution, by contrast, can happen automatically in cases such as a server reboot, or a crashed process being restarted by the process manager.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T091557Z" creationid="nacyot" creationdate="20140518T091557Z">
-        <seg>반면에 실행 단계는 서버의 재시작이나 종료된 프로세스가 프로세스 매니저에 의해 재시작 되는 등 자동적으로 개시된다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T153149Z" creationid="nacyot" creationdate="20140518T091557Z">
+        <seg>반면에 실행 단계는 서버가 재부팅되거나 프로세스 매니저에 의해 종료된 프로세스가 재실행될 때도 자동적으로 실행될 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1812,8 +1812,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The build stage can be more complex, since errors are always in the foreground for a developer who is driving the deploy.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T104335Z" creationid="nacyot" creationdate="20140518T104335Z">
-        <seg>빌드 단계는 복잡해도 무방하다. 왜냐면 빌드 스테이지의 단계의 에러는 배포를 하는 개발자 앞에서 발생하기 때문이다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T153555Z" creationid="nacyot" creationdate="20140518T104335Z">
+        <seg>반대로 빌드 단계에 발생하는 에러는 프로그래머가 확인할 수 있으므로 빌드 과정은 복잡해도 무방하다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1996,8 +1996,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Therefore, the run stage should be kept to as few moving parts as possible, since problems that prevent an app from running can cause it to break in the middle of the night when no developers are on hand.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T104228Z" creationid="nacyot" creationdate="20140518T104228Z">
-        <seg>따라서 실행 단계는 가능한한 변경 가능하는 부분을 줄여한다. 이는 어플리케이션 실행을 방해하는 문제가 발생했을 때 개발자가 대기하지 않는 시간에 발생하면 어플리케이션이 작동하지 않기 때문이다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T153540Z" creationid="nacyot" creationdate="20140518T153540Z">
+        <seg>프로그래머가 대기하고 있지 않은 한밤중에라도 문제는 발생할 수 있기 때문에 실행 단계에서 변경 가능한 부분은 가능한 한 줄여야한다.</seg>
       </tuv>
     </tu>
     <tu>
