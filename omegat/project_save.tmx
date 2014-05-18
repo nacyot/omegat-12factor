@@ -484,8 +484,8 @@
       <tuv lang="EN">
         <seg>**In the twelve-factor app, processes are a first class citizen.**  Processes in the twelve-factor app take strong cues from [the unix process model for running service daemons](http://adam.heroku.com/past/2011/5/9/applying_the_unix_process_model_to_web_apps/).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T173554Z" creationid="nacyot" creationdate="20140517T173554Z">
-        <seg>**Twelve-Factor App에서 프로세스는 일급 시민에 해당한다.** Twelve-Factor App에서 프로세스는 [서비스의 데몬을 실행하기 위핸 유닉스 프로세스 모델](http://adam.heroku.com/past/2011/5/9/applying_the_unix_process_model_to_web_apps/)에서 큰 영감을 받았다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T162646Z" creationid="nacyot" creationdate="20140517T173554Z">
+        <seg>**Twelve-Factor App에서 프로세스는 일급 시민에 해당한다.** Twelve-Factor App의 프로세스는 [서비스 데몬을 실행하기 위한 유닉스 프로세스 모델](http://adam.heroku.com/past/2011/5/9/applying_the_unix_process_model_to_web_apps/)에서 큰 영감을 받았다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -832,8 +832,8 @@
       <tuv lang="EN">
         <seg>Any computer program, once run, is represented by one or more processes.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T173008Z" creationid="nacyot" creationdate="20140517T173003Z">
-        <seg>모든 컴퓨터 프로그램은 한 번 실행되면 하나나 그 이상의 프로세스로서 나타난다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T162256Z" creationid="nacyot" creationdate="20140517T173003Z">
+        <seg>모든 컴퓨터 프로그램은 한 번 실행되면 하나나 여러개의 프로세스로 보여진다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1314,8 +1314,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>In both cases, the running process(es) are only minimally visible to the developers of the app.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T173419Z" creationid="nacyot" creationdate="20140517T173419Z">
-        <seg>어느 쪽이건 실행되는 프로세스는 어플리케이션 개발자에게는 거의 감추어져있다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T162545Z" creationid="nacyot" creationdate="20140517T173419Z">
+        <seg>어느 쪽이건 실행중인 프로세스는 어플리케이션 프로그래머에게 거의 감추어져있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1420,8 +1420,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Java processes take the opposite approach, with the JVM providing one massive uberprocess that reserves a large block of system resources (CPU and memory) on startup, with concurrency managed internally via threads.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T173418Z" creationid="nacyot" creationdate="20140517T173418Z">
-        <seg>자바 프로그램은 반대 방법을 사용한다. JVM은 하나의 거대한 부모 프로세스를 제공하며 실행할 때 CPU나 메모리 같은 커다란 블록을 확보하며, 쓰레드를 사용해 내부적으로 병행성을 관리한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T162445Z" creationid="nacyot" creationdate="20140517T173418Z">
+        <seg>자바 프로그램은 이와 반대 방법을 사용한다. JVM은 하나의 거대한 부모 프로세스에 해당한다. 처음 실행할 때 CPU나 메모리 같은 커다란 블록을 확보해놓고 쓰레드를 사용해 내부적으로 병행성을 관리한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1558,8 +1558,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Note also that the port-binding approach means that one app can become the [backing service](/backing-services) for another app, by providing the URL to the backing app as a resource handle in the [config](/config) for the consuming app.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T121444Z" creationid="nacyot" creationdate="20140518T121416Z">
-        <seg>여기서 주목해야할 점은 포트 바인딩에 의해 어떤 어플리케이션이 다른 어플리케이션에 대한 [백엔드 서비스](/backing-services)가 된다는 점이다. 백엔드 어플리케이션에 대한 URL이 제공되며 이용하는 어플리케이션은 [설정](/config)에 리소스 핸들을 저장하면 된다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T162214Z" creationid="nacyot" creationdate="20140518T121416Z">
+        <seg>포트 바인딩에서 가장 중요한 점은 공개된 포트를 통해서 특정 어플리케이션이 다른 어플리케이션에 대한 [백엔드 서비스](/backing-services)가 된다는 점이다. 백엔드 어플리케이션의 접근가능한 URL을 가지며, 이를 이용하고자 하는 어플리케이션은 [설정](/config)에 해당하는 백엔드 서비스의 리소스 핸들을 저장하기만 하면 된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2196,8 +2196,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Web apps have taken a variety of process-execution forms.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T173032Z" creationid="nacyot" creationdate="20140517T173032Z">
-        <seg>웹 어플리케이션 역시 다양한 프로세스 실행 형태로 파악될 수 있다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T162329Z" creationid="nacyot" creationdate="20140517T173032Z">
+        <seg>웹 어플리케이션 역시 다양한 프로세스 실행 형태를 가진다.</seg>
       </tuv>
     </tu>
     <tu>
