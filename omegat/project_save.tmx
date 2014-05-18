@@ -984,6 +984,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Ideally, a process takes a few seconds from the time the launch command is executed until the process is up and ready to receive requests or jobs.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T022136Z" creationid="nacyot" creationdate="20140518T022136Z">
+        <seg>이상적으로 하나의 프로세스는 실행 명령어로부터 몇 초 안에 요청이나 다른 일을 처리할 준비가 되어야한다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>If the app needs to shell out to a system tool, that tool should be vendored into the app.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140511T155146Z" creationid="nacyot" creationdate="20140511T155146Z">
@@ -1274,6 +1282,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T155925Z" creationid="nacyot" creationdate="20140517T155925Z">
         <seg>이와는 별개로 개발자는 관리나 유지보수 목적으로 한번만 실행되는 태스크를 실행하고 싶을 수 있다. 예를 들면 아래와 같은 것들이 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Short startup time provides more agility for the [release](/build-release-run) process and scaling up;</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T022215Z" creationid="nacyot" creationdate="20140518T022215Z">
+        <seg>짧은 시작 시간은 [릴리스](/build-release-run)와 스케일 업에 있어서 애자일하게 만들어준다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1638,6 +1654,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140518T010052Z" creationid="nacyot" creationdate="20140518T010052Z">
         <seg>데이터베이스나 큐, 캐시와 같은 [백엔드 서비스](/backing-services) 개발 / 프로덕션 환경의 동일화가 중요시 되는 지점중 하나이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>and it aids robustness, because the process manager can more easily move processes to new physical machines when warranted.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T022331Z" creationid="nacyot" creationdate="20140518T022331Z">
+        <seg>또한 프로세스 매니저가 필요에 따라 새로운 물리 머신에 어플리케이션일 이동하므로 더 견고해진다.</seg>
       </tuv>
     </tu>
     <tu>
