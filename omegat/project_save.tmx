@@ -854,6 +854,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>As the project grows further, developers may add their own special environments like `joes-staging`, resulting in a combinatorial explosion of config which makes managing deploys of the app very brittle.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T125403Z" creationid="nacyot" creationdate="20140518T125403Z">
+        <seg>더욱 프로젝트가 확대되면 프로그래머는 `joes-staging`와 같은 자신만의 환경을 추가하게 된다. 결과정으로 설정이 설정은 조합에 따라서 폭발적으로 늘어나고 어플리케이션 배포 고나리는 불안정하게 된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Asset packagers (such as [Jammit](http://documentcloud.github.com/jammit/) or [django-assetpackager](http://code.google.com/p/django-assetpackager/)) use the filesystem as a cache for compiled assets.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140518T124259Z" creationid="nacyot" creationdate="20140518T124259Z">
@@ -1362,6 +1370,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>It is a triangulation on ideal practices app development, paying particular attention to the dynamics of the organic growth of an app over time, the dynamics of collaboration between developers working on the app's codebase, and [avoiding the cost of software erosion](http://blog.heroku.com/archives/2011/6/28/the_new_heroku_4_erosion_resistance_explicit_contracts/).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T125003Z" creationid="nacyot" creationdate="20140518T125003Z">
+        <seg>이는 어플리케이션 개발에 있어서 이상적인 프랙티스를 찾기 위한 삼각 계량법이다. 특히 어플리케이션이 시간과 함께 유기적으로 성장해가는 역학 어플리케이션의 코드 베이스를 둘러싼 프로그래머 간의 협엽의 역학, 그리고 [소프트웨어 부패에 따른 비용을 회피]에 주목하고 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Its `rollback` command makes it easy to quickly roll back to a previous release.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140518T091231Z" creationid="nacyot" creationdate="20140518T091231Z">
@@ -1560,6 +1576,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T171014Z" creationid="nacyot" creationdate="20140517T170953Z">
         <seg>그러한 어플리케이션을 관리하고 배포하는 Ops 엔지니어</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Our motivation is to raise awareness of some systemic problems we've seen in modern application development, to provide a shared vocabulary for discussing those problems, and to offer a set of broad conceptual solutions to those problems with accompanying terminology.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T125123Z" creationid="nacyot" creationdate="20140518T125123Z">
+        <seg>우리의 동기는 우리가 모던한 어플리케이션 개발에서 봐온 어떤 종류의 시스템 문제의 관심을 높이는 것, 이 문자를 논의 하기 위한 어휘를 제공하는 것, 그리고 이 문제에 대한 넓은 범주의 개념적인 해결책과 전문용어를 제공하는 것이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1818,6 +1842,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The format is inspired by Martin Fowler's books *[Patterns of Enterprise Application Architecture](http://books.google.com/books/about/Patterns_of_enterprise_application_archi.html?id=FyWZt5DdvFkC)* and *[Refactoring](http://books.google.com/books/about/Refactoring.html?id=1MsETFPD3I0C)*.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T125155Z" creationid="nacyot" creationdate="20140518T125155Z">
+        <seg>포맷은 Martin Fowler의 서적 *[Patterns of Enterprise Application Architecture](http://books.google.com/books/about/Patterns_of_enterprise_application_archi.html?id=FyWZt5DdvFkC)*과 *[Refactoring](http://books.google.com/books/about/Refactoring.html?id=1MsETFPD3I0C)*의 영향을 받았다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The full and explicit dependency specification is applied uniformly to both production and development.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140511T153612Z" creationid="nacyot" creationdate="20140511T153612Z">
@@ -2038,6 +2070,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140518T111438Z" creationid="nacyot" creationdate="20140518T111438Z">
         <seg>이는 일반적으로 [의존성 선언](/dependencies)을 통해서 웹 서버 라이브리러를 어플리케이션에 추가하는 방법으로 구현된다. 웹 서버 라이브러리의 예로는 Python의 [Tornado](http://www.tornadoweb.org/), 루비의 [Thin](http://code.macournoyer.com/thin/), 자바나 JVM 기반 언어들의 [Jetty](http://jetty.codehaus.org/jetty/) 등이 있다. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This method does not scale cleanly: as more deploys of the app are created, new environment names are necessary, such as `staging` or `qa`.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T125319Z" creationid="nacyot" creationdate="20140518T125319Z">
+        <seg>이러한 방법은 스케일에 적합하지 않다. 어플리케이션의 배포가 늘어감에 따라 `staging`나 `qa`와 같은 환경의 이름이 필요해진다.</seg>
       </tuv>
     </tu>
     <tu>
