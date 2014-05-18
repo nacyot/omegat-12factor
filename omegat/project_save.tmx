@@ -2036,8 +2036,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>They are never grouped together as "environments," but instead are independently managed for each deploy.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T125636Z" creationid="nacyot" creationdate="20140518T125636Z">
-        <seg>환경변수가 "환경"으로 그룹화되어지지는 않지만 대신에 배포 단위로 독립적으로 관리된다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T150339Z" creationid="nacyot" creationdate="20140518T125636Z">
+        <seg>환경변수가 "환경"으로 그룹화되어지지는 않지만 대신에 각 배포에 대해서 독립적으로 관리된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2100,8 +2100,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>This is a model that scales up smoothly as the app naturally expands into more deploys over its lifetime.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T125704Z" creationid="nacyot" creationdate="20140518T125704Z">
-        <seg>이는 어플리케이션 라이프 사이클에 있어서 어플리케이션이 많은 배포에 자연스럽게 확대해감에 따라 자연스럽게 스케일 업이 가능한 모델이다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T150524Z" creationid="nacyot" creationdate="20140518T125704Z">
+        <seg>환경변수를 통해 설정을 관리하는 방식은 어플리케이션이 더 많은 배포로 확장되어가는 데 있어서 자연스럽게 스케일 업이 가능하도록 유도하는 모델이다.</seg>
       </tuv>
     </tu>
     <tu>
