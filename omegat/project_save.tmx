@@ -171,9 +171,9 @@
         <seg>## [II. Dependencies](/dependencies)
 ### Explicitly declare and isolate dependencies</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T133403Z" creationid="nacyot" creationdate="20140429T154951Z">
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T133443Z" creationid="nacyot" creationdate="20140429T154951Z">
         <seg>## [2. 의존성(Dependencies)](/dependencies)
-### 의존성의 명시적인 선언과 분리</seg>
+### 명시적인 의존성 선언과 분리</seg>
       </tuv>
     </tu>
     <tu>
@@ -181,9 +181,9 @@
         <seg>## [III. Config](/config)
 ### Store config in the environment</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140429T155056Z" creationid="nacyot" creationdate="20140429T155033Z">
-        <seg>## [3. 설정](/config)
-### 환경 변수에 설정 저장하기</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T133505Z" creationid="nacyot" creationdate="20140429T155033Z">
+        <seg>## [3. 설정(Config)](/config)
+### 환경변수에 설정 저장하기</seg>
       </tuv>
     </tu>
     <tu>
@@ -191,9 +191,9 @@
         <seg>## [IV. Backing Services](/backing-services)
 ### Treat backing services as attached resources</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140429T224330Z" creationid="nacyot" creationdate="20140429T224330Z">
-        <seg>## [4. 백엔드 서비스](/backing-services)
-### 백엔드 서비스를 붙여둔@@@ 리소스로 다루기</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T133713Z" creationid="nacyot" creationdate="20140429T224330Z">
+        <seg>## [4. 백엔드 서비스(Backing Services)](/backing-services)
+### 백엔드 서비스를 붙여진 리소스(attched resources)로 다루기</seg>
       </tuv>
     </tu>
     <tu>
@@ -201,8 +201,8 @@
         <seg>## [IX. Disposability](/disposability)
 ### Maximize robustness with fast startup and graceful shutdown</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140429T224545Z" creationid="nacyot" creationdate="20140429T224545Z">
-        <seg>## [9. 일회용성](/disposability)
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T133831Z" creationid="nacyot" creationdate="20140429T224545Z">
+        <seg>## [9. 일회용성(Disposability)](/disposability)
 ### 빠른 실행과 깔금한 종료를 통해 견고성 최대화하기</seg>
       </tuv>
     </tu>
@@ -211,8 +211,8 @@
         <seg>## [V. Build, release, run](/build-release-run)
 ### Strictly separate build and run stages</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140429T224352Z" creationid="nacyot" creationdate="20140429T224352Z">
-        <seg>## [5. 빌드, 릴리즈, 실행](/build-release-run)
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T133733Z" creationid="nacyot" creationdate="20140429T224352Z">
+        <seg>## [5. 빌드(Build), 릴리스(Release), 실행(Run)](/build-release-run)
 ### 빌드와 실행 단계 엄격하게 분리하기</seg>
       </tuv>
     </tu>
@@ -221,9 +221,9 @@
         <seg>## [VI. Processes](/processes)
 ### Execute the app as one or more stateless processes</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140429T224417Z" creationid="nacyot" creationdate="20140429T224417Z">
-        <seg>## [6. 프로세스](/processes)
-### 어플리케이션을 하나나 그 이상의 상태 없는 프로세스로 실행하기</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T133707Z" creationid="nacyot" creationdate="20140429T224417Z">
+        <seg>## [6. 프로세스(Processes)](/processes)
+### 어플리케이션을 하나나 다수의 상태 없는 프로세스로 실행하기</seg>
       </tuv>
     </tu>
     <tu>
@@ -231,8 +231,8 @@
         <seg>## [VII. Port binding](/port-binding)
 ### Export services via port binding</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140429T224443Z" creationid="nacyot" creationdate="20140429T224435Z">
-        <seg>## [7. 포트 바인딩](/port-binding)
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T133743Z" creationid="nacyot" creationdate="20140429T224435Z">
+        <seg>## [7. 포트 바인딩(Port binding)](/port-binding)
 ### 포트 바인딩으로 서비스 공개하기</seg>
       </tuv>
     </tu>
@@ -241,9 +241,9 @@
         <seg>## [VIII. Concurrency](/concurrency)
 ### Scale out via the process model</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140429T224500Z" creationid="nacyot" creationdate="20140429T224500Z">
-        <seg>## [8. 병행성](/concurrency)
-### 프로세스 모델을 스케일 아웃하기</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T133811Z" creationid="nacyot" creationdate="20140429T224500Z">
+        <seg>## [8. 병행성(Concurrency)](/concurrency)
+### 스케일 아웃을 위한 프로세스 모델</seg>
       </tuv>
     </tu>
     <tu>
