@@ -906,8 +906,8 @@
       <tuv lang="EN">
         <seg>But an individual VM can only grow so large (vertical scale), so the application must also be able to span multiple processes running on multiple physical machines.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T174122Z" creationid="nacyot" creationdate="20140517T174122Z">
-        <seg>하지만 각각의 VM은 어느 정도 이상 커지지(Vertical scale) 않기 때문에 어플리케이션은 복수의 물리 머신에서 동작하는 복수의 프로세스로 확대되지 않으면 안 된다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T163130Z" creationid="nacyot" creationdate="20140517T174122Z">
+        <seg>하지만 각각의 VM은 어느 규모 이상으로 확대(Vertical scale)될 수 없기 때문에 어플리케이션은 복수의 물리 머신에서 동작하는 복수의 프로세스로 확대되지 않으면 안 된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2068,8 +2068,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>This does not exclude individual processes from handling their own internal multiplexing, via threads inside the runtime VM, or the async/evented model found in tools such as [EventMachine](http://rubyeventmachine.com/), [Twisted](http://twistedmatrix.com/trac/), or [Node.js](http://nodejs.org/).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T174015Z" creationid="nacyot" creationdate="20140517T174015Z">
-        <seg>이러한 모델은 런타임 VM 내의 쓰레드나 [EventMachine](http://rubyeventmachine.com/), [Twisted](http://twistedmatrix.com/trac/), [Node.js](http://nodejs.org/) 등 비동기 이번트 모델에 의해 각각의 프로세스가 프로세스 내부에서 다중화되는 것을 금지하지 않는다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T163204Z" creationid="nacyot" creationdate="20140517T174015Z">
+        <seg>이러한 모델은 런타임 VM 내의 쓰레드나 [EventMachine](http://rubyeventmachine.com/), [Twisted](http://twistedmatrix.com/trac/), [Node.js](http://nodejs.org/) 등 비동기 이벤트 모델을 통해 각 프로세스 내부의 다중화를 금지한다는 의미가 아니다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2180,8 +2180,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Using this model, the developer can architect their app to handle diverse workloads by assigning each type of work to a *process type*.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T173718Z" creationid="nacyot" creationdate="20140517T173718Z">
-        <seg>이러한 모델을 사용해 각각의 워크로드의 종류를 프로세스 타입에 따라 나눠주며 개발자는 어플리케이션이 다양한 워크로드를 처리할 수 잇도록 설계할 수 있다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T162850Z" creationid="nacyot" creationdate="20140517T173718Z">
+        <seg>이 모델을 통해 서로 다른 종류의 작업을 프로세스 타입에 따라 나누는 방식으로 프로그래머는 어플리케이션이 다양한 종류의 작업를 처리할 수도록 설계할 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
