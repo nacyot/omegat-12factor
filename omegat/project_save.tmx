@@ -660,6 +660,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Alternatively, declarative provisioning tools such as [Chef](http://www.opscode.com/chef/) and [Puppet](http://docs.puppetlabs.com/) combined with light-weight virtual environments such as [Vagrant](http://vagrantup.com/) allow developers to run local environments which closely approximate production environments.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T015423Z" creationid="nacyot" creationdate="20140518T015423Z">
+        <seg>아니면 [Chef](http://www.opscode.com/chef/)와 [Puppet](http://docs.puppetlabs.com/)과 같은 선언적 프로비저닝과 함께 [Vagrant](http://vagrantup.com/)를 사용하면 프로그래머의 개발환경을 프로덕션 환경에 거의 일치시킬 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>An app's *config* is everything that is likely to vary between [deploys](/codebase) (staging, production, developer environments, etc).</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T164307Z" creationid="nacyot" creationdate="20140517T163533Z">
