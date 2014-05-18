@@ -1130,6 +1130,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Modern backing services such as Memcached, PostgreSQL, and RabbitMQ are not difficult to install and run thanks to modern packaging systems, such as [Homebrew](http://mxcl.github.com/homebrew/) and [apt-get](https://help.ubuntu.com/community/AptGet/Howto).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T015156Z" creationid="nacyot" creationdate="20140518T015156Z">
+        <seg>Memcached, PostgreSQL, RabbitMQ와 같은 모던한 백엔드 서비스는 [Homebrew](http://mxcl.github.com/homebrew/)이나 [apt-get](https://help.ubuntu.com/community/AptGet/Howto) 같은 모던한 패키지 관리 시스템 덕분에 설치하는 게 어렵지 않다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Most languages provide a REPL by running the interpreter without any arguments (e.g. `python` or `erl`) or in some cases have a separate command (e.g. `irb` for Ruby, `rails console` for Rails).</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T160202Z" creationid="nacyot" creationdate="20140517T160202Z">
