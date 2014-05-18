@@ -1058,8 +1058,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Examples include [ejabberd](http://www.ejabberd.im/) (speaking [XMPP](http://xmpp.org/)), and [Redis](http://redis.io/) (speaking the [Redis protocol](http://redis.io/topics/protocol)).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T121326Z" creationid="nacyot" creationdate="20140518T121326Z">
-        <seg>예를 들어 [ejabberd](http://www.ejabberd.im/)([XMPP](http://xmpp.org/)) [Redis(speaking [XMPP](http://xmpp.org/)([Redis 프로토콜](http://redis.io/))이 있다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T162000Z" creationid="nacyot" creationdate="20140518T121326Z">
+        <seg>예를 들자면 [ejabberd](http://www.ejabberd.im/)([XMPP](http://xmpp.org/))나 [Redis(speaking [XMPP](http://xmpp.org/)([Redis 프로토콜](http://redis.io/))도 포트 바인딩을 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1218,8 +1218,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>HTTP is not the only service that can be exported by port binding.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T111605Z" creationid="nacyot" creationdate="20140518T111605Z">
-        <seg>포트 바인딩을 통해 공개되는 서비스는 HTTP뿐이 아니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T161852Z" creationid="nacyot" creationdate="20140518T111605Z">
+        <seg>포트 바인딩을 통해 공개되는 서비스는 비단 HTTP에 국한되지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1542,8 +1542,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Nearly any kind of server software can be run via a process binding to a port and awaiting incoming requests.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T121215Z" creationid="nacyot" creationdate="20140518T121215Z">
-        <seg>거의 모든 서버 소프트웨어는 포트를 바인딩하는 프로세스를 통해서 동작하며 요청을 기다린다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T161934Z" creationid="nacyot" creationdate="20140518T121215Z">
+        <seg>거의 모든 서버 소프트웨어는 프로세스를 포트에 바인딩해놓고 요청을 기다린다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1828,8 +1828,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The contract with the execution environment is binding to a port to serve requests.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T111525Z" creationid="nacyot" creationdate="20140518T111525Z">
-        <seg>요청을 처리하기 위한 실행환경과의 규약은 포트 바인등을 하는 것이다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T161829Z" creationid="nacyot" creationdate="20140518T111525Z">
+        <seg>요청을 처리하기 위한 실행 환경과의 규약은 포트를 바인딩하는 것이다.</seg>
       </tuv>
     </tu>
     <tu>
