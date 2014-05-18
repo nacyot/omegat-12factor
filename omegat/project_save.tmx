@@ -1186,8 +1186,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>For example, the build command for Ruby/Bundler is `bundle install`, while for Clojure/[Leiningen](https://github.com/technomancy/leiningen#readme) it is `lein deps`.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140511T154711Z" creationid="nacyot" creationdate="20140511T154711Z">
-        <seg>예를 들어 루비 번들러의 빌드 명령어는 `bundle install`이며 클로저(Clojure)의 Leiningen에서는 `lein deps` 명령어가 사용된다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T143701Z" creationid="nacyot" creationdate="20140511T154711Z">
+        <seg>예를 들어 루비 번들러의 빌드 명령어는  `bundle install`이고, 클로저(Clojure) Leiningen에서는 `lein deps` 명령어를 실행하면 된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1550,8 +1550,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>No matter what the toolchain, dependency declaration and isolation must always be used together -- only one or the other is not sufficient to satisfy twelve-factor.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140511T154111Z" creationid="nacyot" creationdate="20140511T154111Z">
-        <seg>어떤 툴을 사용하건 간에 의존관계 선언과 분리는 항상 함께 사용되어야 한다. 어느 한 쪽만을 사용하는 것은 twelve factor의 조건을 만족하지 않는다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T143323Z" creationid="nacyot" creationdate="20140511T154111Z">
+        <seg>어떤 툴을 사용하건 간에 의존관계 선언과 분리는 항상 함께 사용되어야 한다. 어느 한 쪽만을 사용하는 것은 Twelve Factor를 만족하지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1582,8 +1582,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>One benefit of explicit dependency declaration is that it simplifies setup for developers new to the app.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140511T154201Z" creationid="nacyot" creationdate="20140511T154201Z">
-        <seg>의존성을 명시적으로 선언하면 새로운 프로그래머가 어플리케이션 개발에 참여할 때 개발 환경을 쉽게 구성할 수 있다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T143409Z" creationid="nacyot" creationdate="20140511T154201Z">
+        <seg>의존성을 명시적으로 선언함으로써 얻는 다른 효과는 새로운 프로그래머가 어플리케이션 개발에 참여할 때 개발 환경을 쉽게 구성할 수 있다는 점이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1900,8 +1900,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The new developer can check out the app's codebase onto their development machine, requiring only the language runtime and dependency manager installed as prerequisites.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140511T154313Z" creationid="nacyot" creationdate="20140511T154313Z">
-        <seg>새로운 프로그래머는 사용하는 언어의 런타임과 의존성 관리 도구만 설치되어있다면 어플리케이션의 코드베이스를 개발 머신에 체크아웃할 수 있다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T143600Z" creationid="nacyot" creationdate="20140511T154313Z">
+        <seg>새로운 프로그래머가 어플리케이션의 코드베이스를 개발 머신에 가져오는 데 필요한 것은 개발에 사용되는 프로그래밍 언어 런타임과 의존성 관리 도구뿐이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2052,8 +2052,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>They will be able to set up everything needed to run the app's code with a deterministic *build command*.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140511T154629Z" creationid="nacyot" creationdate="20140511T154629Z">
-        <seg>프로그래머는 정해진 빌드 커맨드 하나로 어플리케이션 개발에 필요한 모든 설정을 할 수 있다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T143628Z" creationid="nacyot" creationdate="20140511T154629Z">
+        <seg>여기에 *빌드 명령어* 하나면 어플리케이션 개발에 필요한 모든 설정을 할 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2156,8 +2156,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Twelve-factor apps also do not rely on the implicit existence of any system tools.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140511T154815Z" creationid="nacyot" creationdate="20140511T154815Z">
-        <seg>또한 Twelve-Factor App은 어떠한 시스템 툴에도 의존하지 않는다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T143739Z" creationid="nacyot" creationdate="20140511T154815Z">
+        <seg>또한 Twelve-Factor App은 특정한 시스템 도구가 존재할 거라고 전제하지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
