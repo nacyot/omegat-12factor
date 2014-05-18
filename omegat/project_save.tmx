@@ -288,24 +288,24 @@
       <tuv lang="EN">
         <seg>* **The personnel gap**: Developers write code, ops engineers deploy it.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T005449Z" creationid="nacyot" creationdate="20140518T005449Z">
-        <seg>* **사람 차이:** 프로그래머가 작성한 코드를 ops 엔지니어가 배포한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T170410Z" creationid="nacyot" creationdate="20140518T005449Z">
+        <seg>* **사람 갭:** 프로그래머가 작성한 코드를 ops 엔지니어가 배포한다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>* **The time gap:** A developer may work on code that takes days, weeks, or even months to go into production.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T005418Z" creationid="nacyot" creationdate="20140518T005418Z">
-        <seg>* **시간 차이**: 프로그래머가 작업 중인 코드가 프로덕션 환경에 반영되기 까지는 수 일에서 수주, 심지어 수 개월이 걸린다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T170402Z" creationid="nacyot" creationdate="20140518T005418Z">
+        <seg>* **시간 갭**: 프로그래머가 작업 중인 코드가 프로덕션 환경에 반영되기까지는 짧아도 몇 일이 소요되며 길게는 몇 달이 걸리기도 한다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>* **The tools gap**: Developers may be using a stack like Nginx, SQLite, and OS X, while the production deploy uses Apache, MySQL, and Linux.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T005556Z" creationid="nacyot" creationdate="20140518T005549Z">
-        <seg>* **도구 차이:** 개발은 주로 Nginx, SQLite, OS X와 같은 도구를 사용하지만 프로덕션 배포는 주로 Apache, MySQL, Linux를 사용한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T170443Z" creationid="nacyot" creationdate="20140518T005549Z">
+        <seg>* **도구 갭:** 개발은 주로 Nginx, SQLite, OS X르 통해 이루어지지만 사용하지만 프로덕션 배포에서는 주로 Apache, MySQL, Linux를 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -368,24 +368,24 @@
       <tuv lang="EN">
         <seg>* Make the personnel gap small: developers who wrote code are closely involved in deploying it and watching its behavior in production.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T005802Z" creationid="nacyot" creationdate="20140518T005802Z">
-        <seg>* 사람 차이 줄이기: 코드를 작성한 개발자는 배포에 밀접하게 참여하면 프로덕션의 작동 상태를 확인한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T170619Z" creationid="nacyot" creationdate="20140518T005802Z">
+        <seg>* 사람 갭 줄이기: 코드를 작성한 개발자는 배포에 밀접하게 참여하고, 프로덕션 환경에 배포된 어플리케이션의 작동 상태를 지속적으로 확인한다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>* Make the time gap small: a developer may write code and have it deployed hours or even just minutes later.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T005721Z" creationid="nacyot" creationdate="20140518T005721Z">
-        <seg>* 시간 차이를 줄이기: 프로그래머가 작성한 코드는 몇 시간, 혹은 몇 분 안에 배포된다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T170551Z" creationid="nacyot" creationdate="20140518T005721Z">
+        <seg>* 시간 갭 줄이기: 프로그래머가 작성한 코드는 몇 시간만에 배포되며 심지어 빠르면 몇 분만에 배포된다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>* Make the tools gap small: keep development and production as similar as possible.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T005822Z" creationid="nacyot" creationdate="20140518T005822Z">
-        <seg>* 도구 차이 줄이기: 가능한 한 개발 환경과 프로덕션 환경의 시스템과 도구를 비슷하게구성한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T170631Z" creationid="nacyot" creationdate="20140518T005822Z">
+        <seg>* 도구 갭 줄이기: 최대한 개발 환경과 프로덕션 환경의 시스템과 도구를 비슷하게 구성한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -508,8 +508,8 @@
       <tuv lang="EN">
         <seg>**The twelve-factor app is designed for [continuous deployment](http://www.avc.com/a_vc/2011/02/continuous-deployment.html) by keeping the gap between development and production small.**  Looking at the three gaps described above:</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T005702Z" creationid="nacyot" creationdate="20140518T005551Z">
-        <seg>**Twelve-Factor App은 [계속적 배포](http://www.avc.com/a_vc/2011/02/continuous-deployment.html)가 가능하도록 개발 환경과 프로덕션 간의 차이를 최소화 하도록 설계되었다. 위에서 살펴본 3가지 차이에 대새서 살펴보면 아래와 같다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T170519Z" creationid="nacyot" creationdate="20140518T005551Z">
+        <seg>**Twelve-Factor App은 [계속적 배포(continuous deployment)](http://www.avc.com/a_vc/2011/02/continuous-deployment.html)를 실현가능하도록 개발 환경과 프로덕션 간의 차이를 최소화 하도록 설계되었다. 위에서 살펴본 3가지 차이에 대해서 살펴보면 아래와 같다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -593,7 +593,7 @@
   &lt;/tr&gt;
 &lt;/table&gt;</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T010005Z" creationid="nacyot" creationdate="20140518T005833Z">
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T170649Z" creationid="nacyot" creationdate="20140518T005833Z">
         <seg>&lt;table&gt;
   &lt;tr&gt;
     &lt;th&gt;&lt;/th&gt;
@@ -606,14 +606,14 @@
     &lt;td&gt;몇 시간&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-    &lt;th&gt;코드 작성상 vs 코드 배포자&lt;/th&gt;
+    &lt;th&gt;코드 작성자 vs 코드 배포자&lt;/th&gt;
     &lt;td&gt;다른 사람&lt;/td&gt;
     &lt;td&gt;같은 사람&lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
     &lt;th&gt;개발 환경 vs 프로덕션 환경&lt;/th&gt;
     &lt;td&gt;다름&lt;/td&gt;
-    &lt;td&gt;가능한 비슷하게 구성&lt;/td&gt;
+    &lt;td&gt;최대한 비슷하게 구성&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;</seg>
       </tuv>
@@ -1226,8 +1226,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Historically, there have been substantial gaps between development (a developer making live edits to a local [deploy](/codebase) of the app) and production (a running deploy of the app accessed by end users).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T005328Z" creationid="nacyot" creationdate="20140518T005322Z">
-        <seg>역사적으로 개발 환경(개발자가 직접 변경할 수 있는 어플리케이션의 로컬 배포) 프로덕션 환경(사용자가 어플리케이션을 사용할 수 있는 배포) 간에는 큰 차이가 있었다. </seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T170259Z" creationid="nacyot" creationdate="20140518T005322Z">
+        <seg>역사적으로 개발자가 직접 수정할 수 있는 로컬 배포를 의미하는 개발 환경과 사용자가 어플리케이션을 실제로 사용하는 배포인 프로덕션 환경 간에는 큰 차이가 있었다. </seg>
       </tuv>
     </tu>
     <tu>
@@ -2012,8 +2012,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>These gaps manifest in three areas:</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T005335Z" creationid="nacyot" creationdate="20140518T005335Z">
-        <seg>이러한 차이는 크게 3가지로 나타난다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T170306Z" creationid="nacyot" creationdate="20140518T005335Z">
+        <seg>이러한 차이는 크게 3가지로 요약된다.</seg>
       </tuv>
     </tu>
     <tu>
