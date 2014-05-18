@@ -1056,6 +1056,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Examples include datastores (such as [MySQL](http://dev.mysql.com/) or [CouchDB](http://couchdb.apache.org/)), messaging/queueing systems (such as [RabbitMQ](http://www.rabbitmq.com/) or [Beanstalkd](http://kr.github.com/beanstalkd/)), SMTP services for outbound email (such as [Postfix](http://www.postfix.org/)), and caching systems (such as [Memcached](http://memcached.org/)).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T130758Z" creationid="nacyot" creationdate="20140518T130758Z">
+        <seg>예를 들어 [Mysql](http://dev.mysql.com/)이나 [CouchDB](http://couchdb.apache.org)와 같은 데이터베이스, [RabbitMQ](http://www.rabbitmq.com)이나 [Beanstalkd](http://kr.github.com/beanstalkd/)와 같은 메시지/큐 시스템, [Postfix](http://www.postfix.org)와 같은 메일 송신을 위한 SMTP 서비스, [Memcached](http://memcached.org)와 같은 캐시 시스템이 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Examples include shelling out to ImageMagick or `curl`.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140511T154946Z" creationid="nacyot" creationdate="20140511T154946Z">
