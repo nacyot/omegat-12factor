@@ -310,6 +310,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>* Active alerting according to user-defined heuristics (such as an alert when the quantity of errors per minute exceeds a certain threshold).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T105415Z" creationid="nacyot" creationdate="20140518T105415Z">
+        <seg>* 사용자 정의 휴리스틱에 의존해 경고를 보냄(예를 들어 일 분동안 일정 이상의 에러가 발생하면 경고를 발생시킨다.)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>* And can **scale up** without significant changes to tooling, architecture, or development practices.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140429T231717Z" creationid="nacyot" creationdate="20140429T231717Z">
