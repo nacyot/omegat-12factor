@@ -516,8 +516,8 @@
       <tuv lang="EN">
         <seg>**The twelve-factor app stores config in *environment variables*** (often shortened to *env vars* or *env*).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T170416Z" creationid="nacyot" creationdate="20140517T170416Z">
-        <seg>**Twelve-Factor App은 설정을 *환경 변수(environment variables)*에 저장한다***(*env var*나 *env*라고 줄여말하기도 한다)</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T145243Z" creationid="nacyot" creationdate="20140517T170416Z">
+        <seg>**Twelve-Factor App에서는 설정을 *환경 변수(environment variables)*에 저장한다**</seg>
       </tuv>
     </tu>
     <tu>
@@ -808,8 +808,8 @@
       <tuv lang="EN">
         <seg>Another approach to config is the use of config files which are not checked into revision control, such as `config/database.yml` in Rails.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T165951Z" creationid="nacyot" creationdate="20140517T165951Z">
-        <seg>설정에 대한 또 다른 접근 방법은 레일스의 `config/database.yml`와 같은 파일을 버전 관리 시스템에 체크 포함시키지 않는 것이다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T145021Z" creationid="nacyot" creationdate="20140517T165951Z">
+        <seg>설정 정보를 다루는 또 다른 방법으로 설정 정보를 담은 파일을 버전 관리에 포함시키지 않는 방법이 있다. 예를 들어 레일스 프로젝트에서는 `config/database.yml`파일을 버전 관리 시스템에 포함시키지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1202,8 +1202,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Further, these formats tend to be language- or framework-specific.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T170318Z" creationid="nacyot" creationdate="20140517T170318Z">
-        <seg>더욱이 이러한 포맷은 언어나 프레임워크에 지나치게 의존적일 수 있다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T145309Z" creationid="nacyot" creationdate="20140517T170318Z">
+        <seg> 이러한 형식은 여전히 특정 프로그래밍 언어나 특정 프레임워크에 의존적일 수밖에 없다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2092,8 +2092,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>This is a huge improvement over using constants which are checked into the code repo, but still has weaknesses: it's easy to mistakenly check in a config file to the repo;</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T170209Z" creationid="nacyot" creationdate="20140517T170209Z">
-        <seg>이러한 방법은 버전 관리 시스템에 포함된 코드에 상수로 설정을 저장하는 것보다는 매우 큰 발전이지만 여전히 단점이 남아있다. 먼저 실수로 파일을 버전 관리에 포함시키기 쉽다는 점이 있다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T145119Z" creationid="nacyot" creationdate="20140517T170209Z">
+        <seg>이 방법은 설정 정보를 버전 관리 시스템에 포함된 파일 내에 상수로 저장하는 것보다는 장족의 발전이지만 여전히 몇 가지 문제를 가지고 있다. 먼저 실수로 설정 파일을 버전 관리에 포함시키기 쉽다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2140,8 +2140,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>This type of config does not vary between deploys, and so is best done in the code.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T165849Z" creationid="nacyot" creationdate="20140517T165849Z">
-        <seg>이러한 종류의 설정은 배포 환견 간에 큰 차이가 없으며, 따라서 코드에서 저장하는 게 최선이다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T144835Z" creationid="nacyot" creationdate="20140517T165849Z">
+        <seg>이러한 설정들은 배포 환경 사이에 별 차이가 없으므로 코드에 저장하는 게 좋다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2316,8 +2316,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>there is a tendency for config files to be scattered about in different places and different formats, making it hard to see and manage all the config in one place.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T170240Z" creationid="nacyot" creationdate="20140517T170240Z">
-        <seg>또한 설정파일이 서로 다른 장소에 서로 다른 포맷으로 저장될 가능성이 있어 설정을 같은 곳에서 일괄적으로 관리하기 어려워진다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T145258Z" creationid="nacyot" creationdate="20140517T170240Z">
+        <seg>또한 설정 파일이 서로 다른 장소에 서로 다른 포맷으로 저장될 가능성이 있어, 설정을 같은 위치에서 일괄적으로 관리하기가 어려워진다.</seg>
       </tuv>
     </tu>
     <tu>
