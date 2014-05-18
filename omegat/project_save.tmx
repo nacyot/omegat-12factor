@@ -1144,6 +1144,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>HTTP is not the only service that can be exported by port binding.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T111605Z" creationid="nacyot" creationdate="20140518T111605Z">
+        <seg>포트 바인딩을 통해 공개되는 서비스는 HTTP뿐이 아니다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Historically, there have been substantial gaps between development (a developer making live edits to a local [deploy](/codebase) of the app) and production (a running deploy of the app accessed by end users).</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140518T005328Z" creationid="nacyot" creationdate="20140518T005322Z">
@@ -1666,6 +1674,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The contract with the execution environment is binding to a port to serve requests.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T111525Z" creationid="nacyot" creationdate="20140518T111525Z">
+        <seg>요청을 처리하기 위한 실행환경과의 규약은 포트 바인등을 하는 것이다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The contributors to this document have been directly involved in the development and deployment of hundreds of apps, and indirectly witnessed the development, operation, and scaling of hundreds of thousands of apps via our work on the [Heroku](http://www.heroku.com/) platform.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140429T232056Z" creationid="nacyot" creationdate="20140429T232056Z">
@@ -1866,6 +1882,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>This happens entirely in *user space*, that is, within the app's code.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T111502Z" creationid="nacyot" creationdate="20140518T111502Z">
+        <seg>이는 이른바 *사용자 공간*, 즉 어플리케이션 코드 내에서 완결된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>This includes:</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T164317Z" creationid="nacyot" creationdate="20140517T164317Z">
@@ -1894,6 +1918,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T172556Z" creationid="nacyot" creationdate="20140517T172556Z">
         <seg>일반적으로 하나의 실제 배포 사이트와 하나나 여러 개의 스테이징 사이트가 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>This is typically implemented by using [dependency declaration](/dependencies) to add a webserver library to the app, such as [Tornado](http://www.tornadoweb.org/) for Python, [Thin](http://code.macournoyer.com/thin/) for Ruby, or [Jetty](http://jetty.codehaus.org/jetty/) for Java and other JVM-based languages.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T111438Z" creationid="nacyot" creationdate="20140518T111438Z">
+        <seg>이는 일반적으로 [의존성 선언](/dependencies)을 통해서 웹 서버 라이브리러를 어플리케이션에 추가하는 방법으로 구현된다. 웹 서버 라이브러리의 예로는 Python의 [Tornado](http://www.tornadoweb.org/), 루비의 [Thin](http://code.macournoyer.com/thin/), 자바나 JVM 기반 언어들의 [Jetty](http://jetty.codehaus.org/jetty/) 등이 있다. </seg>
       </tuv>
     </tu>
     <tu>
