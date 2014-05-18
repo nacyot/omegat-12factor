@@ -492,8 +492,8 @@
       <tuv lang="EN">
         <seg>**The code for a twelve-factor app makes no distinction between local and third party services.**  To the app, both are attached resources, accessed via a URL or other locator/credentials stored in the [config](/config).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T161627Z" creationid="nacyot" creationdate="20140517T161627Z">
-        <seg>** Twelve-Factor App의 코드는 로컬 서비스와 써드 파티 서비스의 차이를 구분하지 않는다. 어플리케이션 입장에서 보자면 어느 쪽이건 붙여진 리소스로써 [설정](/config)에 저장된 URL이나 기타 로케터/인증 정보로 접근 가능하다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T151319Z" creationid="nacyot" creationdate="20140517T161627Z">
+        <seg>** Twelve-Factor App의 코드는 로컬 서비스와 써드 파티 서비스의 차이를 구분하지 않는다. 어플리케이션 입장에서 보자면 어느 쪽이건 이러한 서비스들은 [설정](/config)에 저장된 URL이나 추가적인 정보들을 통해서 접근 가능한 붙여진 리소스일 뿐이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -720,8 +720,8 @@
       <tuv lang="EN">
         <seg>A [deploy](/codebase) of the twelve-factor app should be able to swap out a local MySQL database with one managed by a third party (such as [Amazon RDS](http://aws.amazon.com/rds/)) without any changes to the app's code.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T162950Z" creationid="nacyot" creationdate="20140517T162937Z">
-        <seg>Twelve-Factor App의 [배포](/codebase)는 어플리케이션 코드의 변경 없이도 로컬에서 관리되는 Mysql 데이터베이스와 써드 파티에서 관리되는 서비스(예를 들어 [Amazon RDS](http://aws.amazon.com/rds/))를 변경할 수 있어야합니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T151420Z" creationid="nacyot" creationdate="20140517T162937Z">
+        <seg>Twelve-Factor App의 [배포](/codebase)는 어플리케이션 코드의 변경 없이도 로컬에서 관리되는 Mysql 데이터베이스를 써드 파티에서 관리되는 서비스(예를 들어 [Amazon RDS](http://aws.amazon.com/rds/))로 대체할 수 있어야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1002,8 +1002,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Each distinct backing service is a *resource*.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T163104Z" creationid="nacyot" creationdate="20140517T163104Z">
-        <seg>각각의 벡엔드 서비스는 *리소스*입니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T151507Z" creationid="nacyot" creationdate="20140517T163104Z">
+        <seg>각각의 벡엔드 서비스는 *리소스*이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1050,8 +1050,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Examples include SMTP services (such as [Postmark](http://postmarkapp.com/)), metrics-gathering services (such as [New Relic](http://newrelic.com/) or [Loggly](http://www.loggly.com/)), binary asset services (such as [Amazon S3](http://aws.amazon.com/s3/)), and even API-accessible consumer services (such as [Twitter](http://dev.twitter.com/), [Google Maps](http://code.google.com/apis/maps/index.html), or [Last.fm](http://www.last.fm/api)).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T131116Z" creationid="nacyot" creationdate="20140518T131116Z">
-        <seg>예를 들어 [Postmark](http://postmarkapp.com/)과 같은 SMTP 서비스, [New Relic](http://newrelic.com)이나 [Loggly](http://www.loggly.com)과 같은 메트릭스 수집 서비스, [Amazon S3](http://aws.amazon.com/s3)와 같은 바이너리 에셋 서비스, [Twitter](http://dev.twitter.com)이나 [Google Maps](http://code.google.com/apis/maps/index.html)이나 [Last.fm](http://www.last.fm/api)와 같은 API로 접근가능한 서비스들이 있다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T151112Z" creationid="nacyot" creationdate="20140518T131116Z">
+        <seg>예를 들어 [Postmark](http://postmarkapp.com/)와 같은 SMTP 서비스, [New Relic](http://newrelic.com)이나 [Loggly](http://www.loggly.com)와 같은 메트릭스 수집 서비스, [Amazon S3](http://aws.amazon.com/s3)와 같은 바이너리 에셋 서비스, [Twitter](http://dev.twitter.com)나 [Google Maps](http://code.google.com/apis/maps/index.html), [Last.fm](http://www.last.fm/api)과 같이 API로 접근가능한 서비스들이 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1130,8 +1130,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>For example, a MySQL database is a resource;</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T163113Z" creationid="nacyot" creationdate="20140517T163113Z">
-        <seg>예를 들어 Mysql 데이터베이스는 하나의 리소스입니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T151512Z" creationid="nacyot" creationdate="20140517T163113Z">
+        <seg>예를 들어 Mysql 데이터베이스는 하나의 리소스이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1306,8 +1306,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>In both cases, only the resource handle in the config needs to change.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T163041Z" creationid="nacyot" creationdate="20140517T163041Z">
-        <seg>두 사례 모두 변경이 필요한 부분은 설정의 리소스 핸들 부분입니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T151457Z" creationid="nacyot" creationdate="20140517T163041Z">
+        <seg>두 경우 모두 변경이 필요한 부분은 설정의 리소스 핸들 부분 뿐이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1452,8 +1452,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Likewise, a local SMTP server could be swapped with a third-party SMTP service (such as Postmark) without code changes.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T163021Z" creationid="nacyot" creationdate="20140517T163011Z">
-        <seg>마찬가지로 로컬에서 관리되는 SMTP 서버도 코드 변경없이 Postmark와 같은 써드파티 SMTP  서비스와 교체될 수 있어야합니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T151443Z" creationid="nacyot" creationdate="20140517T163011Z">
+        <seg>마찬가지로 로컬에서 관리되는 SMTP 서버도 코드 변경없이 Postmark 같은 써드파티 SMTP  서비스로 대체할 수 있어야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2324,8 +2324,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>two MySQL databases (used for sharding at the application layer) qualify as two distinct resources.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T163151Z" creationid="nacyot" creationdate="20140517T163151Z">
-        <seg>두 개의 Mysql 데이터베이스들은(어플리케이션 레이어에서 샤딩으로 사용) 두개의 다른 리소스라고 할 수 있습니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T151543Z" creationid="nacyot" creationdate="20140517T163151Z">
+        <seg>하지만 어플리케이션 계층에서 샤딩으로 사용되는 두 개의 Mysql 데이터베이스들은 두개의 다른 리소스라고 할 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
