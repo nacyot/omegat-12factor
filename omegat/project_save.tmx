@@ -43,9 +43,9 @@
         <seg>## II. Dependencies
 ### Explicitly declare and isolate dependencies</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140511T152634Z" creationid="nacyot" creationdate="20140511T152626Z">
-        <seg>## 2. 의존성
-### 의존성의 명시적인 선언과 분리</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T142306Z" creationid="nacyot" creationdate="20140511T152626Z">
+        <seg>## 2. 의존성(Dependencies)
+### 명시적인 의존성 선언과 분리</seg>
       </tuv>
     </tu>
     <tu>
@@ -476,8 +476,8 @@
       <tuv lang="EN">
         <seg>**A twelve-factor app never relies on implicit existence of system-wide packages.**  It declares all dependencies, completely and exactly, via a *dependency declaration* manifest.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140511T153441Z" creationid="nacyot" creationdate="20140511T153353Z">
-        <seg>**Twelve-Factor App은 결코 암묵적으로 시스템 전체에 설치된 패키지가 존재한다고 전제하지 않는다.** 모든 의존 관계는 *의존 관계 선언 manifest*를 통해서 완전하고 정확하고 선언해야한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T142658Z" creationid="nacyot" creationdate="20140511T153353Z">
+        <seg>**Twelve-Factor App은 결코 암묵적으로 시스템 전체에 적용되는 패키지가 설치되어있다고 전제하지 않는다.** 모든 의존 관계는 *의존성 선언(dependency declaration)*을 통해서 완전하고 정확하게 선언된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1428,8 +1428,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Libraries installed through a packaging system can be installed system-wide (known as "site packages") or scoped into the directory containing the app (known as "vendoring" or "bundling").</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140511T153218Z" creationid="nacyot" creationdate="20140511T153218Z">
-        <seg>패키지 관리 시스템을 통한 라이브러리 설치는 시스템 전체("site packages"라고 한다)에 설치하는 경우와 어플리케이션이 포함된 디레토리 범위에서 설치되는 경우가 있다("vendoring"이나 "bundling"라고 한다). </seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T142536Z" creationid="nacyot" creationdate="20140511T153218Z">
+        <seg>패키지 관리 시스템을 통한 라이브러리 설치는 "site packages"라고 불리는 시스템 전체에 적용되는 설치와 "vendoring"이나 "bundling"라고 불리는 어플리케이션이 포함된 디렉토리에만 적용되는 설치, 두 가지로 나뉜다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1526,8 +1526,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Most programming languages offer a packaging system for distributing support libraries, such as [CPAN](http://www.cpan.org/) for Perl or [Rubygems](http://rubygems.org/) for Ruby.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140511T152934Z" creationid="nacyot" creationdate="20140511T152411Z">
-        <seg>대부분의 프로그래밍 언어는 Perl의 [CPAN](http://www.cpan.org/)이나 루비의 [루비젬](http://rubygems.org/)과 같이 의존 라이브러리 관리를 위한 패키지 관리 시스템을 제공한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T142349Z" creationid="nacyot" creationdate="20140511T152411Z">
+        <seg>많은 프로그래밍 언어에서 Perl의 [CPAN](http://www.cpan.org/)이나 루비의 [루비젬](http://rubygems.org/)과 같은 의존 라이브러리 관리를 위한 패키지 관리 시스템을 제공한다.</seg>
       </tuv>
     </tu>
     <tu>
