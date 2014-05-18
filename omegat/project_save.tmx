@@ -856,8 +856,8 @@
       <tuv lang="EN">
         <seg>As the project grows further, developers may add their own special environments like `joes-staging`, resulting in a combinatorial explosion of config which makes managing deploys of the app very brittle.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T125403Z" creationid="nacyot" creationdate="20140518T125403Z">
-        <seg>더욱 프로젝트가 확대되면 프로그래머는 `joes-staging`와 같은 자신만의 환경을 추가하게 된다. 결과정으로 설정이 설정은 조합에 따라서 폭발적으로 늘어나고 어플리케이션 배포 고나리는 불안정하게 된다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T150252Z" creationid="nacyot" creationdate="20140518T125403Z">
+        <seg>프로젝트가 커져감에 따라 프로그래머는 `joes-staging`과 같은 자신만의 환경을 추가하기도 한다. 결과적으로 서로 다른 설정을 가진 환경은 폭발적으로 늘어나며 배포를 관리하는 일은 매우 어려워진다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1290,8 +1290,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>In a twelve-factor app, env vars are granular controls, each fully orthogonal to other env vars.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T125606Z" creationid="nacyot" creationdate="20140518T125606Z">
-        <seg>Twelve-Factor App은 환경변수는 쌀알 정도의 세밀한 관리를 하며 각각의 환경변수는 서로에 대해 직교한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T150321Z" creationid="nacyot" creationdate="20140518T125606Z">
+        <seg>Twelve-Factor App은 환경변수는 세밀하게 관리되며 각각의 환경변수는 서로에 대해 직교한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1728,8 +1728,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Sometimes apps batch config into named groups (often called "environments") named after specific deploys, such as the `development`, `test`, and `production` environments in Rails.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T145726Z" creationid="nacyot" creationdate="20140517T170743Z">
-        <seg>어플리케이션 설정은 이름 공간으로 (주로 환경(environment)이라고 한다)으로 구분된다. 예를 들어 일반적으로 레일스 어플리케이션에서는 `development`와 `test`, `production` 환경을 사용한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T145834Z" creationid="nacyot" creationdate="20140517T170743Z">
+        <seg>어플리케이션 설정은 이름으로(환경(environment)이라고도 한다)으로 구분되기도 한다. 예를 들어 일반적으로 레일스 어플리케이션에서는 `development`와 `test`, `production` 환경을 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2132,8 +2132,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>This method does not scale cleanly: as more deploys of the app are created, new environment names are necessary, such as `staging` or `qa`.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T145814Z" creationid="nacyot" creationdate="20140518T125319Z">
-        <seg>이러한 방법은  어플리케이션의 배포가 늘어감에 따라 `staging`나 `qa`와 같은 환경의 이름이 필요해진다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T145901Z" creationid="nacyot" creationdate="20140518T125319Z">
+        <seg>하지만 이는 환경을 확장하는데 적합하지 않다. 이를 테면 어플리케이션 배포가 늘어감에 따라 `staging`이나 `qa`와 새로운 이름이 필요해진다.</seg>
       </tuv>
     </tu>
     <tu>
