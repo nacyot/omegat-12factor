@@ -33,9 +33,9 @@
         <seg>## I. Codebase
 ### One codebase tracked in revision control, many deploys</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T171736Z" creationid="nacyot" creationdate="20140517T171736Z">
-        <seg>## 1. 코드 베이스
-### 버전 관리되는 하나의 코드 베이스와 다수의 배포</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T140904Z" creationid="nacyot" creationdate="20140517T171736Z">
+        <seg>## 1. 코드베이스
+### 버전 관리되는 하나의 코드베이스와 다수의 배포</seg>
       </tuv>
     </tu>
     <tu>
@@ -728,8 +728,8 @@
       <tuv lang="EN">
         <seg>A copy of the revision tracking database is known as a *code repository*, often shortened to *code repo* or just *repo*.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T172002Z" creationid="nacyot" creationdate="20140517T171936Z">
-        <seg>버전 관리 시스템의 데이터베이스는 *코드 저장소(code repository)*나 줄여서 *코드 리포(code repo)*나 *리포(repo)*라고 불립니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T141055Z" creationid="nacyot" creationdate="20140517T171936Z">
+        <seg>버전 관리의 이력 정보를 담고 있는 데이터베이스는 *코드 저장소(code repository)*라고 불린다. 이를 줄여서 *code repo*나 *repo*라고 부르기도 한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -752,8 +752,8 @@
       <tuv lang="EN">
         <seg>A twelve-factor app is always tracked in a version control system, such as [Git](http://git-scm.com/), [Mercurial](http://mercurial.selenic.com/), or [Subversion](http://subversion.apache.org/).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T171823Z" creationid="nacyot" creationdate="20140517T171823Z">
-        <seg>Twelve-Factor App은 항상 [Git](http://git-scm.com/), [Mercurial](http://mercurial.selenic.com/), [Subversion](http://subversion.apache.org/)과 같은 버전 관리 시스템에서 관리된다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T140923Z" creationid="nacyot" creationdate="20140517T171823Z">
+        <seg>Twelve-Factor App은 항상 [Git](http://git-scm.com/), [Mercurial](http://mercurial.selenic.com/), [Subversion](http://subversion.apache.org/)과 같은 버전 관리 시스템을 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -840,8 +840,8 @@
       <tuv lang="EN">
         <seg>Any developer building applications which run as a service.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T170956Z" creationid="nacyot" creationdate="20140517T170953Z">
-        <seg>서비스로서 작동하는 어플리케이션을 개발하는 모든 개발자 </seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T140736Z" creationid="nacyot" creationdate="20140517T170953Z">
+        <seg>서비스로서 작동하는 어플리케이션을 개발하는 모든 프로그래머</seg>
       </tuv>
     </tu>
     <tu>
@@ -1606,8 +1606,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Ops engineers who deploy or manage such applications.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T171014Z" creationid="nacyot" creationdate="20140517T170953Z">
-        <seg>그러한 어플리케이션을 관리하고 배포하는 Ops 엔지니어</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T140813Z" creationid="nacyot" creationdate="20140517T170953Z">
+        <seg>이러한 어플리케이션을 배포하고 관리하는 Ops 엔지니어(서버 관리자)</seg>
       </tuv>
     </tu>
     <tu>
@@ -2220,8 +2220,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Who should read this document?</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T170933Z" creationid="nacyot" creationdate="20140517T170933Z">
-        <seg>이 문서의 대상은</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T140839Z" creationid="nacyot" creationdate="20140517T170933Z">
+        <seg>어떤 사람이 이 문서를 읽어야 하나요?</seg>
       </tuv>
     </tu>
     <tu>
