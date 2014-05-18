@@ -93,9 +93,9 @@
         <seg>## VI. Processes
 ### Execute the app as one or more stateless processes</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T171442Z" creationid="nacyot" creationdate="20140517T171442Z">
-        <seg>## 6. 프로세스
-### 어플리케이션을 하나나 그 이상의 상태 없는 프로세스로 실행하기</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T155051Z" creationid="nacyot" creationdate="20140517T171442Z">
+        <seg>## 6. 프로세스(Processes)
+### 어플리케이션을 하나나 다수의 상태 없는 프로세스로 실행하기</seg>
       </tuv>
     </tu>
     <tu>
@@ -1796,8 +1796,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The app is executed in the execution environment as one or more *processes*.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T171504Z" creationid="nacyot" creationdate="20140517T171504Z">
-        <seg>어플리케이션은 실행 환경 안에서 하나나 여러개의 *프로세스들*로 실행됩니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T155103Z" creationid="nacyot" creationdate="20140517T171504Z">
+        <seg>어플리케이션은 실행 환경 안에서 하나나 다수의 *프로세스들*로 실행됩니다.</seg>
       </tuv>
     </tu>
     <tu>
