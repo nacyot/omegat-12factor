@@ -1008,6 +1008,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Examples include [ejabberd](http://www.ejabberd.im/) (speaking [XMPP](http://xmpp.org/)), and [Redis](http://redis.io/) (speaking the [Redis protocol](http://redis.io/topics/protocol)).</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T121326Z" creationid="nacyot" creationdate="20140518T121326Z">
+        <seg>예를 들어 [ejabberd](http://www.ejabberd.im/)([XMPP](http://xmpp.org/)) [Redis(speaking [XMPP](http://xmpp.org/)([Redis 프로토콜](http://redis.io/))이 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Examples include shelling out to ImageMagick or `curl`.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140511T154946Z" creationid="nacyot" creationdate="20140511T154946Z">
@@ -1440,6 +1448,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140518T105221Z" creationid="nacyot" creationdate="20140518T105221Z">
         <seg>가장 중요한 용도로 스트림은 로그 인덱스와 분석에 사용되는 [Splunk](http://www.splunk.com/)나 범용 데이터 웨어하우스 시스템은 [Hadoop/Hive](http://hive.apache.org/)에 보내질 수 있다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Nearly any kind of server software can be run via a process binding to a port and awaiting incoming requests.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T121215Z" creationid="nacyot" creationdate="20140518T121215Z">
+        <seg>거의 모든 서버 소프트웨어는 포트를 바인딩하는 프로세스를 통해서 동작하며 요청을 기다린다.</seg>
       </tuv>
     </tu>
     <tu>
