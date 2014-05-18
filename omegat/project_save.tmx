@@ -458,6 +458,14 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>**The twelve-factor app's [processes](/processes) are *disposable*, meaning they can be started or stopped at a moment's notice.**  This facilitates fast elastic scaling, rapid deployment of [code](/codebase) or [config](/config) changes, and robustness of production deploys.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T021604Z" creationid="nacyot" creationdate="20140518T021604Z">
+        <seg>**Twelve-Factor App의 [프로세스들](/processes)은 *폐기가능*하다. 즉 바로 실행하거나 종료할 수 있다.** 이러한 특징을 통해 빠르고 유연한 스케일링과 [코드](/codebase)와 [설정](/config)  변경에 따른 빠른 배포와 실뢰가능한 프로덕션 배포가 가능하다. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>**The twelve-factor developer resists the urge to use different backing services between development and production**, even when adapters theoretically abstract away any differences in backing services.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140518T010724Z" creationid="nacyot" creationdate="20140518T010724Z">
@@ -1224,6 +1232,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T171014Z" creationid="nacyot" creationdate="20140517T170953Z">
         <seg>그러한 어플리케이션을 관리하고 배포하는 Ops 엔지니어</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>Processes should strive to **minimize startup time**.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T021627Z" creationid="nacyot" creationdate="20140518T021627Z">
+        <seg>프로세스는 **시간 시간 최소화**를 위해 최대한 노력해야한다.</seg>
       </tuv>
     </tu>
     <tu>
