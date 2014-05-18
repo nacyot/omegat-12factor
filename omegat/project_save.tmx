@@ -1072,6 +1072,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Lightweight local services are less compelling than they once were.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T014703Z" creationid="nacyot" creationdate="20140518T014703Z">
+        <seg>로컬에서 사용하는 경량 서비스들은 한때 그랬던 만큼 매력적이지 않다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Likewise, a Python program using Virtualenv should use the vendored `bin/python` for running both the Tornado webserver and any `manage.py` admin processes.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T160716Z" creationid="nacyot" creationdate="20140517T160716Z">
@@ -1312,6 +1320,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>The cost of this friction and the subsequent dampening of continuous deployment is extremely high when considered in aggregate over the lifetime of an application.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T014636Z" creationid="nacyot" creationdate="20140518T014636Z">
+        <seg>이러한 방해 요소로 인해 배포가 되지 않는 점은 어플리케이션 라이프 사이클에 있어서 매우 비싼 코스트가 된다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>The current production database could be detached, and the new database attached -- all without any code changes.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T163506Z" creationid="nacyot" creationdate="20140517T163506Z">
@@ -1404,6 +1420,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140518T005335Z" creationid="nacyot" creationdate="20140518T005335Z">
         <seg>이러한 차이는 크게 3가지로 나타난다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
+        <seg>These types of errors create friction that disincentivizes continuous deployment.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T014552Z" creationid="nacyot" creationdate="20140518T014552Z">
+        <seg>이런 종류의 에러는 계속적 배포를 방해하는 요소가 된다.</seg>
       </tuv>
     </tu>
     <tu>
