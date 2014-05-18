@@ -1090,8 +1090,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>For a worker process, graceful shutdown is achieved by returning the current job to the work queue.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T023154Z" creationid="nacyot" creationdate="20140518T023154Z">
-        <seg>워커 프로세스는 처리중인 잡을 워크 ㅋ에 되돌리는 것으로 정상적인 종료를 실현할 수 있다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T164753Z" creationid="nacyot" creationdate="20140518T023154Z">
+        <seg>워커 프로세스가 정상적으로 종료된다는 의미는 처리중인 작업을 작업 큐에 되돌린다는 것이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1258,8 +1258,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Implicit in this model is that all jobs are [reentrant](http://en.wikipedia.org/wiki/Reentrant_%28subroutine%29), which typically is achieved by wrapping the results in a transaction, or making the operation [idempotent](http://en.wikipedia.org/wiki/Idempotence).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T023456Z" creationid="nacyot" creationdate="20140518T023456Z">
-        <seg>이러한 모델은 암묵적으로 모든 잡이 다시 큐로 되돌아 올 수 있다고 가정하고 있다. 다시 돌아올 수 있다는 것은 일반적으로 결과를 트랜젝션으로 감싸거나 처리를 멱등으로 다룬다는 것을 의미한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T165152Z" creationid="nacyot" creationdate="20140518T023456Z">
+        <seg>이러한 모델은 암묵적으로 어떤 작업이라도 다시 큐로 되돌아 올 수 있다고 가정하고 있다. 큐로 작업을 되돌리는 것은 작업을 트랜젝션으로 감싸거나 멱등으로 만들어서 구현할 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1460,8 +1460,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Lock-based systems such as [Delayed Job](https://github.com/collectiveidea/delayed_job#readme) need to be sure to release their lock on the job record.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T023346Z" creationid="nacyot" creationdate="20140518T023346Z">
-        <seg>[Delayed Job](https://github.com/collectiveidea/delayed_job#readme)과 같은 락을 베이스로 한 시스템에서는 잡 레코드에서 해당하는 락을 확실히 풀어줄 필요가 있다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T164929Z" creationid="nacyot" creationdate="20140518T023346Z">
+        <seg>[Delayed Job](https://github.com/collectiveidea/delayed_job#readme)처럼 잠금(Lock)을 기반으로로 한 시스템에서는 해당하는 작업 레코드에 대한 잠금을 풀어줘야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2292,8 +2292,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>on [Beanstalkd](http://kr.github.com/beanstalkd/), the job is returned to the queue automatically whenever a worker disconnects.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T023257Z" creationid="nacyot" creationdate="20140518T023257Z">
-        <seg>[Beanstalkd](http://kr.github.com/beanstalkd/)에서는 워커가 접속이 종료 되었을 때 잡이 자동적으로 큐로 되돌아간다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T164819Z" creationid="nacyot" creationdate="20140518T023257Z">
+        <seg>[Beanstalkd](http://kr.github.com/beanstalkd/)에서는 워커 접속이 종료되면 때 작업이 자동적으로 큐로 되돌아간다.</seg>
       </tuv>
     </tu>
     <tu>
