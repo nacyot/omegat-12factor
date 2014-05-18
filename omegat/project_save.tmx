@@ -790,6 +790,14 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>Differences between backing services mean that tiny incompatibilities crop up, causing code that worked and passed tests in development or staging to fail in production.</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T010858Z" creationid="nacyot" creationdate="20140518T010858Z">
+        <seg>백엔드 서비스가 다르다는 얘기는 아주 작은 비호환성을 가지고 있으며, 개발 환경과 스테이징에서 테스트까지 통과하는 코드가 프로덕션 환경에서는 제대로 작동하지 않을 가능성을 가지고 있다는 의미를 지닌다.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>Each component in a distributed system is an app, and each can individually comply with twelve-factor.</seg>
       </tuv>
       <tuv lang="KO" changeid="nacyot" changedate="20140517T172310Z" creationid="nacyot" creationdate="20140517T172310Z">
