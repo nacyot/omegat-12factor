@@ -1082,8 +1082,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>For a web process, graceful shutdown is achieved by ceasing to listen on the service port (thereby refusing any new requests), allowing any current requests to finish, and then exiting.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T022755Z" creationid="nacyot" creationdate="20140518T022755Z">
-        <seg>Web 프로세스는 서비스 포트로 리슨을 중단하고 (따라서 새로운 요청을 받지 않고) 처리중인 요청이 처리될 때까지 기다린 후 종료된다. </seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T164508Z" creationid="nacyot" creationdate="20140518T022755Z">
+        <seg>웹 프로세스라면 서비스 포트에서 요청을 기다리는 일을 중단하고(따라서 새로운 요청을 받지 않고) 처리중인 요청을 마무리하고 종료된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1250,8 +1250,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Implicit in this model is that HTTP requests are short (no more than a few seconds), or in the case of long polling, the client should seamlessly attempt to reconnect when the connection is lost.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T022905Z" creationid="nacyot" creationdate="20140518T022905Z">
-        <seg>이러한 모델은 HTTP 요청이 짧다고 가정하고 있으며(길어야 몇 초) 롱 풀링을 하는 경우 클라이언트는 접속이 종료될 때 지속적으로 재접속을 시도한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T164723Z" creationid="nacyot" creationdate="20140518T022905Z">
+        <seg>이는 HTTP 요청이 짧다(길어야 몇 도)는 것을 암묵적으로 전제한다. 롱 풀링(long polling)을 사용하고 있다면 클라이언트는 연결이 끊어지면 자연스럽게 접속을 재시도한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1622,8 +1622,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Processes **shut down gracefully when they receive a [SIGTERM](http://en.wikipedia.org/wiki/SIGTERM)** signal from the process manager.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T022424Z" creationid="nacyot" creationdate="20140518T022424Z">
-        <seg>프로세스들은 프로세스 매니저로부터 **[SIGTERM](http://en.wikipedia.org/wiki/SIGTERM) 받을 때 정상적으로 종료된다**.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T164433Z" creationid="nacyot" creationdate="20140518T022424Z">
+        <seg>프로세스는 프로세스 매니저로부터 **[SIGTERM](http://en.wikipedia.org/wiki/SIGTERM) signal을 받으면 정상적으로 종료된다**.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1704,8 +1704,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Short startup time provides more agility for the [release](/build-release-run) process and scaling up;</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T022215Z" creationid="nacyot" creationdate="20140518T022215Z">
-        <seg>짧은 시작 시간은 [릴리스](/build-release-run)와 스케일 업에 있어서 애자일하게 만들어준다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T164258Z" creationid="nacyot" creationdate="20140518T022215Z">
+        <seg>시작 시간이 짧아질 수록 [릴리스](/build-release-run)와 스케일 업이 더 애자일해진다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2244,8 +2244,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>and it aids robustness, because the process manager can more easily move processes to new physical machines when warranted.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T022331Z" creationid="nacyot" creationdate="20140518T022331Z">
-        <seg>또한 프로세스 매니저가 필요에 따라 새로운 물리 머신에 어플리케이션일 이동하므로 더 견고해진다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T164409Z" creationid="nacyot" creationdate="20140518T022331Z">
+        <seg>나아가 프로세스 매니저가 필요에 따라 프로세스를 새로운 물리 매신으로 간단히 이동시킬 수 있게되기 때문에 신뢰성은 더욱 높아진다.</seg>
       </tuv>
     </tu>
     <tu>
