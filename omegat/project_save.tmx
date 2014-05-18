@@ -402,10 +402,10 @@
 * Credentials to external services such as Amazon S3 or Twitter
 * Per-deploy values such as the canonical hostname for the deploy</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T164450Z" creationid="nacyot" creationdate="20140517T164353Z">
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T144451Z" creationid="nacyot" creationdate="20140517T164353Z">
         <seg>* 데이터베이스, Memcached를 비롯한 [백엔드 서비스](/backing-services)에 대한 리소스 핸들
 * Amazon S3와 Twitter와 같은 외부 서비스에 대한 인증 정보
-* 배포된 호스트의 정규화(canonical)된 호스트 이름을 비롯해 배포환경별 값</seg>
+* 각 배포환경에 대한 설정값(예를 들어 CNAME 등)</seg>
       </tuv>
     </tu>
     <tu>
@@ -736,8 +736,8 @@
       <tuv lang="EN">
         <seg>A litmus test for whether an app has all config correctly factored out of the code is whether the codebase could be made open source at any moment, without compromising any credentials.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T164744Z" creationid="nacyot" creationdate="20140517T164741Z">
-        <seg>어플리케이션으로부터 설정이 적절하게 분리되어있는 여부를 테스트할 수 있는 간단한 방법은 어떠한 인증 정보도 포함하지 않고 지금 당장 코드를 오픈소스화 가능한지 여부에 달려있다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T144703Z" creationid="nacyot" creationdate="20140517T164741Z">
+        <seg>어플리케이션에서 설정이 분리되어있는 지 여부를 확인할 수 있는 간단한 방법은, 어플리케이션 내부에 어떠한 인증 정보도 포함하지 않고 지금 당장 오픈소스로 공개할 수 있는지 살펴보면 된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -848,8 +848,8 @@
       <tuv lang="EN">
         <seg>Apps sometimes store config as constants in the code.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T164508Z" creationid="nacyot" creationdate="20140517T164508Z">
-        <seg>어플리케이션에는 때때로 코드에 환경 설정을 저장한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T144539Z" creationid="nacyot" creationdate="20140517T164508Z">
+        <seg>때때로 프로그래머들은 어플리케이션 내부에 설정 정보를 저장하기도 한다</seg>
       </tuv>
     </tu>
     <tu>
@@ -922,8 +922,8 @@
       <tuv lang="EN">
         <seg>Config varies substantially across deploys, code does not.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T164610Z" creationid="nacyot" creationdate="20140517T164610Z">
-        <seg>설정은 배포 환경에 따라서 달라지지만 코드는 그렇지 않다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T144553Z" creationid="nacyot" creationdate="20140517T164610Z">
+        <seg>설정은 배포 환경에 따라서 달라지지만 코드는 달라지지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1566,8 +1566,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Note that this definition of "config" does **not** include internal application config, such as `config/routes.rb` in Rails, or how [code modules are connected](http://static.springsource.org/spring/docs/2.5.x/reference/beans.html) in [Spring](http://www.springsource.org/).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T164913Z" creationid="nacyot" creationdate="20140517T164913Z">
-        <seg>또한 여기서 "설정"이라는 단어의 정의는 어플리케이션 내부의 설정을 포함하지 않는다는 점에 주의할 필요가 있다. 예를 들어 레일스의 `config/routes.rb`나 스프링의 [코드 모듈이 어떻게 연결되어있는지](http://static.springsource.org/spring/docs/2.5.x/reference/beans.html)는 어플리케이션 내부 설정이다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T144755Z" creationid="nacyot" creationdate="20140517T164913Z">
+        <seg>여기서 "설정"이라는 단어의 정의는 어플리케이션 자체에 영향을 주는 설정은 포함하지 **않는다는 점**에 주의할 필요가 있다. 예를 들어 레일스의 `config/routes.rb`나 스프링의 [코드 모듈이 어떻게 연결되어있는 지](http://static.springsource.org/spring/docs/2.5.x/reference/beans.html)는 어플리케이션 내부 설정이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2108,8 +2108,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>This is a violation of twelve-factor, which requires **strict separation of config from code**.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T164542Z" creationid="nacyot" creationdate="20140517T164542Z">
-        <seg>이는 Twelve-Factor에 위배되는 것으로 설정은 엄격하게 코드와 분리되어야한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T144546Z" creationid="nacyot" creationdate="20140517T164542Z">
+        <seg>이는 Twelve-Factor에 위배되는 것으로, 설정 정보는 엄격히 코드와 분리되어야한다.</seg>
       </tuv>
     </tu>
     <tu>
