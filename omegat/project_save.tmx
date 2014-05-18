@@ -83,9 +83,9 @@
         <seg>## V. Build, release, run
 ### Strictly separate build and run stages</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T171720Z" creationid="nacyot" creationdate="20140517T171708Z">
-        <seg>## 5. 빌드, 릴리즈, 런
-### 빌드와 실행 단계 엄격하게 구분하기</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T151955Z" creationid="nacyot" creationdate="20140517T171708Z">
+        <seg>## 5. 빌드(Build), 릴리즈(Release), 런(Run)
+### 빌드와 실행 단계 엄밀히 분리하기</seg>
       </tuv>
     </tu>
     <tu>
@@ -211,9 +211,9 @@
         <seg>## [V. Build, release, run](/build-release-run)
 ### Strictly separate build and run stages</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T133733Z" creationid="nacyot" creationdate="20140429T224352Z">
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T152004Z" creationid="nacyot" creationdate="20140429T224352Z">
         <seg>## [5. 빌드(Build), 릴리스(Release), 실행(Run)](/build-release-run)
-### 빌드와 실행 단계 엄격하게 분리하기</seg>
+### 빌드와 실행 단계 엄밀히 분리하기</seg>
       </tuv>
     </tu>
     <tu>
@@ -712,8 +712,8 @@
       <tuv lang="EN">
         <seg>A [codebase](/codebase) is transformed into a (non-development) deploy through three stages:</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T090448Z" creationid="nacyot" creationdate="20140518T090448Z">
-        <seg>[코드베이스](/codebase)는 3단계에 걸쳐서 (개발환경에 해당하지 않는) 배포로 변환된다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T152046Z" creationid="nacyot" creationdate="20140518T090448Z">
+        <seg>[코드베이스](/codebase)는 3단계에 걸쳐서 (개발환경이 아닌) 배포로 변환된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1162,8 +1162,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>For example, if the app's database is misbehaving due to a hardware issue, the app's administrator might spin up a new database server restored from a recent backup.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T163429Z" creationid="nacyot" creationdate="20140517T163429Z">
-        <seg>예를 들어 하드웨어 문제로 어플리케이션 동작이 이상하다면 어플리케이션 관리자는 백업으로부터 새로운 데이터베이스 서버를 실행시킬 수 있습니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T151827Z" creationid="nacyot" creationdate="20140517T163429Z">
+        <seg>예를 들어 하드웨어에 문제가 발생해 어플리케이션이 정상적으로 작동하지 않을 때, 관리자는 백업 파일로부터 새로운 데이터베이스 서버를 실행시킬 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1672,8 +1672,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Resources can be attached and detached to deploys at will.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T163354Z" creationid="nacyot" creationdate="20140517T163354Z">
-        <seg>리소스는 자유롭게 어태치되거나 디태치될 수 있습니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T151759Z" creationid="nacyot" creationdate="20140517T163354Z">
+        <seg>리소스는 언제든지 붙여지거나 대체될 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1860,8 +1860,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The current production database could be detached, and the new database attached -- all without any code changes.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T163506Z" creationid="nacyot" creationdate="20140517T163506Z">
-        <seg>그리고 기존의 프로덕션 데이터베이션를 디테치하고 새로운 데이터베이스를 어태치합니다. 이 과정에 어떠한 코드 변화도 없습니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T151923Z" creationid="nacyot" creationdate="20140517T163506Z">
+        <seg>데이터베이스가 실행되면 기존의 프로덕션 데이터베이션를 떼어내고(detach), 새로운 데이터베이스를 어플리케이션에 붙인다(attach). 이 과정에는 어떠한 코드 수정도 없다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1956,8 +1956,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The twelve-factor app treats these databases as *attached resources*, which indicates their loose coupling to the deploy they are attached to.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T163327Z" creationid="nacyot" creationdate="20140517T163327Z">
-        <seg>Twelve-Factor App은 이러한 데이터베이스들을 *붙어있는 리소스*로 다룹니다. 이는 어태치된 리소스와 어태치되는 대상의 배포가 얕은 커플링을 가진다는 의미입니다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T151741Z" creationid="nacyot" creationdate="20140517T163327Z">
+        <seg>Twelve-Factor App은 이러한 데이터베이스들을 *붙여진 리소스*로 다룬다. 이는 붙여진 리소스와 리소스가 붙여지게될 어플리케이션의 배포가 느슨하게 결합되어있다는 것을 의미한다.</seg>
       </tuv>
     </tu>
     <tu>
