@@ -73,9 +73,9 @@
         <seg>## IX. Disposability
 ### Maximize robustness with fast startup and graceful shutdown</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T020830Z" creationid="nacyot" creationdate="20140518T020830Z">
-        <seg>## 9. 일회용성
-### 빠른 실행과 깔끔한 종료를 통한 견고성 최대화</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T163940Z" creationid="nacyot" creationdate="20140518T020830Z">
+        <seg>## 9. 일회용성(Disposability)
+### 빠른 실행과 정상적 종료를 통해 견고성 최대화하기</seg>
       </tuv>
     </tu>
     <tu>
@@ -113,9 +113,9 @@
         <seg>## VIII. Concurrency
 ### Scale out via the process model</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T172926Z" creationid="nacyot" creationdate="20140517T172923Z">
-        <seg>## 8. 병행성
-### 프로세스 모델을 스케일 아웃하기</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T163843Z" creationid="nacyot" creationdate="20140517T172923Z">
+        <seg>## 8. 병행성(Concurrency)
+### 스케일 아웃을 위한 프로세스 모델</seg>
       </tuv>
     </tu>
     <tu>
@@ -201,9 +201,9 @@
         <seg>## [IX. Disposability](/disposability)
 ### Maximize robustness with fast startup and graceful shutdown</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T133831Z" creationid="nacyot" creationdate="20140429T224545Z">
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T163928Z" creationid="nacyot" creationdate="20140429T224545Z">
         <seg>## [9. 일회용성(Disposability)](/disposability)
-### 빠른 실행과 깔금한 종료를 통해 견고성 최대화하기</seg>
+### 빠른 실행과 정상적 종료를 통해 견고성 최대화하기</seg>
       </tuv>
     </tu>
     <tu>
@@ -532,8 +532,8 @@
       <tuv lang="EN">
         <seg>**The twelve-factor app's [processes](/processes) are *disposable*, meaning they can be started or stopped at a moment's notice.**  This facilitates fast elastic scaling, rapid deployment of [code](/codebase) or [config](/config) changes, and robustness of production deploys.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T021604Z" creationid="nacyot" creationdate="20140518T021604Z">
-        <seg>**Twelve-Factor App의 [프로세스들](/processes)은 *폐기가능*하다. 즉 바로 실행하거나 종료할 수 있다.** 이러한 특징을 통해 빠르고 유연한 스케일링과 [코드](/codebase)와 [설정](/config)  변경에 따른 빠른 배포와 실뢰가능한 프로덕션 배포가 가능하다. </seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T164057Z" creationid="nacyot" creationdate="20140518T021604Z">
+        <seg>**Twelve-Factor App의 [프로세스들](/processes)은 *버려질 수* 있다. 바꿔 말해 바로 실행하거나 종료할 수 있다.** 이러한 특징을 통해 빠르고 유연한 확장이 가능하며 [코드](/codebase)와 [설정](/config)  변경에 따른 빠른 배포와 신뢰성 높은 프로덕션 배포가 가능하다. </seg>
       </tuv>
     </tu>
     <tu>
@@ -1234,8 +1234,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Ideally, a process takes a few seconds from the time the launch command is executed until the process is up and ready to receive requests or jobs.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T022136Z" creationid="nacyot" creationdate="20140518T022136Z">
-        <seg>이상적으로 하나의 프로세스는 실행 명령어로부터 몇 초 안에 요청이나 다른 일을 처리할 준비가 되어야한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T164222Z" creationid="nacyot" creationdate="20140518T022136Z">
+        <seg>이상적인 기준을 제시한다면, 하나의 프로세스는 실행되고 몇 초 안에 요청이나 작업을 처리할 준비가 되어야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1386,8 +1386,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Instead, rely on the operating system's process manager (such as [Upstart](http://upstart.ubuntu.com/), a distributed process manager on a cloud platform, or a tool like [Foreman](http://blog.daviddollar.org/2011/05/06/introducing-foreman.html) in development) to manage [output streams](/logs), respond to crashed processes, and handle user-initiated restarts and shutdowns.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T174627Z" creationid="nacyot" creationdate="20140517T174627Z">
-        <seg>대신에 OS의 프로세스 매니져 (예를 들어 [Upstart](http://upstart.ubuntu.com), 클라우드 플랫폼 프로세스 매니저 또는 개발 환경의 [Foreman](http://blog.daviddollar.org/2011/05/06/introducing-foreman.html) 같은 툴)을 사용해 출력 스트림을 관리하고 프로세스 실패에 대응하고, 사용자에 의한 재기동 및 셧다운을 관리해야한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T163819Z" creationid="nacyot" creationdate="20140517T174627Z">
+        <seg>대신 운영체제의 프로세스 매니져(예를 들어 [Upstart](http://upstart.ubuntu.com)나 클라우드 플랫폼의 분산 프로세스 매니저, 개발 환경의 [Foreman](http://blog.daviddollar.org/2011/05/06/introducing-foreman.html) 등)를 사용해 [출력 스트림](/logs)을 관리하고, 프로세스의 비정상적 종료에 대응해야하며, 사용자에 의한 프로세스 재시작과 종료를 관리해야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1638,8 +1638,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Processes should strive to **minimize startup time**.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T021627Z" creationid="nacyot" creationdate="20140518T021627Z">
-        <seg>프로세스는 **시간 시간 최소화**를 위해 최대한 노력해야한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T164137Z" creationid="nacyot" creationdate="20140518T021627Z">
+        <seg>항상 프로세스 **기동 시간을 최소화**하기 위해 노력해야한다.</seg>
       </tuv>
     </tu>
     <tu>
