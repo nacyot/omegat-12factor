@@ -251,9 +251,9 @@
         <seg>## [X. Dev/prod parity](/dev-prod-parity)
 ### Keep development, staging, and production as similar as possible</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140429T224617Z" creationid="nacyot" creationdate="20140429T224617Z">
-        <seg>## [10. 개발 / 배포 일치](/dev-prod-parity)
-### 개발, 스테이징, 배포를 최대한 일치시키기</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T134043Z" creationid="nacyot" creationdate="20140429T224617Z">
+        <seg>## [10. 개발 / 배포 일치(Dev/Prod parity)](/dev-prod-parity)
+### 개발, 스테이징, 프로덕션를 최대한 일치시키기</seg>
       </tuv>
     </tu>
     <tu>
@@ -261,8 +261,8 @@
         <seg>## [XI. Logs](/logs)
 ### Treat logs as event streams</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140429T224644Z" creationid="nacyot" creationdate="20140429T224644Z">
-        <seg>## [11. 로그](/logs)
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T134106Z" creationid="nacyot" creationdate="20140429T224644Z">
+        <seg>## [11. 로그(Logs)](/logs)
 ### 로그를 이벤트 스트림으로 다루기</seg>
       </tuv>
     </tu>
@@ -271,9 +271,9 @@
         <seg>## [XII. Admin processes](/admin-processes)
 ### Run admin/management tasks as one-off processes</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140429T224727Z" creationid="nacyot" creationdate="20140429T224727Z">
-        <seg>## [12. 관리 프로세스](/admin-processes)
-### 관리 테스트를 한 번만 사용하는 프로세스로 실행하기</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T134201Z" creationid="nacyot" creationdate="20140429T224727Z">
+        <seg>## [12. 관리 프로세스(Admin processes)](/admin-processes)
+### 관리 작업을 일회용 프로세스로 실행하기</seg>
       </tuv>
     </tu>
     <tu>
@@ -1346,8 +1346,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>In the modern era, software is commonly delivered as a service: called *web apps*, or *software-as-a-service*.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T125832Z" creationid="nacyot" creationdate="20140518T125832Z">
-        <seg>현대 시점에서 소프트웨어는 일반적으로 서비스로서 제공되며 *웹 어플리케이션(web app)*이나 *서비스로서의 소프트웨어(software-as-a-service)*라고 불린다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T134414Z" creationid="nacyot" creationdate="20140518T125832Z">
+        <seg>지금 시대에서 소프트웨어는 일반적으로 서비스로서 제공되며 *웹 어플리케이션(web app)*이나 *서비스로서의 소프트웨어(software-as-a-service)*라고 불린다.</seg>
       </tuv>
     </tu>
     <tu>
