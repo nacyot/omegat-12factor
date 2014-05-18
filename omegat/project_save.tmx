@@ -62,6 +62,16 @@
     </tu>
     <tu>
       <tuv lang="EN">
+        <seg>## IX. Disposability
+### Maximize robustness with fast startup and graceful shutdown</seg>
+      </tuv>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T020830Z" creationid="nacyot" creationdate="20140518T020830Z">
+        <seg>## 9. 일회용성
+### 빠른 실행과 깔끔한 종료를 통한 견고성 최대화</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN">
         <seg>## V. Build, release, run
 ### Strictly separate build and run stages</seg>
       </tuv>
