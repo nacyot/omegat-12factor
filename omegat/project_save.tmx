@@ -83,8 +83,8 @@
         <seg>## V. Build, release, run
 ### Strictly separate build and run stages</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T151955Z" creationid="nacyot" creationdate="20140517T171708Z">
-        <seg>## 5. 빌드(Build), 릴리즈(Release), 런(Run)
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T152309Z" creationid="nacyot" creationdate="20140517T171708Z">
+        <seg>## 5. 빌드(Build), 릴리스(Release), 런(Run)
 ### 빌드와 실행 단계 엄밀히 분리하기</seg>
       </tuv>
     </tu>
@@ -436,24 +436,24 @@
       <tuv lang="EN">
         <seg>* The *build stage* is a transform which converts a code repo into an executable bundle known as a *build*.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T090659Z" creationid="nacyot" creationdate="20140518T090530Z">
-        <seg>* *빌드 스테이지*는 코드 저장소를 *빌드*라고 하는 실행가능한 번들로 변환된다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T152140Z" creationid="nacyot" creationdate="20140518T090530Z">
+        <seg>* *빌드 단계*에서는 코드 저장소를 *빌드*라고 불리는 실행가능한 번들로 변환한다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>* The *release stage* takes the build produced by the build stage and combines it with the deploy's current [config](/config).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T090741Z" creationid="nacyot" creationdate="20140518T090741Z">
-        <seg>* *릴리즈 단계*는 빌드 단계에서 생성된 빌드를 넘겨받아 현재 배포의 [설정](/config)과 결합한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T152331Z" creationid="nacyot" creationdate="20140518T090741Z">
+        <seg>* *릴리스 단계*에서는 빌드 단계에서 생성된 빌드를 넘겨받아 현재 배포의 [설정](/config)과 결합한다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>* The *run stage* (also known as "runtime") runs the app in the execution environment, by launching some set of the app's [processes](/processes) against a selected release.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T090910Z" creationid="nacyot" creationdate="20140518T090910Z">
-        <seg>* *실행 단계*(혹은 런타임이라고도 하는)에서는 특정한 릴리스에 대해서 필요한 프로세스들을 기동하고 어플리케이션 실행환경에서 실행하고, </seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T152545Z" creationid="nacyot" creationdate="20140518T090910Z">
+        <seg>* 런타임(runtime)이라고도 불리는 *실행 단계*에서는 특정한 릴리스에서 필요한 프로세스들을 실행해, 어플리케이션을 실행한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1916,8 +1916,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The resulting *release* contains both the build and the config and is ready for immediate execution in the execution environment.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T090808Z" creationid="nacyot" creationdate="20140518T090808Z">
-        <seg>*릴리스*의 결과는 빌드와 설정이 포함되며 실행 환경에서 바로 실행될 수 있다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T152352Z" creationid="nacyot" creationdate="20140518T090808Z">
+        <seg>하나의 *릴리스*는 빌드와 설정을 가지고 있으며 실행 환경에서 바로 실행될 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2172,8 +2172,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Using a version of the code at a commit specified by the deployment process, the build stage fetches and vendors [dependencies](/dependencies) and compiles binaries and assets.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T090655Z" creationid="nacyot" creationdate="20140518T090655Z">
-        <seg>배포 과정에 의해 지정된 특정 커밋의 코드를 사용해 빌드 스테이지는 [의존성](/dependencies)을 설치하고 바이너리와 에셋 파일을 컴파일한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T152302Z" creationid="nacyot" creationdate="20140518T090655Z">
+        <seg>배포 과정에서 지정된 특정 커밋 시점의 코드를 사용해 [의존성](/dependencies)을 설치하고 바이너리와 에셋 파일을 컴파일한다.</seg>
       </tuv>
     </tu>
     <tu>
