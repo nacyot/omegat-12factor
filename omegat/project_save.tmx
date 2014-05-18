@@ -460,8 +460,8 @@
       <tuv lang="EN">
         <seg>* Use **declarative** formats for setup automation, to minimize time and cost for new developers joining the project;</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140429T230414Z" creationid="nacyot" creationdate="20140429T230414Z">
-        <seg>* 셋업 자동화에 **선언적인** 포맷을 사용해서 새로운 개발자가 프로젝트에 참여하는데 드는 시간과 비용을 최소화한다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T134834Z" creationid="nacyot" creationdate="20140429T230414Z">
+        <seg>* **선언적인** 포맷을 사용한 환경설정 자동화로 새로운 프로그래머가 프로젝트에 참여하는데 드는 시간과 비용을 최소화한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1940,8 +1940,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The twelve-factor app is a methodology for building software-as-a-service apps that:</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T125853Z" creationid="nacyot" creationdate="20140518T125853Z">
-        <seg>Twelve-Factor App은 다음과 같은 서비스로서의 소프트웨어를 만드는 방법론이다.</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140518T134719Z" creationid="nacyot" creationdate="20140518T125853Z">
+        <seg>Twelve-Factor App은 아래와 같은 "서비스로서의 소프트웨어"를 만드는 방법론이다.</seg>
       </tuv>
     </tu>
     <tu>
