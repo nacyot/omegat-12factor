@@ -505,8 +505,8 @@
       <tuv lang="EN">
         <seg>**The twelve-factor app is completely self-contained** and does not rely on runtime injection of a webserver into the execution environment to create a web-facing service.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T161158Z" creationid="hsin" creationdate="20140517T063416Z">
-        <seg>**Twelve-Factor App은 스스로 완결된다.** 달리 말해 웹에 공개되는 서비스를 만들기 위해, 실행 환경에서 어플리케이션 실행을 위해 웹서버에 직접적으로 사용하지 않는다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T073433Z" creationid="hsin" creationdate="20140517T063416Z">
+        <seg>**Twelve-Factor App은 스스로 완결된다.** 달리 말해 웹에 공개되는 서비스를 만들기 위해, 실행 환경에서 어플리케이션 실행하고자 웹서버를 직접적으로 사용하지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -766,8 +766,8 @@
       <tuv lang="EN">
         <seg>A twelve-factor app prefers to do this compiling during the [build stage](/build-release-run), such as the [Rails asset pipeline](http://ryanbigg.com/guides/asset_pipeline.html), rather than at runtime.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T160201Z" creationid="nacyot" creationdate="20140518T124356Z">
-        <seg>Twelve-Factor App에선 컴파일을 프로세스 실행 중에 하기보다는 [레일스 에셋 파이프라인](http://ryanbigg.com/guides/asset_pipeline.html)와 마찬가지로 [빌드 단계](/build-release-run)에서 실행한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T073301Z" creationid="nacyot" creationdate="20140518T124356Z">
+        <seg>Twelve-Factor App에선 프로세스에서 컴파일을 하기보다는 [레일스 에셋 파이프라인](http://ryanbigg.com/guides/asset_pipeline.html)처림 [빌드 단계](/build-release-run)에서 수행한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -870,8 +870,8 @@
       <tuv lang="EN">
         <seg>Asset packagers (such as [Jammit](http://documentcloud.github.com/jammit/) or [django-assetpackager](http://code.google.com/p/django-assetpackager/)) use the filesystem as a cache for compiled assets.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T160119Z" creationid="nacyot" creationdate="20140518T124259Z">
-        <seg>([Jammit](http://documentcloud.github.com/jammit/))이나 [django-assetpackager](http://code.google.com/p/django-assetpackager/) 같은 에셋 패키저는 컴파일된 에셋을 캐시하기 위해서 파일 시스템을 사용한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T073218Z" creationid="nacyot" creationdate="20140518T124259Z">
+        <seg>[Jammit](http://documentcloud.github.com/jammit/)이나 [django-assetpackager](http://code.google.com/p/django-assetpackager/) 같은 에셋 패키저는 컴파일된 에셋을 캐시하기 위해서 파일 시스템을 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1112,8 +1112,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>For example, PHP apps might run as a module inside [Apache HTTPD](http://httpd.apache.org/), or Java apps might run inside [Tomcat](http://tomcat.apache.org/).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T160650Z" creationid="hsin" creationdate="20140517T063103Z">
-        <seg>예를 들어 PHP 어플리케이션은 [Apache HTTPD](httpd.apache.org/) 내부의 모듈로 실행될 수 있으며, Java 어플리케이션은 [Tomcat](http://tomcat.apache.org/) 내부에서 실행될 수도 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T073357Z" creationid="hsin" creationdate="20140517T063103Z">
+        <seg>예를 들어 PHP 어플리케이션은 [Apache HTTPD](httpd.apache.org/) 내부의 모듈로 실행될 수 있으며, Java 어플리케이션은 [Tomcat](http://tomcat.apache.org/) 내부에서 실행되기도 한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1726,8 +1726,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Some web systems rely on ["sticky sessions"](http://en.wikipedia.org/wiki/Load_balancing_%28computing%29#Persistence) -- that is, caching user session data in memory of the app's process and expecting future requests from the same visitor to be routed to the same process.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T160358Z" creationid="nacyot" creationdate="20140518T124649Z">
-        <seg>어플리케이션에 따라서는 [스티키 세션(sticky sessions)](http://en.wikipedia.org/wiki/Load_balancing_%28computing%29#Persistence)에 의존한 처리를 하기도 한다. 스티키 세션이란 사용자 세션 데이터를 어플리케이션 프로세스의 메모리에 캐시하고 같은 방문자의 미래 요청이 이전에 요청을 처리했던 것과 같은 프로세스에서 처리될 것으로 기대하는 것이다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T073323Z" creationid="nacyot" creationdate="20140518T124649Z">
+        <seg>어플리케이션에 따라서는 [스티키 세션(sticky sessions)](http://en.wikipedia.org/wiki/Load_balancing_%28computing%29#Persistence)에 의존한 처리를 하기도 한다. 스티키 세션이란 사용자 세션 데이터를 어플리케이션 프로세스의 메모리에 캐시하고 같은 방문자의 미래 요청이 이전에 요청을 처리했던 것과 같은 프로세스에서 처리될 것으로 기대하는 방식이다.</seg>
       </tuv>
     </tu>
     <tu>
