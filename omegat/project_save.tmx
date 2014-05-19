@@ -63,9 +63,9 @@
         <seg>## IV. Backing Services
 ### Treat backing services as attached resources</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T150604Z" creationid="nacyot" creationdate="20140517T161049Z">
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T072004Z" creationid="nacyot" creationdate="20140517T161049Z">
         <seg>## 4. 백엔드 서비스(Backing Services)
-### 백엔드 서비스를 붙여진 리소스로 다루기</seg>
+### 백엔드 서비스를 어플리케이션에 붙여진 리소스로 다루기</seg>
       </tuv>
     </tu>
     <tu>
@@ -191,9 +191,9 @@
         <seg>## [IV. Backing Services](/backing-services)
 ### Treat backing services as attached resources</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T133713Z" creationid="nacyot" creationdate="20140429T224330Z">
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T072015Z" creationid="nacyot" creationdate="20140429T224330Z">
         <seg>## [4. 백엔드 서비스(Backing Services)](/backing-services)
-### 백엔드 서비스를 붙여진 리소스(attched resources)로 다루기</seg>
+### 백엔드 서비스를 어플리케이션에 붙여진 리소스(attched resources)로 다루기</seg>
       </tuv>
     </tu>
     <tu>
@@ -1304,8 +1304,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>In addition to these locally-managed services, the app may also have services provided and managed by third parties.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T151040Z" creationid="nacyot" creationdate="20140517T161430Z">
-        <seg>이렇듯 로컬에서 관리되는 서비스뿐만 아니라, 서드 파티에서 제공하고 관리되는 서비스들도 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T072100Z" creationid="nacyot" creationdate="20140517T161430Z">
+        <seg>이러한 로컬에서 관리되는 서비스뿐만 아니라, 서드 파티에서 제공하고 관리되는 서비스들도 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2106,8 +2106,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>This is a model that scales up smoothly as the app naturally expands into more deploys over its lifetime.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T150524Z" creationid="nacyot" creationdate="20140518T125704Z">
-        <seg>환경변수를 통해 설정을 관리하는 방식은 어플리케이션이 더 많은 배포로 확장되어가는 데 있어서 자연스럽게 스케일 업이 가능하도록 유도하는 모델이다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T071942Z" creationid="nacyot" creationdate="20140518T125704Z">
+        <seg>환경변수를 통해 설정을 관리하는 방식은 어플리케이션이 더 많은 배포로 확장되어가는 데 있어서 자연스럽게 확장 가능하도록 유도하는 모델이다.</seg>
       </tuv>
     </tu>
     <tu>
