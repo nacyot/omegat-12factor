@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.8_4" segtype="sentence" srclang="EN"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.8_3" segtype="sentence" srclang="EN"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -323,9 +323,8 @@
       <tuv lang="EN">
         <seg>* And can **scale up** without significant changes to tooling, architecture, or development practices.</seg>
       </tuv>
-      <tuv lang="KO" changeid="daekwon" changedate="20140519T070053Z" creationid="nacyot" creationdate="20140429T231717Z">
-        <seg>* 도구와 아키텍쳐와 같은 개발적 요소의 큰 변화없이 스케일 아웃이 가능하다.
-</seg>
+      <tuv lang="KO" changeid="nacyot" changedate="20140519T124639Z" creationid="nacyot" creationdate="20140429T231717Z">
+        <seg>* 도구와 아키텍쳐와 같은 개발적 요소의 큰 변화없이 스케일 아웃이 가능하다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -695,8 +694,9 @@
       <tuv lang="EN">
         <seg>==============================</seg>
       </tuv>
-      <tuv lang="KO" changeid="daekwon" changedate="20140519T070411Z" creationid="nacyot" creationdate="20140517T170934Z">
-        <seg>==============================
+      <tuv lang="KO" changeid="nacyot" changedate="20140519T124649Z" creationid="nacyot" creationdate="20140517T170934Z">
+        <seg>
+==============================
 </seg>
       </tuv>
     </tu>
