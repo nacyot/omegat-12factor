@@ -784,8 +784,8 @@
       <tuv lang="EN">
         <seg>Admin code must ship with application code to avoid synchronization issues.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T160452Z" creationid="nacyot" creationdate="20140517T160452Z">
-        <seg>관리용 코드는 동기 문제를 피하기 위해 어플리케이션과 함께 배포되어야한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T062536Z" creationid="nacyot" creationdate="20140517T160452Z">
+        <seg>관리 목적으로 사용되는 코드(스크립트)는 동기화 문제를 피하기 위해 어플리케이션과 함께 배포되어야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1924,8 +1924,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The same [dependency isolation](/dependencies) techniques should be used on all process types.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T160558Z" creationid="nacyot" creationdate="20140517T160529Z">
-        <seg>모든 프로세스 타입들에 대해서 같은 [의존성 분리](/dependencies) 기법들이 사용되어야한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T062620Z" creationid="nacyot" creationdate="20140517T160529Z">
+        <seg>또한 모든 프로세스 타입들은 같은 [의존성 분리](/dependencies) 방법으로 실행되어야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2044,8 +2044,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>They run against a [release](/build-release-run), using the same [code](/code) and [config](/config) as any process run against that release.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T160433Z" creationid="nacyot" creationdate="20140517T160433Z">
-        <seg>이러한 프로세스들은 특정 [릴리스](/build-release-run)에 대해서 실행되어야 하면 이 릴리스에 대해서 실행되는 모든 프로세스와 같은 [코드](/code)와 [설정](/config)을 사용해야한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T062511Z" creationid="nacyot" creationdate="20140517T160433Z">
+        <seg>이러한 프로세스는 특정 [릴리스](/build-release-run)에 대해서 실행되어야한다. 이 때 이 릴리스에 대해서 실행되는 모든 프로세스들은 같은 [코드](/code)와 [설정](/config)을 사용해야한다.</seg>
       </tuv>
     </tu>
     <tu>
