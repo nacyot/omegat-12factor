@@ -1409,8 +1409,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>It is a triangulation on ideal practices app development, paying particular attention to the dynamics of the organic growth of an app over time, the dynamics of collaboration between developers working on the app's codebase, and [avoiding the cost of software erosion](http://blog.heroku.com/archives/2011/6/28/the_new_heroku_4_erosion_resistance_explicit_contracts/).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T140658Z" creationid="nacyot" creationdate="20140518T125003Z">
-        <seg>이는 어플리케이션 개발의 이상적인 프렉티스에 대한 삼각측량법이다. 여기서는 특히 시간에 따른 어플리케이션의 유기적 성장에 대한 역학, 어플리케이션의 코드베이스를 둘러썬 프로그래머 간의 협업의 역학, 그리고 [소프트웨어 부패에 대한 비용 회피]에 주목하고 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070400Z" creationid="nacyot" creationdate="20140518T125003Z">
+        <seg>이는 어플리케이션 개발의 이상적인 프렉티스에 대한 삼각측량과 같다. 여기서는 특히 시간에 따른 어플리케이션의 유기적 성장에 대한 역학, 어플리케이션의 코드베이스를 둘러썬 프로그래머 간 협업의 역학, 그리고 [소프트웨어 부패에 대한 비용 회피]에 주목하고 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1841,8 +1841,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The contributors to this document have been directly involved in the development and deployment of hundreds of apps, and indirectly witnessed the development, operation, and scaling of hundreds of thousands of apps via our work on the [Heroku](http://www.heroku.com/) platform.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T135529Z" creationid="nacyot" creationdate="20140429T232056Z">
-        <seg>이 문서의 작성자는 수백개 어플리케이션의 개발과 배포에 직접적으로 관여했으며, [히로쿠(Heroku)](http://www.heroku.com/) 플랫폼에서 일하면서 수천개 어플리케이션의 개발(development), 운용(operation), 확장(scaling)에 간접적으로 참여했다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070210Z" creationid="nacyot" creationdate="20140429T232056Z">
+        <seg>이 문서의 저자는 수백개 어플리케이션의 개발과 배포에 직접적으로 관여했으며, [히로쿠(Heroku)](http://www.heroku.com/) 플랫폼에서 일하면서 수천개 어플리케이션의 개발(development), 운용(operation), 확장(scaling)에 간접적으로 참여했다.</seg>
       </tuv>
     </tu>
     <tu>
