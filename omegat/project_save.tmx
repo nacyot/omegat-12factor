@@ -553,8 +553,8 @@
       <tuv lang="EN">
         <seg>**Twelve-factor processes are stateless and [share-nothing](http://en.wikipedia.org/wiki/Shared_nothing_architecture).**  Any data that needs to persist must be stored in a stateful [backing service](/backing-services), typically a database.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T155621Z" creationid="nacyot" creationdate="20140518T121840Z">
-        <seg>**Twelve-Factor의 프로세스들은 상태가 없고 [아무것도 공유하지 않는다(share-nothing).](http://en.wikipedia.org/wiki/Shared_nothing_architecture)** 장시간에 거쳐 보존되어야하는 모든 데이터는 데이터베이스와 같이 상태를 가지는 [백엔드 서비스](/backing-services)에 저장되어야한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T073035Z" creationid="nacyot" creationdate="20140518T121840Z">
+        <seg>**Twelve-Factor의 프로세스들은 상태가 없고 [아무것도 공유하지 않는다(share-nothing).](http://en.wikipedia.org/wiki/Shared_nothing_architecture)** 장시간에 걸쳐 보존되어야하는 모든 데이터는 데이터베이스와 같이 상태를 가지는 [백엔드 서비스](/backing-services)에 저장되어야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1580,8 +1580,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>On the other end of the spectrum, a production deploy of a sophisticated app may use many [process types, instantiated into zero or more running processes](/concurrency).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T155458Z" creationid="nacyot" creationdate="20140518T121626Z">
-        <seg>복잡한 예로는, 실행되고 종료되거나 여러개의 프로세스들로 실행되는 다양한 타입의 프로세스를 사용하는 어플리케이션의 프로덕션 배포를 생각할 수 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T073025Z" creationid="nacyot" creationdate="20140518T121626Z">
+        <seg>좀 더 복잡한 예로는, 일회성 프로세스나 여러개의 프로세스들로 실행되는 다양한 타입의 프로세스를 사용하는 어플리케이션의 프로덕션 배포를 생각할 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1898,8 +1898,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The memory space or filesystem of the process can be used as a brief, single-transaction cache.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T155648Z" creationid="nacyot" creationdate="20140518T121915Z">
-        <seg>필요하다면 짧은 단일 트랜젝션을 위한 캐시로 프로세스의 메모리 공간이나 파일 시스템을 사용해도 무방하다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T073120Z" creationid="nacyot" creationdate="20140518T121915Z">
+        <seg>필요하다면 짧은 단일 트랜젝션을 과정의 캐시로 프로세스의 메모리 공간이나 파일 시스템을 사용해도 무방하다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1954,8 +1954,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The twelve-factor app never assumes that anything cached in memory or on disk will be available on a future request or job -- with many processes of each type running, chances are high that a future request will be served by a different process.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T155959Z" creationid="nacyot" creationdate="20140518T122108Z">
-        <seg>하지만 Twelve-Factor App에서는 메모리나 디스크에 캐시된 정보가 이후의 요청이나 작업을 처리할 때 재사용된다고는 결코 가정하지 않는다. 각 프로세스 타입의 프로세스가 다수 실행될 때 이후에 일어나는 요청이나 작업이 같은 프로세스에서 일어난다는 보장은 어디에도 없다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T073156Z" creationid="nacyot" creationdate="20140518T122108Z">
+        <seg>하지만 Twelve-Factor App에서는 메모리나 디스크에 캐시된 정보가 이후의 요청이나 작업을 처리할 때 재사용된다고는 결코 가정하지 않는다. 각 프로세스 타입의 프로세스가 다수 실행되는 동안에 미래에 일어나는 요청이나 작업이 같은 프로세스에서 실행된다는 보장은 어디에도 없다.</seg>
       </tuv>
     </tu>
     <tu>
