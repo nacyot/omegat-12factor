@@ -1338,8 +1338,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>In staging or production deploys, each process' stream will be captured by the execution environment, collated together with all other streams from the app, and routed to one or more final destinations for viewing and long-term archival.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T104948Z" creationid="nacyot" creationdate="20140518T104948Z">
-        <seg>스테이징이나 프로덕션 배포에서는 각각의 프로세스 스트림은 실행환경에 의해 포착되며 어플리케이션으로부터 발생하는 다른 모든 스트림과 함께 정렬되며 표시나 장기 아카이브를 위해 하나나 여러 목적지에 보내진다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T061020Z" creationid="nacyot" creationdate="20140518T104948Z">
+        <seg>스테이징이나 프로덕션 배포에서 각각의 프로세스 스트림은 실행 환경에 의해 포착되며, 어플리케이션에서 발생하는 다른 모든 스트림과 함께 정렬되며, 출력이나 장기적인 저장을 위해 하나나 여러 목적지로 보내진다.</seg>
       </tuv>
     </tu>
     <tu>
