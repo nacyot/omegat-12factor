@@ -143,9 +143,9 @@
         <seg>## XII. Admin processes
 ### Run admin/management tasks as one-off processes</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T155750Z" creationid="nacyot" creationdate="20140517T155724Z">
-        <seg>## 12. 관리 프로세스
-### 관리 테스크를 한 번만 사용하는 프로세스로 실행하기</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T061752Z" creationid="nacyot" creationdate="20140517T155724Z">
+        <seg>## 12. 관리 프로세스(Admin processes)
+### 관리 작업을 일회용 프로세스로 실행하기</seg>
       </tuv>
     </tu>
     <tu>
@@ -1688,8 +1688,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Separately, developers will often wish to do one-off administrative or maintenance tasks for the app, such as:</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T155925Z" creationid="nacyot" creationdate="20140517T155925Z">
-        <seg>이와는 별개로 개발자는 관리나 유지보수 목적으로 한번만 실행되는 태스크를 실행하고 싶을 수 있다. 예를 들면 아래와 같은 것들이 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T062028Z" creationid="nacyot" creationdate="20140517T155925Z">
+        <seg>이러한 프로세스 이외에 프로그래머는 어플리케이션 관리나 유지보수를 위해 딱 한번만 실행되는 작업을 해야할 수도 있다. 아래와 같은 경우들이 한 번만 실행되는 작업의 예이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1780,8 +1780,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The [process formation](/concurrency) is the array of processes that are used to do the app's regular business (such as handling web requests) as it runs.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T155842Z" creationid="nacyot" creationdate="20140517T155842Z">
-        <seg>[프로세스 포메이션](/concurrency)이란 어플리케이션을 실행할 때 통상적인 역할(웹 리퀘스트 처리 등)을 다루기 위한 프로세스들을 이야기한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T061913Z" creationid="nacyot" creationdate="20140517T155842Z">
+        <seg>[프로세스 포메이션](/concurrency)이란 어플리케이션이 실행되는 동안에 어플리케이션에서 처리되는 각각의 역할들을(예를 들어 웹 리퀘스트 처리, 백그라운드 작업 등)을 처리하기 위한 프로세스들을 일컫는다.</seg>
       </tuv>
     </tu>
     <tu>
