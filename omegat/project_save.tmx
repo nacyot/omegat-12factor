@@ -2250,8 +2250,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>and it aids robustness, because the process manager can more easily move processes to new physical machines when warranted.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T164409Z" creationid="nacyot" creationdate="20140518T022331Z">
-        <seg>나아가 프로세스 매니저가 필요에 따라 프로세스를 새로운 물리 매신으로 간단히 이동시킬 수 있게되기 때문에 신뢰성은 더욱 높아진다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T074444Z" creationid="nacyot" creationdate="20140518T022331Z">
+        <seg>나아가 프로세스 매니저가 필요에 따라 프로세스를 다른 물리 머신으로 간단히 이동시킬 수 있게 되어 신뢰성은 더욱 높아진다.</seg>
       </tuv>
     </tu>
     <tu>
