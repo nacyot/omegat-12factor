@@ -978,8 +978,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Differences between backing services mean that tiny incompatibilities crop up, causing code that worked and passed tests in development or staging to fail in production.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T010858Z" creationid="nacyot" creationdate="20140518T010858Z">
-        <seg>백엔드 서비스가 다르다는 얘기는 아주 작은 비호환성을 가지고 있으며, 개발 환경과 스테이징에서 테스트까지 통과하는 코드가 프로덕션 환경에서는 제대로 작동하지 않을 가능성을 가지고 있다는 의미를 지닌다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T055447Z" creationid="nacyot" creationdate="20140518T010858Z">
+        <seg>백엔드 서비스가 다르다는 말은 아주 작지만 비호환성이 존재한다는 말이고, 따라서 개발 환경과 스테이징에서 테스트까지 통과하는 코드가 프로덕션 환경에서는 제대로 작동하지 않을 수도 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1852,8 +1852,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The cost of this friction and the subsequent dampening of continuous deployment is extremely high when considered in aggregate over the lifetime of an application.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T014636Z" creationid="nacyot" creationdate="20140518T014636Z">
-        <seg>이러한 방해 요소로 인해 배포가 되지 않는 점은 어플리케이션 라이프 사이클에 있어서 매우 비싼 코스트가 된다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T055650Z" creationid="nacyot" creationdate="20140518T014636Z">
+        <seg>이러한 문제로 인해 계속적 배포를 할 수 없게 되는 것은 어플리케이션 라이프 사이클 전체의 관점에서 볼 때 매우 큰 비용이다.</seg>
       </tuv>
     </tu>
     <tu>
