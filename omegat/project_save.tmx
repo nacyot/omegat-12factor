@@ -1154,8 +1154,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>For example, if the Ruby web process uses the command `bundle exec thin start`, then a database migration should use `bundle exec rake db:migrate`.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T160555Z" creationid="nacyot" creationdate="20140517T160555Z">
-        <seg>예를 들어 루비 웹 프로세스가 `bundle exec thin start`로 실행된다면 데이터베이스 마이그레이션은 `bundle exec rake db:migrate` 명령어를 통해서 실행되어야한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T062710Z" creationid="nacyot" creationdate="20140517T160555Z">
+        <seg>예를 들어 루비 웹 프로세스가 `bundle exec thin start`로 실행된다면, 데이터베이스 마이그레이션도 같은 디렉토리에서 `bundle exec rake db:migrate` 명령어를 통해서 실행되어야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1444,8 +1444,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Likewise, a Python program using Virtualenv should use the vendored `bin/python` for running both the Tornado webserver and any `manage.py` admin processes.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T160716Z" creationid="nacyot" creationdate="20140517T160716Z">
-        <seg>마찬가지로 Virtualenv를 사용하는 파이썬  프로그램의 경우 가상환경 내의`bin/python`을 Tornado 웹서버를 비롯해 모든 `manage.py`를 사용하는 명령어에 마찬가지로 사용해야한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T062853Z" creationid="nacyot" creationdate="20140517T160716Z">
+        <seg>마찬가지로 파이썬 어플리케이션에서 Virtualenv를 사용하고 있다면,  Tornado 웹서버는 가상환경에 있는 `bin/python`을 통해 실행되어야하며, 모든 `manage.py`를 사용하는 관리 명령어도 같은 `bin/python`을 사용해서 실행되어야 한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1924,8 +1924,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The same [dependency isolation](/dependencies) techniques should be used on all process types.</seg>
       </tuv>
-      <tuv lang="KO" changeid="daekwon" changedate="20140519T062620Z" creationid="nacyot" creationdate="20140517T160529Z">
-        <seg>또한 모든 프로세스 타입들은 같은 [의존성 분리](/dependencies) 방법으로 실행되어야한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T062656Z" creationid="nacyot" creationdate="20140517T160529Z">
+        <seg>또한 일반적인 어플리케이션 프로세스와 관리용 프로세스는 같은 [의존성 분리](/dependencies) 방법을 통해 실행되어야한다.</seg>
       </tuv>
     </tu>
     <tu>
