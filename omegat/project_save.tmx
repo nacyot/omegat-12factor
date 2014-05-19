@@ -297,8 +297,9 @@
       <tuv lang="EN">
         <seg>* **The time gap:** A developer may work on code that takes days, weeks, or even months to go into production.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T170402Z" creationid="nacyot" creationdate="20140518T005418Z">
-        <seg>* **시간 갭**: 프로그래머가 작업 중인 코드가 프로덕션 환경에 반영되기까지는 짧아도 몇 일이 소요되며 길게는 몇 달이 걸리기도 한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T081502Z" creationid="nacyot" creationdate="20140518T005418Z">
+        <seg>* **시간 갭**: 프로그래머가 작업 중인 코드가 프로덕션 환경에 반영되기까지는 짧아도 몇 일이 소요되며 길게는 몇 달이 걸리기도 한다.
+</seg>
       </tuv>
     </tu>
     <tu>
@@ -1232,8 +1233,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Historically, there have been substantial gaps between development (a developer making live edits to a local [deploy](/codebase) of the app) and production (a running deploy of the app accessed by end users).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T170259Z" creationid="nacyot" creationdate="20140518T005322Z">
-        <seg>역사적으로 개발자가 직접 수정할 수 있는 로컬 배포를 의미하는 개발 환경과 사용자가 어플리케이션을 실제로 사용하는 배포인 프로덕션 환경 간에는 큰 차이가 있었다. </seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T081426Z" creationid="nacyot" creationdate="20140518T005322Z">
+        <seg>역사적으로 프로그래머가 직접 수정할 수 있는 로컬 배포를 의미하는 개발 환경과 사용자가 어플리케이션을 실제로 사용하는 배포인 프로덕션 환경 간에는 큰 차이가 있었다. </seg>
       </tuv>
     </tu>
     <tu>
@@ -1264,8 +1265,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Implicit in this model is that all jobs are [reentrant](http://en.wikipedia.org/wiki/Reentrant_%28subroutine%29), which typically is achieved by wrapping the results in a transaction, or making the operation [idempotent](http://en.wikipedia.org/wiki/Idempotence).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T165152Z" creationid="nacyot" creationdate="20140518T023456Z">
-        <seg>이러한 모델은 암묵적으로 어떤 작업이라도 다시 큐로 되돌아 올 수 있다고 가정하고 있다. 큐로 작업을 되돌리는 것은 작업을 트랜젝션으로 감싸거나 멱등으로 만들어서 구현할 수 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T081311Z" creationid="nacyot" creationdate="20140518T023456Z">
+        <seg>이 모델에서는 암묵적으로 어떤 작업이라도 다시 큐로 되돌아 올 수 있다고 가정한다. 큐로 작업을 되돌리는 방법으로는 작업을 트랜젝션으로 감싸거나 작업을 멱등으로 만드는 방법있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1636,8 +1637,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Processes should also be **robust against sudden death**, in the case of a failure in the underlying hardware.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T165254Z" creationid="nacyot" creationdate="20140518T023543Z">
-        <seg>또한 프로세스는 하드웨어 이상에 따른 **갑작스러운 종료에 대해서도 대응할 수 있어야한다.**</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T081323Z" creationid="nacyot" creationdate="20140518T023543Z">
+        <seg>프로세스는 하드웨어 이상에 따른 **갑작스러운 종료도 대응할 수 있어야한다.**</seg>
       </tuv>
     </tu>
     <tu>
