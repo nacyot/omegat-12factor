@@ -306,8 +306,8 @@
       <tuv lang="EN">
         <seg>* **The tools gap**: Developers may be using a stack like Nginx, SQLite, and OS X, while the production deploy uses Apache, MySQL, and Linux.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T170443Z" creationid="nacyot" creationdate="20140518T005549Z">
-        <seg>* **도구 갭:** 개발은 주로 Nginx, SQLite, OS X르 통해 이루어지지만 사용하지만 프로덕션 배포에서는 주로 Apache, MySQL, Linux를 사용한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T081552Z" creationid="nacyot" creationdate="20140518T005549Z">
+        <seg>* **도구 갭:** 개발은 주로 Nginx, SQLite, OS X르 통해 이루어지지만  프로덕션 배포에서는 주로 Apache, MySQL, Linux를 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -373,24 +373,27 @@
       <tuv lang="EN">
         <seg>* Make the personnel gap small: developers who wrote code are closely involved in deploying it and watching its behavior in production.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T170619Z" creationid="nacyot" creationdate="20140518T005802Z">
-        <seg>* 사람 갭 줄이기: 코드를 작성한 개발자는 배포에 밀접하게 참여하고, 프로덕션 환경에 배포된 어플리케이션의 작동 상태를 지속적으로 확인한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T081559Z" creationid="nacyot" creationdate="20140518T005802Z">
+        <seg>* 사람 갭 줄이기: 코드를 작성한 개발자는 배포에 밀접하게 참여하고, 프로덕션 환경에 배포된 어플리케이션의 작동 상태를 지속적으로 확인한다.
+</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>* Make the time gap small: a developer may write code and have it deployed hours or even just minutes later.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T170551Z" creationid="nacyot" creationdate="20140518T005721Z">
-        <seg>* 시간 갭 줄이기: 프로그래머가 작성한 코드는 몇 시간만에 배포되며 심지어 빠르면 몇 분만에 배포된다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T081620Z" creationid="nacyot" creationdate="20140518T005721Z">
+        <seg>* 시간 갭 줄이기: 프로그래머가 작성한 코드는 몇 시간만에 배포된다. 빠르면 몇 분만에도 배포된다.
+</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>* Make the tools gap small: keep development and production as similar as possible.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T170631Z" creationid="nacyot" creationdate="20140518T005822Z">
-        <seg>* 도구 갭 줄이기: 최대한 개발 환경과 프로덕션 환경의 시스템과 도구를 비슷하게 구성한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T081610Z" creationid="nacyot" creationdate="20140518T005822Z">
+        <seg>* 도구 갭 줄이기: 최대한 개발 환경과 프로덕션 환경의 시스템과 도구를 비슷하게 구성한다.
+</seg>
       </tuv>
     </tu>
     <tu>
@@ -967,8 +970,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Developers sometimes find great appeal in using a lightweight backing service in their local environments, while a more serious and robust backing service will be used in production.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T171147Z" creationid="nacyot" creationdate="20140518T010438Z">
-        <seg>보통 프로덕션 환경에서는 더 신뢰성이 높은 백엔드 서비스를 사용한다. 반면에 프로그래머들은 자신의 로컬 개발 환경에서는 좀 더 가벼운 백엔드 서비스를 사용한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T081811Z" creationid="nacyot" creationdate="20140518T010438Z">
+        <seg>보통 프로덕션 환경에서는 더 신뢰성이 높은 백엔드 서비스를 사용한다. 반면에 자신의 로컬 개발 환경에서 프로그래머들은 좀 더 가벼운 백엔드 서비스를 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1499,8 +1502,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Many languages offer libraries which simplify access to the backing service, including *adapters* to different types of services.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T170947Z" creationid="nacyot" creationdate="20140518T010153Z">
-        <seg>많은 프로그래밍 언어에는 특정 백엔드 서비스를 간단히 사용할 수 있게 해주는 라이브러리가 존재하며 이런 라이브러리는 대개 비슷한 종류의 백엔드 서비스들을 지원하는 어댑터를 포함한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T081758Z" creationid="nacyot" creationdate="20140518T010153Z">
+        <seg>많은 프로그래밍 언어에는 특정 백엔드 서비스를 간단히 사용할 수 있게 해주는 라이브러리가 존재한다. 이런 라이브러리는 대개 비슷한 종류의 백엔드 서비스들을 지원하는 어댑터를 포함한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2235,8 +2238,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>[Backing services](/backing-services), such as the app's database, queueing system, or cache, is one area where dev/prod parity is important.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T170744Z" creationid="nacyot" creationdate="20140518T010052Z">
-        <seg>같은 데이터베이스, 큐, 캐시와 같은 [백엔드 서비스](/backing-services)를 사용하는 것은 개발 / 배포 환경 일치에서 매우 중요하다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T081706Z" creationid="nacyot" creationdate="20140518T010052Z">
+        <seg>데이터베이스, 큐, 캐시와 같은 [백엔드 서비스](/backing-services)를 똑같이 사용하는 것도 개발 / 배포 환경 일치에서 매우 중요하다.</seg>
       </tuv>
     </tu>
     <tu>
