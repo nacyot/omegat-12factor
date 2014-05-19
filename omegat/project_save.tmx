@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.8_3" segtype="sentence" srclang="EN"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.8_4" segtype="sentence" srclang="EN"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -63,9 +63,9 @@
         <seg>## IV. Backing Services
 ### Treat backing services as attached resources</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T150604Z" creationid="nacyot" creationdate="20140517T161049Z">
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T072004Z" creationid="nacyot" creationdate="20140517T161049Z">
         <seg>## 4. 백엔드 서비스(Backing Services)
-### 백엔드 서비스를 붙여진 리소스로 다루기</seg>
+### 백엔드 서비스를 어플리케이션에 붙여진 리소스로 다루기</seg>
       </tuv>
     </tu>
     <tu>
@@ -83,9 +83,9 @@
         <seg>## V. Build, release, run
 ### Strictly separate build and run stages</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T152309Z" creationid="nacyot" creationdate="20140517T171708Z">
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T072611Z" creationid="nacyot" creationdate="20140517T171708Z">
         <seg>## 5. 빌드(Build), 릴리스(Release), 런(Run)
-### 빌드와 실행 단계 엄밀히 분리하기</seg>
+### 빌드와 실행 단계 엄밀하게 분리하기</seg>
       </tuv>
     </tu>
     <tu>
@@ -191,9 +191,9 @@
         <seg>## [IV. Backing Services](/backing-services)
 ### Treat backing services as attached resources</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T133713Z" creationid="nacyot" creationdate="20140429T224330Z">
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T072015Z" creationid="nacyot" creationdate="20140429T224330Z">
         <seg>## [4. 백엔드 서비스(Backing Services)](/backing-services)
-### 백엔드 서비스를 붙여진 리소스(attched resources)로 다루기</seg>
+### 백엔드 서비스를 어플리케이션에 붙여진 리소스(attched resources)로 다루기</seg>
       </tuv>
     </tu>
     <tu>
@@ -211,9 +211,9 @@
         <seg>## [V. Build, release, run](/build-release-run)
 ### Strictly separate build and run stages</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T152004Z" creationid="nacyot" creationdate="20140429T224352Z">
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T072605Z" creationid="nacyot" creationdate="20140429T224352Z">
         <seg>## [5. 빌드(Build), 릴리스(Release), 실행(Run)](/build-release-run)
-### 빌드와 실행 단계 엄밀히 분리하기</seg>
+### 빌드와 실행 단계 엄밀하게 분리하기</seg>
       </tuv>
     </tu>
     <tu>
@@ -280,8 +280,9 @@
       <tuv lang="EN">
         <seg>* **Minimize divergence** between development and production, enabling **continuous deployment** for maximum agility;</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T135330Z" creationid="nacyot" creationdate="20140429T231656Z">
-        <seg>* 개발 환경과 배포 환경의 **차이를 최소한 줄이고**, 에자일리티(agility)를 극대화하는 **계속적 배포(continuous deployment)**가 가능하다</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070031Z" creationid="nacyot" creationdate="20140429T231656Z">
+        <seg>* 개발 환경과 배포 환경의 **차이를 최대한 줄이고**, 에자일리티(agility)를 극대화하는 **계속적 배포(continuous deployment)**가 가능하다.
+</seg>
       </tuv>
     </tu>
     <tu>
@@ -296,16 +297,17 @@
       <tuv lang="EN">
         <seg>* **The time gap:** A developer may work on code that takes days, weeks, or even months to go into production.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T170402Z" creationid="nacyot" creationdate="20140518T005418Z">
-        <seg>* **시간 갭**: 프로그래머가 작업 중인 코드가 프로덕션 환경에 반영되기까지는 짧아도 몇 일이 소요되며 길게는 몇 달이 걸리기도 한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T081502Z" creationid="nacyot" creationdate="20140518T005418Z">
+        <seg>* **시간 갭**: 프로그래머가 작업 중인 코드가 프로덕션 환경에 반영되기까지는 짧아도 몇 일이 소요되며 길게는 몇 달이 걸리기도 한다.
+</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>* **The tools gap**: Developers may be using a stack like Nginx, SQLite, and OS X, while the production deploy uses Apache, MySQL, and Linux.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T170443Z" creationid="nacyot" creationdate="20140518T005549Z">
-        <seg>* **도구 갭:** 개발은 주로 Nginx, SQLite, OS X르 통해 이루어지지만 사용하지만 프로덕션 배포에서는 주로 Apache, MySQL, Linux를 사용한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T081552Z" creationid="nacyot" creationdate="20140518T005549Z">
+        <seg>* **도구 갭:** 개발은 주로 Nginx, SQLite, OS X르 통해 이루어지지만  프로덕션 배포에서는 주로 Apache, MySQL, Linux를 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -321,16 +323,18 @@
       <tuv lang="EN">
         <seg>* And can **scale up** without significant changes to tooling, architecture, or development practices.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T135324Z" creationid="nacyot" creationdate="20140429T231717Z">
-        <seg>* 도구와 아키텍쳐를 비롯한 개발적 요소를 크게 바꾸지 않아도 스케일 아웃이 가능하다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070053Z" creationid="nacyot" creationdate="20140429T231717Z">
+        <seg>* 도구와 아키텍쳐와 같은 개발적 요소의 큰 변화없이 스케일 아웃이 가능하다.
+</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>* Are suitable for **deployment** on modern **cloud platforms**, obviating the need for servers and systems administration;</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T135112Z" creationid="nacyot" creationdate="20140429T231553Z">
-        <seg>* 현대적인 **클라우드 플랫폼**에서 배포하기에 적합하며, 서버와 시스템 관리를 피할 수 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070018Z" creationid="nacyot" creationdate="20140429T231553Z">
+        <seg>* 현대적인 **클라우드 플랫폼**에서 배포하기에 적합하며, 서버와 시스템 관리를 줄일 수 있다.
+</seg>
       </tuv>
     </tu>
     <tu>
@@ -346,8 +350,9 @@
       <tuv lang="EN">
         <seg>* Have a **clean contract** with the underlying operating system, offering **maximum portability** between execution environments;</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T134956Z" creationid="nacyot" creationdate="20140429T230610Z">
-        <seg>* 어플리케이션의 기반이 되는 운영체제에 대한 **의존관계를 명확하게 하고**, 실행 환경 간의 **이동성을 극대화한다.**</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T065919Z" creationid="nacyot" creationdate="20140429T230610Z">
+        <seg>* 어플리케이션의 기반이 되는 운영체제에 대한 **의존관계를 명확하게 하고**, 실행 환경 간의 **이동성을 극대화한다.**
+</seg>
       </tuv>
     </tu>
     <tu>
@@ -371,24 +376,27 @@
       <tuv lang="EN">
         <seg>* Make the personnel gap small: developers who wrote code are closely involved in deploying it and watching its behavior in production.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T170619Z" creationid="nacyot" creationdate="20140518T005802Z">
-        <seg>* 사람 갭 줄이기: 코드를 작성한 개발자는 배포에 밀접하게 참여하고, 프로덕션 환경에 배포된 어플리케이션의 작동 상태를 지속적으로 확인한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T081559Z" creationid="nacyot" creationdate="20140518T005802Z">
+        <seg>* 사람 갭 줄이기: 코드를 작성한 개발자는 배포에 밀접하게 참여하고, 프로덕션 환경에 배포된 어플리케이션의 작동 상태를 지속적으로 확인한다.
+</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>* Make the time gap small: a developer may write code and have it deployed hours or even just minutes later.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T170551Z" creationid="nacyot" creationdate="20140518T005721Z">
-        <seg>* 시간 갭 줄이기: 프로그래머가 작성한 코드는 몇 시간만에 배포되며 심지어 빠르면 몇 분만에 배포된다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T081620Z" creationid="nacyot" creationdate="20140518T005721Z">
+        <seg>* 시간 갭 줄이기: 프로그래머가 작성한 코드는 몇 시간만에 배포된다. 빠르면 몇 분만에도 배포된다.
+</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>* Make the tools gap small: keep development and production as similar as possible.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T170631Z" creationid="nacyot" creationdate="20140518T005822Z">
-        <seg>* 도구 갭 줄이기: 최대한 개발 환경과 프로덕션 환경의 시스템과 도구를 비슷하게 구성한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T081610Z" creationid="nacyot" creationdate="20140518T005822Z">
+        <seg>* 도구 갭 줄이기: 최대한 개발 환경과 프로덕션 환경의 시스템과 도구를 비슷하게 구성한다.
+</seg>
       </tuv>
     </tu>
     <tu>
@@ -405,9 +413,9 @@
 * Credentials to external services such as Amazon S3 or Twitter
 * Per-deploy values such as the canonical hostname for the deploy</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T144451Z" creationid="nacyot" creationdate="20140517T164353Z">
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T071426Z" creationid="nacyot" creationdate="20140517T164353Z">
         <seg>* 데이터베이스, Memcached를 비롯한 [백엔드 서비스](/backing-services)에 대한 리소스 핸들
-* Amazon S3와 Twitter와 같은 외부 서비스에 대한 인증 정보
+* Amazon S3와 Twitter 같은 외부 서비스에 대한 인증 정보
 * 각 배포환경에 대한 설정값(예를 들어 CNAME 등)</seg>
       </tuv>
     </tu>
@@ -466,8 +474,9 @@
       <tuv lang="EN">
         <seg>* Use **declarative** formats for setup automation, to minimize time and cost for new developers joining the project;</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T134834Z" creationid="nacyot" creationdate="20140429T230414Z">
-        <seg>* **선언적인** 포맷을 사용한 환경설정 자동화로 새로운 프로그래머가 프로젝트에 참여하는데 드는 시간과 비용을 최소화한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T065914Z" creationid="nacyot" creationdate="20140429T230414Z">
+        <seg>* **선언적인** 포맷을 사용한 환경설정 자동화로 새로운 프로그래머가 프로젝트에 참여하는데 드는 시간과 비용을 최소화한다.
+</seg>
       </tuv>
     </tu>
     <tu>
@@ -482,8 +491,8 @@
       <tuv lang="EN">
         <seg>**A twelve-factor app never relies on implicit existence of system-wide packages.**  It declares all dependencies, completely and exactly, via a *dependency declaration* manifest.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T142658Z" creationid="nacyot" creationdate="20140511T153353Z">
-        <seg>**Twelve-Factor App은 결코 암묵적으로 시스템 전체에 적용되는 패키지가 설치되어있다고 전제하지 않는다.** 모든 의존 관계는 *의존성 선언(dependency declaration)*을 통해서 완전하고 정확하게 선언된다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070852Z" creationid="nacyot" creationdate="20140511T153353Z">
+        <seg>**Twelve-Factor App은 결코 시스템 전체에 적용되는 패키지가 설치되어있다고 암묵적으로 전제하지 않는다.** 모든 의존 관계는 *의존성 선언(dependency declaration)*을 통해서 완전하고 정확하게 선언되어야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -498,16 +507,16 @@
       <tuv lang="EN">
         <seg>**The code for a twelve-factor app makes no distinction between local and third party services.**  To the app, both are attached resources, accessed via a URL or other locator/credentials stored in the [config](/config).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T151319Z" creationid="nacyot" creationdate="20140517T161627Z">
-        <seg>** Twelve-Factor App의 코드는 로컬 서비스와 써드 파티 서비스의 차이를 구분하지 않는다. 어플리케이션 입장에서 보자면 어느 쪽이건 이러한 서비스들은 [설정](/config)에 저장된 URL이나 추가적인 정보들을 통해서 접근 가능한 붙여진 리소스일 뿐이다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T072311Z" creationid="nacyot" creationdate="20140517T161627Z">
+        <seg>** Twelve-Factor App의 코드는 로컬 서비스와 써드 파티 서비스의 차이를 구분하지 않는다.** 어플리케이션 입장에서 보자면 로컬 서비스건 써드파티 서비스건 서비스들은 [설정](/config)에 저장된 URL이나 추가적인 정보들을 통해서 접근 가능한 붙여진 리소스일 뿐이다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>**The twelve-factor app is completely self-contained** and does not rely on runtime injection of a webserver into the execution environment to create a web-facing service.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T161158Z" creationid="hsin" creationdate="20140517T063416Z">
-        <seg>**Twelve-Factor App은 스스로 완결된다.** 달리 말해 웹에 공개되는 서비스를 만들기 위해, 실행 환경에서 어플리케이션 실행을 위해 웹서버에 직접적으로 사용하지 않는다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T073524Z" creationid="hsin" creationdate="20140517T063416Z">
+        <seg>**Twelve-Factor App은 스스로 완결된다.** 달리 말해 웹에 공개되는 서비스를 만들 때, 실행 환경에서 어플리케이션 실행하고자 웹서버를 직접적으로 사용하지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -522,16 +531,16 @@
       <tuv lang="EN">
         <seg>**The twelve-factor app stores config in *environment variables*** (often shortened to *env vars* or *env*).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T145243Z" creationid="nacyot" creationdate="20140517T170416Z">
-        <seg>**Twelve-Factor App에서는 설정을 *환경 변수(environment variables)*에 저장한다**</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T071809Z" creationid="nacyot" creationdate="20140517T170416Z">
+        <seg>**Twelve-Factor App에서는 설정을 *환경 변수(environment variables)*에 저장한다**. </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>**The twelve-factor app uses strict separation between the build, release, and run stages.**  For example, it is impossible to make changes to the code at runtime, since there is no way to propagate those changes back to the build stage.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T152653Z" creationid="nacyot" creationdate="20140518T091027Z">
-        <seg>**Twelve-Fator App은 빌드, 릴리스, 실행 단계를 엄밀히 구분한다. 예를 들어 런타임에서 변경한 코드를 빌드 스테이지에 역전파할 수 있는 방법은 존재하지 않으며, 따라서 이러한 코드 수정은 애시당초에 불가능하다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T072714Z" creationid="nacyot" creationdate="20140518T091027Z">
+        <seg>**Twelve-Fator App은 빌드, 릴리스, 실행 단계를 엄밀하게 구분한다. 예를 들어 런타임에서 변경한 코드를 빌드 스테이지에 역전파할 수 있는 방법은 존재하지 않으며, 따라서 이러한 코드 수정은 애시당초에 불가능하다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -546,8 +555,8 @@
       <tuv lang="EN">
         <seg>**The twelve-factor developer resists the urge to use different backing services between development and production**, even when adapters theoretically abstract away any differences in backing services.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T171314Z" creationid="nacyot" creationdate="20140518T010724Z">
-        <seg>비록 이론적으로 어댑터가 서로 다른 백엔드 서비스들을 완벽히 추상화해내고 있다고 할지라도, **Twelve-Factor App 개발자는 개발 환경과 프로덕션 환경 모두 같은 서비스를 이용하려고 노력해야한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T081900Z" creationid="nacyot" creationdate="20140518T010724Z">
+        <seg>비록 어댑터가 이론적으로 서로 다른 백엔드 서비스들을 완벽히 추상화해낸다고 할 지라도, **Twelve-Factor App 개발자는 개발 환경과 프로덕션 환경에서 최대한 같은 백엔드 서비스를 사용해야한다.** </seg>
       </tuv>
     </tu>
     <tu>
@@ -686,9 +695,9 @@
       <tuv lang="EN">
         <seg>==============================</seg>
       </tuv>
-      <tuv lang="KO" changeid="daekwon" changedate="20140519T070411Z" creationid="nacyot" creationdate="20140517T170934Z">
-        <seg>==============================
-</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T095643Z" creationid="nacyot" creationdate="20140517T170934Z">
+        <seg>
+==============================</seg>
       </tuv>
     </tu>
     <tu>
@@ -727,8 +736,8 @@
       <tuv lang="EN">
         <seg>A [deploy](/codebase) of the twelve-factor app should be able to swap out a local MySQL database with one managed by a third party (such as [Amazon RDS](http://aws.amazon.com/rds/)) without any changes to the app's code.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T151420Z" creationid="nacyot" creationdate="20140517T162937Z">
-        <seg>Twelve-Factor App의 [배포](/codebase)는 어플리케이션 코드의 변경 없이도 로컬에서 관리되는 Mysql 데이터베이스를 써드 파티에서 관리되는 서비스(예를 들어 [Amazon RDS](http://aws.amazon.com/rds/))로 대체할 수 있어야한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T072341Z" creationid="nacyot" creationdate="20140517T162937Z">
+        <seg>Twelve-Factor App의 [배포](/codebase)에서는 어플리케이션 코드의 변경 없이도 로컬 Mysql 데이터베이스 서비스를 써드파티 서비스(예를 들어인 [Amazon RDS](http://aws.amazon.com/rds/))로 대체할 수 있어야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -743,8 +752,8 @@
       <tuv lang="EN">
         <seg>A litmus test for whether an app has all config correctly factored out of the code is whether the codebase could be made open source at any moment, without compromising any credentials.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T144703Z" creationid="nacyot" creationdate="20140517T164741Z">
-        <seg>어플리케이션에서 설정이 분리되어있는 지 여부를 확인할 수 있는 간단한 방법은, 어플리케이션 내부에 어떠한 인증 정보도 포함하지 않고 지금 당장 오픈소스로 공개할 수 있는지 살펴보면 된다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T071531Z" creationid="nacyot" creationdate="20140517T164741Z">
+        <seg>어플리케이션에서 설정이 분리되어있는 지 여부를 확인할 수 있는 간단한 방법은, 어플리케이션 내부에 어떠한 인증 정보도 포함시키지 않고 지금 당장 오픈소스로 공개할 수 있는 지 검토해보는 것이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -767,8 +776,8 @@
       <tuv lang="EN">
         <seg>A twelve-factor app prefers to do this compiling during the [build stage](/build-release-run), such as the [Rails asset pipeline](http://ryanbigg.com/guides/asset_pipeline.html), rather than at runtime.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T160201Z" creationid="nacyot" creationdate="20140518T124356Z">
-        <seg>Twelve-Factor App에선 컴파일을 프로세스 실행 중에 하기보다는 [레일스 에셋 파이프라인](http://ryanbigg.com/guides/asset_pipeline.html)와 마찬가지로 [빌드 단계](/build-release-run)에서 실행한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T073301Z" creationid="nacyot" creationdate="20140518T124356Z">
+        <seg>Twelve-Factor App에선 프로세스에서 컴파일을 하기보다는 [레일스 에셋 파이프라인](http://ryanbigg.com/guides/asset_pipeline.html)처림 [빌드 단계](/build-release-run)에서 수행한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -815,8 +824,8 @@
       <tuv lang="EN">
         <seg>Another approach to config is the use of config files which are not checked into revision control, such as `config/database.yml` in Rails.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T145450Z" creationid="nacyot" creationdate="20140517T165951Z">
-        <seg>설정 정보를 다루는 또 다른 방법으로 설정 정보를 담은 파일을 버전 관리에 포함시키지 않는 방법이 있다. 예를 들어 레일스 프로젝트에서는 `config/database.yml`파일을 저장소에 포함시키지 않는다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T071715Z" creationid="nacyot" creationdate="20140517T165951Z">
+        <seg>설정을 코드와 분리하기 위해 설정 정보를 담은 파일을 버전 관리에 포함시키지 않는 방법도 있다. 예를 들어 레일스 프로젝트에서는 `config/database.yml` 파일을 저장소에 포함시키지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -847,16 +856,16 @@
       <tuv lang="EN">
         <seg>Any developer building applications which run as a service.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T140736Z" creationid="nacyot" creationdate="20140517T170953Z">
-        <seg>서비스로서 작동하는 어플리케이션을 개발하는 모든 프로그래머</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070420Z" creationid="nacyot" creationdate="20140517T170953Z">
+        <seg>서비스로서 작동하는 어플리케이션을 개발하는 모든 프로그래머.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>Apps sometimes store config as constants in the code.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T144539Z" creationid="nacyot" creationdate="20140517T164508Z">
-        <seg>때때로 프로그래머들은 어플리케이션 내부에 설정 정보를 저장하기도 한다</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T071431Z" creationid="nacyot" creationdate="20140517T164508Z">
+        <seg>때때로 프로그래머들은 어플리케이션 내부에 설정 정보를 저장하기도 한다. </seg>
       </tuv>
     </tu>
     <tu>
@@ -871,8 +880,8 @@
       <tuv lang="EN">
         <seg>Asset packagers (such as [Jammit](http://documentcloud.github.com/jammit/) or [django-assetpackager](http://code.google.com/p/django-assetpackager/)) use the filesystem as a cache for compiled assets.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T160119Z" creationid="nacyot" creationdate="20140518T124259Z">
-        <seg>([Jammit](http://documentcloud.github.com/jammit/))이나 [django-assetpackager](http://code.google.com/p/django-assetpackager/) 같은 에셋 패키저는 컴파일된 에셋을 캐시하기 위해서 파일 시스템을 사용한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T073218Z" creationid="nacyot" creationdate="20140518T124259Z">
+        <seg>[Jammit](http://documentcloud.github.com/jammit/)이나 [django-assetpackager](http://code.google.com/p/django-assetpackager/) 같은 에셋 패키저는 컴파일된 에셋을 캐시하기 위해서 파일 시스템을 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -913,16 +922,16 @@
       <tuv lang="EN">
         <seg>But an individual VM can only grow so large (vertical scale), so the application must also be able to span multiple processes running on multiple physical machines.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T163230Z" creationid="nacyot" creationdate="20140517T174122Z">
-        <seg>하지만 각각의 VM은 어느 규모 이상으로 확대(Vertical scale)될 수 없기 때문에 어플리케이션은 다수의 물리 머신에서 실행되는 다수의 프로세스로 확대되지 않으면 안 된다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T074059Z" creationid="nacyot" creationdate="20140517T174122Z">
+        <seg>하지만 각각의 VM은 어느 규모 이상으로 수직적 확장(Vertical scale)이 불가하므로 어플리케이션은 다수의 물리 머신에서 실행되는 다수의 프로세스로 확장되지 않으면 안 된다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>But they all share the same codebase, thus making them identifiable as different deploys of the same app.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T142210Z" creationid="nacyot" creationdate="20140517T172859Z">
-        <seg>하지만 로컬과 스테이징, 프로덕션은 모두 같은 코드베이스를 공유하고 있으며, 따라서 같은 어플리케이션의 다른 배포라고 할 수 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070735Z" creationid="nacyot" creationdate="20140517T172859Z">
+        <seg>하지만 로컬과 스테이징, 프로덕션은 모두 같은 코드베이스를 공유하고 있으며, 따라서 이들은 같은 어플리케이션의 다른 배포라고 할 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -967,8 +976,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Developers sometimes find great appeal in using a lightweight backing service in their local environments, while a more serious and robust backing service will be used in production.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T171147Z" creationid="nacyot" creationdate="20140518T010438Z">
-        <seg>보통 프로덕션 환경에서는 더 신뢰성이 높은 백엔드 서비스를 사용한다. 반면에 프로그래머들은 자신의 로컬 개발 환경에서는 좀 더 가벼운 백엔드 서비스를 사용한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T081811Z" creationid="nacyot" creationdate="20140518T010438Z">
+        <seg>보통 프로덕션 환경에서는 더 신뢰성이 높은 백엔드 서비스를 사용한다. 반면에 자신의 로컬 개발 환경에서 프로그래머들은 좀 더 가벼운 백엔드 서비스를 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -985,8 +994,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Differences between backing services mean that tiny incompatibilities crop up, causing code that worked and passed tests in development or staging to fail in production.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T171430Z" creationid="nacyot" creationdate="20140518T010858Z">
-        <seg>백엔드 서비스가 다르다는 얘기는, 이에 따라 발생하는 아주 작은 비호환성에 의해 개발 환경과 스테이징에서 테스트까지 통과하던 코드가 프로덕션 환경에서는 제대로 작동하지 않을 가능성을 가지고 있다는 의미를 지닌다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T055447Z" creationid="nacyot" creationdate="20140518T010858Z">
+        <seg>백엔드 서비스가 다르다는 말은 아주 작지만 비호환성이 존재한다는 말이고, 따라서 개발 환경과 스테이징에서 테스트까지 통과하는 코드가 프로덕션 환경에서는 제대로 작동하지 않을 수도 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1001,8 +1010,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Each component in a distributed system is an app, and each can individually comply with twelve-factor.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T141442Z" creationid="nacyot" creationdate="20140517T172310Z">
-        <seg>물론 분산 시스템에서도 구성 요소가 되는 각각의 컴포넌트는 하나의 어플리케이션이며, 따라서 Twelve-Factor를 따를 수 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070528Z" creationid="nacyot" creationdate="20140517T172310Z">
+        <seg>물론 분산 시스템의 구성 요소가 되는 각각의 컴포넌트는 하나의 어플리케이션이며, Twelve-Factor를 따를 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1049,8 +1058,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Every release should always have a unique release ID, such as a timestamp of the release (such as `2011-04-06-20:32:17`) or an incrementing number (such as `v100`).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T152935Z" creationid="nacyot" creationdate="20140518T091332Z">
-        <seg>모든 릴리스는 자기 고유의 릴리스 ID를 가져야한다. 대개 릴리스 ID로는 릴리스 시점의 타임스탬프(예를 들어 `2011-04-06-20:32:17`)나 자동으로 증가하는 번호(예를 들어 v100)를 사용한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T072809Z" creationid="nacyot" creationdate="20140518T091332Z">
+        <seg>모든 릴리스는 자기 고유의 릴리스 ID를 가져야한다. 대개 릴리스 ID로는 릴리스 시점의 타임스탬프(예를 들어 `2011-04-06-20:32:17`)나 자동으로 증가하는 번호(예를 들어 `v100`)를 사용한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1113,8 +1122,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>For example, PHP apps might run as a module inside [Apache HTTPD](http://httpd.apache.org/), or Java apps might run inside [Tomcat](http://tomcat.apache.org/).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T160650Z" creationid="hsin" creationdate="20140517T063103Z">
-        <seg>예를 들어 PHP 어플리케이션은 [Apache HTTPD](httpd.apache.org/) 내부의 모듈로 실행될 수 있으며, Java 어플리케이션은 [Tomcat](http://tomcat.apache.org/) 내부에서 실행될 수도 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T073357Z" creationid="hsin" creationdate="20140517T063103Z">
+        <seg>예를 들어 PHP 어플리케이션은 [Apache HTTPD](httpd.apache.org/) 내부의 모듈로 실행될 수 있으며, Java 어플리케이션은 [Tomcat](http://tomcat.apache.org/) 내부에서 실행되기도 한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1145,8 +1154,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>For example, a developer has some commits not yet deployed to staging;</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T142044Z" creationid="nacyot" creationdate="20140517T172814Z">
-        <seg>예를 들어 프로그래머 로컬 환경에는 스테이징 환경에 아직 배포되지 않은 커밋이 포함되어있을 수도 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070713Z" creationid="nacyot" creationdate="20140517T172814Z">
+        <seg>예를 들어 프로그래머의 로컬 환경에는 스테이징 환경에 아직 배포되지 않은 커밋이 포함되어있을 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1169,8 +1178,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>For example, if the app's database is misbehaving due to a hardware issue, the app's administrator might spin up a new database server restored from a recent backup.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T151827Z" creationid="nacyot" creationdate="20140517T163429Z">
-        <seg>예를 들어 하드웨어에 문제가 발생해 어플리케이션이 정상적으로 작동하지 않을 때, 관리자는 백업 파일로부터 새로운 데이터베이스 서버를 실행시킬 수 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T072524Z" creationid="nacyot" creationdate="20140517T163429Z">
+        <seg>예를 들어 하드웨어에 문제가 발생해 어플리케이션이 정상적으로 작동하지 않는다면 관리자는 백업 파일로부터 새로운 데이터베이스 서버를 실행시킬 것이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1193,8 +1202,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>For example, the build command for Ruby/Bundler is `bundle install`, while for Clojure/[Leiningen](https://github.com/technomancy/leiningen#readme) it is `lein deps`.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T143701Z" creationid="nacyot" creationdate="20140511T154711Z">
-        <seg>예를 들어 루비 번들러의 빌드 명령어는  `bundle install`이고, 클로저(Clojure) Leiningen에서는 `lein deps` 명령어를 실행하면 된다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T071331Z" creationid="nacyot" creationdate="20140511T154711Z">
+        <seg>예를 들어 루비 번들러에서는 `bundle install`을 실행하면 되고, 클로저(Clojure) Leiningen에서는 `lein deps` 명령어를 실행하면 된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1217,8 +1226,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Furthermore, it uses a *dependency isolation* tool during execution to ensure that no implicit dependencies "leak in" from the surrounding system.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T143013Z" creationid="nacyot" creationdate="20140511T153428Z">
-        <seg>나아가 어플리케이션 실행 중에는 *의존성 분리(dependency isolation)* 툴을 사용해 어플리케이션에서만 사용되는 의존 라이브러리가 암묵적으로 외부에 공개되지 않도록 해야한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T071122Z" creationid="nacyot" creationdate="20140511T153428Z">
+        <seg>나아가 어플리케이션 실행 중에는 *의존성 분리(dependency isolation)* 도구를 사용해 어플리케이션에서만 사용되는 의존 라이브러리가 암묵적으로 외부에 공개되지 않도록 해야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1233,16 +1242,16 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Historically, there have been substantial gaps between development (a developer making live edits to a local [deploy](/codebase) of the app) and production (a running deploy of the app accessed by end users).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T170259Z" creationid="nacyot" creationdate="20140518T005322Z">
-        <seg>역사적으로 개발자가 직접 수정할 수 있는 로컬 배포를 의미하는 개발 환경과 사용자가 어플리케이션을 실제로 사용하는 배포인 프로덕션 환경 간에는 큰 차이가 있었다. </seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T081426Z" creationid="nacyot" creationdate="20140518T005322Z">
+        <seg>역사적으로 프로그래머가 직접 수정할 수 있는 로컬 배포를 의미하는 개발 환경과 사용자가 어플리케이션을 실제로 사용하는 배포인 프로덕션 환경 간에는 큰 차이가 있었다. </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>Ideally, a process takes a few seconds from the time the launch command is executed until the process is up and ready to receive requests or jobs.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T164222Z" creationid="nacyot" creationdate="20140518T022136Z">
-        <seg>이상적인 기준을 제시한다면, 하나의 프로세스는 실행되고 몇 초 안에 요청이나 작업을 처리할 준비가 되어야한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T074328Z" creationid="nacyot" creationdate="20140518T022136Z">
+        <seg>이상적인 기준을 제시한다면, 하나의 프로세스는 기동되고 몇 초 안에 요청이나 작업을 처리할 준비가 되어야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1257,16 +1266,16 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Implicit in this model is that HTTP requests are short (no more than a few seconds), or in the case of long polling, the client should seamlessly attempt to reconnect when the connection is lost.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T164723Z" creationid="nacyot" creationdate="20140518T022905Z">
-        <seg>이는 HTTP 요청이 짧다(길어야 몇 도)는 것을 암묵적으로 전제한다. 롱 풀링(long polling)을 사용하고 있다면 클라이언트는 연결이 끊어지면 자연스럽게 접속을 재시도한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T075826Z" creationid="nacyot" creationdate="20140518T022905Z">
+        <seg>이는 HTTP 요청이 짧다는 것(길어야 몇 초)을 암묵적으로 전제한다. 롱 풀링(long polling)을 사용하고 있다면 클라이언트는 연결이 끊어지면 자연스럽게 접속을 재시도한다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>Implicit in this model is that all jobs are [reentrant](http://en.wikipedia.org/wiki/Reentrant_%28subroutine%29), which typically is achieved by wrapping the results in a transaction, or making the operation [idempotent](http://en.wikipedia.org/wiki/Idempotence).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T165152Z" creationid="nacyot" creationdate="20140518T023456Z">
-        <seg>이러한 모델은 암묵적으로 어떤 작업이라도 다시 큐로 되돌아 올 수 있다고 가정하고 있다. 큐로 작업을 되돌리는 것은 작업을 트랜젝션으로 감싸거나 멱등으로 만들어서 구현할 수 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T081311Z" creationid="nacyot" creationdate="20140518T023456Z">
+        <seg>이 모델에서는 암묵적으로 어떤 작업이라도 다시 큐로 되돌아 올 수 있다고 가정한다. 큐로 작업을 되돌리는 방법으로는 작업을 트랜젝션으로 감싸거나 작업을 멱등으로 만드는 방법있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1297,24 +1306,24 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>In a twelve-factor app, env vars are granular controls, each fully orthogonal to other env vars.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T150321Z" creationid="nacyot" creationdate="20140518T125606Z">
-        <seg>Twelve-Factor App은 환경변수는 세밀하게 관리되며 각각의 환경변수는 서로에 대해 직교한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T071913Z" creationid="nacyot" creationdate="20140518T125606Z">
+        <seg>Twelve-Factor App의 환경변수들은 세밀하게 관리되며 각각의 환경변수는 서로에 대해 직교한다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>In addition to these locally-managed services, the app may also have services provided and managed by third parties.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T151040Z" creationid="nacyot" creationdate="20140517T161430Z">
-        <seg>이렇듯 로컬에서 관리되는 서비스뿐만 아니라, 서드 파티에서 제공하고 관리되는 서비스들도 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T072100Z" creationid="nacyot" creationdate="20140517T161430Z">
+        <seg>이러한 로컬에서 관리되는 서비스뿐만 아니라, 서드 파티에서 제공하고 관리되는 서비스들도 있다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>In both cases, only the resource handle in the config needs to change.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T151457Z" creationid="nacyot" creationdate="20140517T163041Z">
-        <seg>두 경우 모두 변경이 필요한 부분은 설정의 리소스 핸들 부분 뿐이다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T072402Z" creationid="nacyot" creationdate="20140517T163041Z">
+        <seg>두 경우 모두 변경이 필요한 부분은 설정의 리소스 핸들 뿐이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1329,8 +1338,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>In deployment, a routing layer handles routing requests from a public-facing hostname to the port-bound web processes.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T161354Z" creationid="hsin" creationdate="20140517T070838Z">
-        <seg>프로덕션 배포에서는 라우팅 계층을 추가해 외부에 공개된 호스트 이름을 통해 내부 포트에 바인딩된 웹 프로세스로 요청을 라우트한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T073619Z" creationid="hsin" creationdate="20140517T070838Z">
+        <seg>프로덕션 배포에서는 라우트 계층을 추가해 외부 공개된 호스트 이름에 대한 요청을 내부 포트에 바인딩된 웹 프로세스에 보내준다(route).</seg>
       </tuv>
     </tu>
     <tu>
@@ -1353,8 +1362,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>In the modern era, software is commonly delivered as a service: called *web apps*, or *software-as-a-service*.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T134414Z" creationid="nacyot" creationdate="20140518T125832Z">
-        <seg>지금 시대에서 소프트웨어는 일반적으로 서비스로서 제공되며 *웹 어플리케이션(web app)*이나 *서비스로서의 소프트웨어(software-as-a-service)*라고 불린다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T065909Z" creationid="nacyot" creationdate="20140518T125832Z">
+        <seg>최근에는 일반적으로 소프트웨어가 서비스로서 제공되며 *웹 어플리케이션(web app)*이나 *서비스로서의 소프트웨어(software-as-a-service)*라고 불린다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1393,8 +1402,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Instead, rely on the operating system's process manager (such as [Upstart](http://upstart.ubuntu.com/), a distributed process manager on a cloud platform, or a tool like [Foreman](http://blog.daviddollar.org/2011/05/06/introducing-foreman.html) in development) to manage [output streams](/logs), respond to crashed processes, and handle user-initiated restarts and shutdowns.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T163819Z" creationid="nacyot" creationdate="20140517T174627Z">
-        <seg>대신 운영체제의 프로세스 매니져(예를 들어 [Upstart](http://upstart.ubuntu.com)나 클라우드 플랫폼의 분산 프로세스 매니저, 개발 환경의 [Foreman](http://blog.daviddollar.org/2011/05/06/introducing-foreman.html) 등)를 사용해 [출력 스트림](/logs)을 관리하고, 프로세스의 비정상적 종료에 대응해야하며, 사용자에 의한 프로세스 재시작과 종료를 관리해야한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T074236Z" creationid="nacyot" creationdate="20140517T174627Z">
+        <seg>대신 운영체제의 프로세스 매니져(예를 들어 [Upstart](http://upstart.ubuntu.com)나 클라우드 플랫폼의 분산 프로세스 매니저, 개발 환경의 [Foreman](http://blog.daviddollar.org/2011/05/06/introducing-foreman.html) 등)을 사용해 [출력 스트림](/logs)을 관리하고, 프로세스의 비정상적 종료에 대응해야하며, 관리자에 의한 프로세스 재시작과 종료를 관리해야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1411,8 +1420,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>It is a triangulation on ideal practices app development, paying particular attention to the dynamics of the organic growth of an app over time, the dynamics of collaboration between developers working on the app's codebase, and [avoiding the cost of software erosion](http://blog.heroku.com/archives/2011/6/28/the_new_heroku_4_erosion_resistance_explicit_contracts/).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T140658Z" creationid="nacyot" creationdate="20140518T125003Z">
-        <seg>이는 어플리케이션 개발의 이상적인 프렉티스에 대한 삼각측량법이다. 여기서는 특히 시간에 따른 어플리케이션의 유기적 성장에 대한 역학, 어플리케이션의 코드베이스를 둘러썬 프로그래머 간의 협업의 역학, 그리고 [소프트웨어 부패에 대한 비용 회피]에 주목하고 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070400Z" creationid="nacyot" creationdate="20140518T125003Z">
+        <seg>이는 어플리케이션 개발의 이상적인 프렉티스에 대한 삼각측량과 같다. 여기서는 특히 시간에 따른 어플리케이션의 유기적 성장에 대한 역학, 어플리케이션의 코드베이스를 둘러썬 프로그래머 간 협업의 역학, 그리고 [소프트웨어 부패에 대한 비용 회피]에 주목하고 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1427,8 +1436,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Java processes take the opposite approach, with the JVM providing one massive uberprocess that reserves a large block of system resources (CPU and memory) on startup, with concurrency managed internally via threads.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T162445Z" creationid="nacyot" creationdate="20140517T173418Z">
-        <seg>자바 프로그램은 이와 반대 방법을 사용한다. JVM은 하나의 거대한 부모 프로세스에 해당한다. 처음 실행할 때 CPU나 메모리 같은 커다란 블록을 확보해놓고 쓰레드를 사용해 내부적으로 병행성을 관리한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T073845Z" creationid="nacyot" creationdate="20140517T173418Z">
+        <seg>자바 프로그램은 이와 반대 방법을 사용한다. JVM은 하나의 거대한 부모 프로세스에 해당한다. 처음 실행할 때 CPU나 메모리 같은 자원들을 커다란 블록으로 확보해놓고 쓰레드를 사용해 내부적으로 병행성을 관리한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1499,8 +1508,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Many languages offer libraries which simplify access to the backing service, including *adapters* to different types of services.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T170947Z" creationid="nacyot" creationdate="20140518T010153Z">
-        <seg>많은 프로그래밍 언어에는 특정 백엔드 서비스를 간단히 사용할 수 있게 해주는 라이브러리가 존재하며 이런 라이브러리는 대개 비슷한 종류의 백엔드 서비스들을 지원하는 어댑터를 포함한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T081758Z" creationid="nacyot" creationdate="20140518T010153Z">
+        <seg>많은 프로그래밍 언어에는 특정 백엔드 서비스를 간단히 사용할 수 있게 해주는 라이브러리가 존재한다. 이런 라이브러리는 대개 비슷한 종류의 백엔드 서비스들을 지원하는 어댑터를 포함한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1533,8 +1542,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Most programming languages offer a packaging system for distributing support libraries, such as [CPAN](http://www.cpan.org/) for Perl or [Rubygems](http://rubygems.org/) for Ruby.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T142349Z" creationid="nacyot" creationdate="20140511T152411Z">
-        <seg>많은 프로그래밍 언어에서 Perl의 [CPAN](http://www.cpan.org/)이나 루비의 [루비젬](http://rubygems.org/)과 같은 의존 라이브러리 관리를 위한 패키지 관리 시스템을 제공한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070834Z" creationid="nacyot" creationdate="20140511T152411Z">
+        <seg>대부분의 프로그래밍 언어들은 Perl의 [CPAN](http://www.cpan.org/)이나 루비의 [RubyGem](http://rubygems.org/) 같은 의존 라이브러리 관리를 위한 패키지 관리 시스템을 제공한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1557,32 +1566,32 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>No matter what the toolchain, dependency declaration and isolation must always be used together -- only one or the other is not sufficient to satisfy twelve-factor.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T143323Z" creationid="nacyot" creationdate="20140511T154111Z">
-        <seg>어떤 툴을 사용하건 간에 의존관계 선언과 분리는 항상 함께 사용되어야 한다. 어느 한 쪽만을 사용하는 것은 Twelve Factor를 만족하지 않는다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T071204Z" creationid="nacyot" creationdate="20140511T154111Z">
+        <seg>어떤 도구를 사용하건 간에 의존관계 선언과 분리는 항상 함께 사용되어야 한다. 어느 한 쪽만을 사용하는 것은 Twelve Factor를 만족하지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>Note also that the port-binding approach means that one app can become the [backing service](/backing-services) for another app, by providing the URL to the backing app as a resource handle in the [config](/config) for the consuming app.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T162214Z" creationid="nacyot" creationdate="20140518T121416Z">
-        <seg>포트 바인딩에서 가장 중요한 점은 공개된 포트를 통해서 특정 어플리케이션이 다른 어플리케이션에 대한 [백엔드 서비스](/backing-services)가 된다는 점이다. 백엔드 어플리케이션의 접근가능한 URL을 가지며, 이를 이용하고자 하는 어플리케이션은 [설정](/config)에 해당하는 백엔드 서비스의 리소스 핸들을 저장하기만 하면 된다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T073804Z" creationid="nacyot" creationdate="20140518T121416Z">
+        <seg>포트 바인딩에서 가장 중요한 점은 공개된 포트를 통해서 특정 어플리케이션이 다른 어플리케이션에 대한 [백엔드 서비스](/backing-services)가 된다는 점이다. 백엔드 어플리케이션은 접근가능한 URL을 가지며, 이를 이용하고자 하는 어플리케이션은 [설정](/config)에 해당하는 백엔드 서비스의 리소스 핸들을 저장하기만 하면 된다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>Note that this definition of "config" does **not** include internal application config, such as `config/routes.rb` in Rails, or how [code modules are connected](http://static.springsource.org/spring/docs/2.5.x/reference/beans.html) in [Spring](http://www.springsource.org/).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T144755Z" creationid="nacyot" creationdate="20140517T164913Z">
-        <seg>여기서 "설정"이라는 단어의 정의는 어플리케이션 자체에 영향을 주는 설정은 포함하지 **않는다는 점**에 주의할 필요가 있다. 예를 들어 레일스의 `config/routes.rb`나 스프링의 [코드 모듈이 어떻게 연결되어있는 지](http://static.springsource.org/spring/docs/2.5.x/reference/beans.html)는 어플리케이션 내부 설정이다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T071533Z" creationid="nacyot" creationdate="20140517T164913Z">
+        <seg>여기서 "설정"이라는 단어의 정의는 어플리케이션 자체에 영향을 주는 설정은 포함하지 **않는다는 점**에 주의할 필요가 있다. 예를 들어 레일스의 `config/routes.rb`나 스프링의 [코드 모듈들이 어떻게 연결되어있는 지](http://static.springsource.org/spring/docs/2.5.x/reference/beans.html)는 어플리케이션 내부 설정이다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>On the other end of the spectrum, a production deploy of a sophisticated app may use many [process types, instantiated into zero or more running processes](/concurrency).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T155458Z" creationid="nacyot" creationdate="20140518T121626Z">
-        <seg>복잡한 예로는, 실행되고 종료되거나 여러개의 프로세스들로 실행되는 다양한 타입의 프로세스를 사용하는 어플리케이션의 프로덕션 배포를 생각할 수 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T073025Z" creationid="nacyot" creationdate="20140518T121626Z">
+        <seg>좀 더 복잡한 예로는, 일회성 프로세스나 여러개의 프로세스들로 실행되는 다양한 타입의 프로세스를 사용하는 어플리케이션의 프로덕션 배포를 생각할 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1637,16 +1646,16 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Processes should also be **robust against sudden death**, in the case of a failure in the underlying hardware.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T165254Z" creationid="nacyot" creationdate="20140518T023543Z">
-        <seg>또한 프로세스는 하드웨어 이상에 따른 **갑작스러운 종료에 대해서도 대응할 수 있어야한다.**</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T081323Z" creationid="nacyot" creationdate="20140518T023543Z">
+        <seg>프로세스는 하드웨어 이상에 따른 **갑작스러운 종료도 대응할 수 있어야한다.**</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>Processes should strive to **minimize startup time**.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T164137Z" creationid="nacyot" creationdate="20140518T021627Z">
-        <seg>항상 프로세스 **기동 시간을 최소화**하기 위해 노력해야한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T074316Z" creationid="nacyot" creationdate="20140518T021627Z">
+        <seg>프로그래머는 항상 프로세스 **기동 시간을 최소화**하기 위해 노력해야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1679,8 +1688,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Resources can be attached and detached to deploys at will.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T151759Z" creationid="nacyot" creationdate="20140517T163354Z">
-        <seg>리소스는 언제든지 붙여지거나 대체될 수 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T072456Z" creationid="nacyot" creationdate="20140517T163354Z">
+        <seg>리소스는 언제든지 붙이거나 떼어낼 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1727,8 +1736,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Some web systems rely on ["sticky sessions"](http://en.wikipedia.org/wiki/Load_balancing_%28computing%29#Persistence) -- that is, caching user session data in memory of the app's process and expecting future requests from the same visitor to be routed to the same process.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T160358Z" creationid="nacyot" creationdate="20140518T124649Z">
-        <seg>어플리케이션에 따라서는 [스티키 세션(sticky sessions)](http://en.wikipedia.org/wiki/Load_balancing_%28computing%29#Persistence)에 의존한 처리를 하기도 한다. 스티키 세션이란 사용자 세션 데이터를 어플리케이션 프로세스의 메모리에 캐시하고 같은 방문자의 미래 요청이 이전에 요청을 처리했던 것과 같은 프로세스에서 처리될 것으로 기대하는 것이다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T073323Z" creationid="nacyot" creationdate="20140518T124649Z">
+        <seg>어플리케이션에 따라서는 [스티키 세션(sticky sessions)](http://en.wikipedia.org/wiki/Load_balancing_%28computing%29#Persistence)에 의존한 처리를 하기도 한다. 스티키 세션이란 사용자 세션 데이터를 어플리케이션 프로세스의 메모리에 캐시하고 같은 방문자의 미래 요청이 이전에 요청을 처리했던 것과 같은 프로세스에서 처리될 것으로 기대하는 방식이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1795,7 +1804,7 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The [share-nothing, horizontally partitionable nature of twelve-factor app processes](/processes) means that adding more concurrency is a simple and reliable operation.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T163451Z" creationid="nacyot" creationdate="20140517T174224Z">
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T074120Z" creationid="nacyot" creationdate="20140517T174224Z">
         <seg>[아무것도 공유하지 않으며 수평 분할 가능한 Twelve-Fatro App의 프로세스](/processes)의 성질 상 병행성을 확장하는 일은 견고하면서도 간단하다.</seg>
       </tuv>
     </tu>
@@ -1811,8 +1820,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The array of process types and number of processes of each type is known as the *process formation*.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T163516Z" creationid="nacyot" creationdate="20140517T174307Z">
-        <seg>프로세스 타입과 각 타입의 프로세스 개수 배열은 *프로세스 포메이션*이라고 불린다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T074151Z" creationid="nacyot" creationdate="20140517T174307Z">
+        <seg>프로세스 타입과 각 타입의 프로세스 수 배열은 *프로세스 포메이션*이라고 불린다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1843,8 +1852,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The contributors to this document have been directly involved in the development and deployment of hundreds of apps, and indirectly witnessed the development, operation, and scaling of hundreds of thousands of apps via our work on the [Heroku](http://www.heroku.com/) platform.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T135529Z" creationid="nacyot" creationdate="20140429T232056Z">
-        <seg>이 문서의 작성자는 수백개 어플리케이션의 개발과 배포에 직접적으로 관여했으며, [히로쿠(Heroku)](http://www.heroku.com/) 플랫폼에서 일하면서 수천개 어플리케이션의 개발(development), 운용(operation), 확장(scaling)에 간접적으로 참여했다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070210Z" creationid="nacyot" creationdate="20140429T232056Z">
+        <seg>이 문서의 저자는 수백개 어플리케이션의 개발과 배포에 직접적으로 관여했으며, [히로쿠(Heroku)](http://www.heroku.com/) 플랫폼에서 일하면서 수천개 어플리케이션의 개발(development), 운용(operation), 확장(scaling)에 간접적으로 참여했다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1867,8 +1876,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The current production database could be detached, and the new database attached -- all without any code changes.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T151923Z" creationid="nacyot" creationdate="20140517T163506Z">
-        <seg>데이터베이스가 실행되면 기존의 프로덕션 데이터베이션를 떼어내고(detach), 새로운 데이터베이스를 어플리케이션에 붙인다(attach). 이 과정에는 어떠한 코드 수정도 없다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T072550Z" creationid="nacyot" creationdate="20140517T163506Z">
+        <seg>데이터베이스가 실행되면 기존의 프로덕션 데이터베이스를 떼어내고(detach), 새로운 데이터베이스를 어플리케이션에 붙인다(attach). 이 과정에는 어떠한 코드 수정도 없다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1883,24 +1892,24 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The format is inspired by Martin Fowler's books *[Patterns of Enterprise Application Architecture](http://books.google.com/books/about/Patterns_of_enterprise_application_archi.html?id=FyWZt5DdvFkC)* and *[Refactoring](http://books.google.com/books/about/Refactoring.html?id=1MsETFPD3I0C)*.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T140459Z" creationid="nacyot" creationdate="20140518T125155Z">
-        <seg>이 책의 형식은 Martin Fowler의 서적 *[Patterns of Enterprise Application Architecture](http://books.google.com/books/about/Patterns_of_enterprise_application_archi.html?id=FyWZt5DdvFkC)*과 *[Refactoring](http://books.google.com/books/about/Refactoring.html?id=1MsETFPD3I0C)*의 영향을 받았다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070406Z" creationid="nacyot" creationdate="20140518T125155Z">
+        <seg>이 책의 형식은 Martin Fowler의 서적 *[Patterns of Enterprise Application Architecture](http://books.google.com/books/about/Patterns_of_enterprise_application_archi.html?id=FyWZt5DdvFkC)*와 *[Refactoring](http://books.google.com/books/about/Refactoring.html?id=1MsETFPD3I0C)*의 영향을 받았다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>The full and explicit dependency specification is applied uniformly to both production and development.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T143127Z" creationid="nacyot" creationdate="20140511T153612Z">
-        <seg>의존성 선언 명시적이어야하며 모든 의존 라이브러리를 포함해야한다. 이러한 의존성 선언은 개발 환경과 프로덕션 환경 모두에 적용된다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T071201Z" creationid="nacyot" creationdate="20140511T153612Z">
+        <seg>의존성 선언은 명시적이어야하며 모든 의존 라이브러리를 포함해야한다. 이러한 의존성 선언은 개발 환경과 프로덕션 환경 모두에 적용된다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>The memory space or filesystem of the process can be used as a brief, single-transaction cache.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T155648Z" creationid="nacyot" creationdate="20140518T121915Z">
-        <seg>필요하다면 짧은 단일 트랜젝션을 위한 캐시로 프로세스의 메모리 공간이나 파일 시스템을 사용해도 무방하다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T073120Z" creationid="nacyot" creationdate="20140518T121915Z">
+        <seg>필요하다면 짧은 단일 트랜젝션을 과정의 캐시로 프로세스의 메모리 공간이나 파일 시스템을 사용해도 무방하다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1915,8 +1924,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The process model truly shines when it comes time to scale out.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T163236Z" creationid="nacyot" creationdate="20140517T174138Z">
-        <seg>이러한 프로세스 모델의 진가는 스케일 아웃에서 발휘된다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T074105Z" creationid="nacyot" creationdate="20140517T174138Z">
+        <seg>이 프로세스 모델의 진가는 스케일 아웃에서 발휘된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1939,8 +1948,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The solution here is to factor shared code into libraries which can be included through the [dependency manager](/dependencies).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T141609Z" creationid="nacyot" creationdate="20140517T172430Z">
-        <seg>이러한 문제를 해결하려면, 먼저 공통된 부분을 라이브러리로 분리하고 이 라이브러리를 [의존성 관리](/dependencies)를 통해서 사용하면 된다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070536Z" creationid="nacyot" creationdate="20140517T172430Z">
+        <seg>이러한 문제를 해결하려면 먼저 공통된 부분을 라이브러리로 분리하고 이 라이브러리를 [의존성 관리](/dependencies)를 통해서 사용하면 된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1955,8 +1964,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The twelve-factor app never assumes that anything cached in memory or on disk will be available on a future request or job -- with many processes of each type running, chances are high that a future request will be served by a different process.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T155959Z" creationid="nacyot" creationdate="20140518T122108Z">
-        <seg>하지만 Twelve-Factor App에서는 메모리나 디스크에 캐시된 정보가 이후의 요청이나 작업을 처리할 때 재사용된다고는 결코 가정하지 않는다. 각 프로세스 타입의 프로세스가 다수 실행될 때 이후에 일어나는 요청이나 작업이 같은 프로세스에서 일어난다는 보장은 어디에도 없다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T073156Z" creationid="nacyot" creationdate="20140518T122108Z">
+        <seg>하지만 Twelve-Factor App에서는 메모리나 디스크에 캐시된 정보가 이후의 요청이나 작업을 처리할 때 재사용된다고는 결코 가정하지 않는다. 각 프로세스 타입의 프로세스가 다수 실행되는 동안에 미래에 일어나는 요청이나 작업이 같은 프로세스에서 실행된다는 보장은 어디에도 없다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1995,16 +2004,16 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>There is only one codebase per app, but there will be many deploys of the app.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T141648Z" creationid="nacyot" creationdate="20140517T172458Z">
-        <seg>코드베이스는 각 어플리케이션마다 단 하나만 존재하지만, 어플리케이션은 여러 번 배포될 수 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070630Z" creationid="nacyot" creationdate="20140517T172458Z">
+        <seg>코드베이스는 각 어플리케이션마다 단 하나만 존재하지만, 어플리케이션의 배포는 다수 존재할 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>Therefore, the run stage should be kept to as few moving parts as possible, since problems that prevent an app from running can cause it to break in the middle of the night when no developers are on hand.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T153540Z" creationid="nacyot" creationdate="20140518T153540Z">
-        <seg>프로그래머가 대기하고 있지 않은 한밤중에라도 문제는 발생할 수 있기 때문에 실행 단계에서 변경 가능한 부분은 가능한 한 줄여야한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T072849Z" creationid="nacyot" creationdate="20140518T153540Z">
+        <seg>프로그래머가 대기하고 있지 않은 한밤중에라도 문제는 발생할 수 있기 때문에 실행 단계에서 변경 가능한 부분은 가능한 최소화되어야 한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2075,16 +2084,16 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>This does not exclude individual processes from handling their own internal multiplexing, via threads inside the runtime VM, or the async/evented model found in tools such as [EventMachine](http://rubyeventmachine.com/), [Twisted](http://twistedmatrix.com/trac/), or [Node.js](http://nodejs.org/).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T163204Z" creationid="nacyot" creationdate="20140517T174015Z">
-        <seg>이러한 모델은 런타임 VM 내의 쓰레드나 [EventMachine](http://rubyeventmachine.com/), [Twisted](http://twistedmatrix.com/trac/), [Node.js](http://nodejs.org/) 등 비동기 이벤트 모델을 통해 각 프로세스 내부의 다중화를 금지한다는 의미가 아니다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T074026Z" creationid="nacyot" creationdate="20140517T174015Z">
+        <seg>이러한 모델이 런타임 VM 내의 쓰레드나 [EventMachine](http://rubyeventmachine.com/), [Twisted](http://twistedmatrix.com/trac/), [Node.js](http://nodejs.org/) 등 비동기 이벤트 모델을 사용하는 각 프로세스 내부의 다중화를 금지한다는 의미는 아니다.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>This happens entirely in *user space*, that is, within the app's code.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T161627Z" creationid="nacyot" creationdate="20140518T111502Z">
-        <seg>이 구현은 완전히 *사용자 공간*에서 일어나는 일로, 다르게 말하자면 어플리케이션 코드 내에서 구현된다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T073712Z" creationid="nacyot" creationdate="20140518T111502Z">
+        <seg>이 구현은 완전히 *사용자 공간*에서 일어나는 일이다. 즉, 어플리케이션 코드 내에서 구현된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2099,16 +2108,16 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>This is a huge improvement over using constants which are checked into the code repo, but still has weaknesses: it's easy to mistakenly check in a config file to the repo;</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T145348Z" creationid="nacyot" creationdate="20140517T170209Z">
-        <seg>이 방법은 설정 정보를 버전 관리 시스템에 포함된 파일 내에 상수로 저장하는 것보다는 장족의 발전이지만 여전히 몇 가지 문제를 가지고 있다. 설정 파일을 버전 관리에 포함시키는 실수를 할 수도 있으며, </seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T071748Z" creationid="nacyot" creationdate="20140517T170209Z">
+        <seg>이 방법은 설정 정보를 버전 관리 시스템에 포함된 파일 내의 상수로 저장하는 것보다는 장족의 발전이지만 여전히 몇 가지 문제를 가지고 있다. 먼저 설정 파일을 버전 관리에 포함시키는 실수를 하기 쉽고, </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>This is a model that scales up smoothly as the app naturally expands into more deploys over its lifetime.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T150524Z" creationid="nacyot" creationdate="20140518T125704Z">
-        <seg>환경변수를 통해 설정을 관리하는 방식은 어플리케이션이 더 많은 배포로 확장되어가는 데 있어서 자연스럽게 스케일 업이 가능하도록 유도하는 모델이다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T071942Z" creationid="nacyot" creationdate="20140518T125704Z">
+        <seg>환경변수를 통해 설정을 관리하는 방식은 어플리케이션이 더 많은 배포로 확장되어가는 데 있어서 자연스럽게 확장 가능하도록 유도하는 모델이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2171,8 +2180,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Twelve-factor strongly favors languages which provide a REPL shell out of the box, and which make it easy to run one-off scripts.</seg>
       </tuv>
-      <tuv lang="KO" changeid="daekwon" changedate="20140519T063054Z" creationid="nacyot" creationdate="20140517T160839Z">
-        <seg>REPL을 사용하면 일회성 스크립트를 쉽게 실행할 수 있으며, 따라서 Twelve-factor App은 REPL을 잘 지원하는 언어를 선호한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T095355Z" creationid="nacyot" creationdate="20140517T160839Z">
+        <seg>REPL을 사용하면 일회성 스크립트를 쉽게 실행할 수 있으며, 따라서 Twelve-Factor App은 REPL을 잘 지원하는 언어를 선호한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2187,8 +2196,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Using this model, the developer can architect their app to handle diverse workloads by assigning each type of work to a *process type*.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T162850Z" creationid="nacyot" creationdate="20140517T173718Z">
-        <seg>이 모델을 통해 서로 다른 종류의 작업을 프로세스 타입에 따라 나누는 방식으로 프로그래머는 어플리케이션이 다양한 종류의 작업를 처리할 수도록 설계할 수 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T073955Z" creationid="nacyot" creationdate="20140517T173718Z">
+        <seg>프로그래머는 이 모델을 통해 서로 다른 종류의 작업을 프로세스 타입에 따라 나누는 방식으로 어플리케이션이 다양한 종류의 작업를 처리할 수도록 설계할 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2211,8 +2220,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>While these tools may exist on many or even most systems, there is no guarantee that they will exist on all systems where the app may run in the future, or whether the version found on a future system will be compatible with the app.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T144039Z" creationid="nacyot" creationdate="20140511T155114Z">
-        <seg>이러한 프로그램들은 대개 시스템 기반으로 설치되는데, 미래에 이 어플리케이션을 돌릴 모든 시스템에 이 프로그램이 설치되어있다고 단언할 수 없으며, 설사 설치되어있다고 해도 어플리케이션과 호환되는 버전이라는 보장은 어디에도 없다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T071335Z" creationid="nacyot" creationdate="20140511T155114Z">
+        <seg>이러한 프로그램들은 대개 시스템 기반으로 설치되는데, 미래에 이 어플리케이션이 실행될 모든 시스템에 이 프로그램이 설치되어있다고 단언할 수 없으며, 설사 설치되어있다고 해도 어플리케이션과 호환되는 버전이라는 보장은 어디에도 없다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2235,8 +2244,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>[Backing services](/backing-services), such as the app's database, queueing system, or cache, is one area where dev/prod parity is important.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T170744Z" creationid="nacyot" creationdate="20140518T010052Z">
-        <seg>같은 데이터베이스, 큐, 캐시와 같은 [백엔드 서비스](/backing-services)를 사용하는 것은 개발 / 배포 환경 일치에서 매우 중요하다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T081706Z" creationid="nacyot" creationdate="20140518T010052Z">
+        <seg>데이터베이스, 큐, 캐시와 같은 [백엔드 서비스](/backing-services)를 똑같이 사용하는 것도 개발 / 배포 환경 일치에서 매우 중요하다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2251,8 +2260,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>and it aids robustness, because the process manager can more easily move processes to new physical machines when warranted.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T164409Z" creationid="nacyot" creationdate="20140518T022331Z">
-        <seg>나아가 프로세스 매니저가 필요에 따라 프로세스를 새로운 물리 매신으로 간단히 이동시킬 수 있게되기 때문에 신뢰성은 더욱 높아진다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T074444Z" creationid="nacyot" creationdate="20140518T022331Z">
+        <seg>나아가 프로세스 매니저가 필요에 따라 프로세스를 다른 물리 머신으로 간단히 이동시킬 수 있게 되어 신뢰성은 더욱 높아진다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2299,8 +2308,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>on [Beanstalkd](http://kr.github.com/beanstalkd/), the job is returned to the queue automatically whenever a worker disconnects.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T164819Z" creationid="nacyot" creationdate="20140518T023257Z">
-        <seg>[Beanstalkd](http://kr.github.com/beanstalkd/)에서는 워커 접속이 종료되면 때 작업이 자동적으로 큐로 되돌아간다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T075900Z" creationid="nacyot" creationdate="20140518T023257Z">
+        <seg>[Beanstalkd](http://kr.github.com/beanstalkd/)에서는 워커 접속이 종료되면 작업이 자동적으로 큐로 되돌아간다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2315,8 +2324,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>staging has some commits not yet deployed to production.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T142053Z" creationid="nacyot" creationdate="20140517T172831Z">
-        <seg>마찬가지로 스테이징에에는 아직 프로덕션 환경에 배포되지 않는 커밋이 포함되어있을 수도 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070720Z" creationid="nacyot" creationdate="20140517T172831Z">
+        <seg>마찬가지로 스테이징에는 아직 프로덕션 환경에 배포되지 않는 커밋이 포함되어있을 수도 있다.</seg>
       </tuv>
     </tu>
     <tu>
