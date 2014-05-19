@@ -768,8 +768,8 @@
       <tuv lang="EN">
         <seg>Adapters to different backing services are still useful, because they make porting to new backing services relatively painless.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T020441Z" creationid="nacyot" creationdate="20140518T020441Z">
-        <seg>서로 다른 백엔드 서비스를 사용할 수 있게 해주는 어댑터는 여전히 유용하다. 이러한 어댑터는 새로운 백엔드 서비스를 사용하는 데 드는 노력을 줄여준다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T060045Z" creationid="nacyot" creationdate="20140518T020441Z">
+        <seg>다른 백엔드 서비스를 사용할 수 있게 추상화해주는 어댑터는 여전히 유용하다. 이러한 어댑터를 새용하면 적은 노력으로 새로운 백엔드 서비스를 도입할 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -898,8 +898,8 @@
       <tuv lang="EN">
         <seg>But all deploys of the app (developer environments, staging, production) should be using the same type and version of each of the backing services.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T020757Z" creationid="nacyot" creationdate="20140518T020757Z">
-        <seg>하지만 개발 환경, 스테이징, 프로덕션과 같은 모든 종류의 배포에서 같은 종류, 같은 버전의 백엔드 서비스를 사용해야한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T060145Z" creationid="nacyot" creationdate="20140518T020757Z">
+        <seg>하지만 그렇다고 하더라도 개발 환경, 스테이징, 프로덕션은 모두 같은 타입과 같은 버전의 백엔드 서비스를 사용해야한다.</seg>
       </tuv>
     </tu>
     <tu>
