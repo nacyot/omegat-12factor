@@ -133,8 +133,8 @@
         <seg>## XI. Logs
 ### Treat logs as event streams</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140430T232640Z" creationid="nacyot" creationdate="20140430T232622Z">
-        <seg>## 11. 로그
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T060208Z" creationid="nacyot" creationdate="20140430T232622Z">
+        <seg>## 11. 로그(Logs)
 ### 로그를 이벤트 스트림으로 다루기</seg>
       </tuv>
     </tu>
@@ -556,8 +556,8 @@
       <tuv lang="EN">
         <seg>*Logs* provide visibility into the behavior of a running app.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140430T235621Z" creationid="nacyot" creationdate="20140430T232705Z">
-        <seg>*Logs*는 실행중인 어플리케이션에서 일어나는 일들을 보여준다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T060238Z" creationid="nacyot" creationdate="20140430T232705Z">
+        <seg>*로그*는 실행중인 어플리케이션에서 어떤 일이 일어나고 있는 지 보여준다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1330,8 +1330,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>In server-based environments they are commonly written to a file on disk (a "logfile");</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140430T235625Z" creationid="nacyot" creationdate="20140430T232740Z">
-        <seg>일반적으로 서버 기반 환경 위에서 로그는 파일 시스템("로그 파일")에 쓰여진다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T060305Z" creationid="nacyot" creationdate="20140430T232740Z">
+        <seg>일반적으로 서버 기반 환경에서 로크는 디스크에 로그 파일로 쓰여진다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1468,8 +1468,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Logs are the [stream](http://adam.heroku.com/past/2011/4/1/logs_are_streams_not_files/) of aggregated, time-ordered events collected from the output streams of all running processes and backing services.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140430T235633Z" creationid="nacyot" creationdate="20140430T235612Z">
-        <seg>로그는 모든 실행중인 프로세스와 백엔드 서비스에서 시간순으로 정렬되고 쌓여있는 이벤트를 수집하는 스트림이다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T060423Z" creationid="nacyot" creationdate="20140430T235612Z">
+        <seg>로그는 모든 실행중인 프로세스와 백엔드 서비스의 누적되며 시간순으로 수집되고 정렬되는 이벤트 [스트림](http://adam.heroku.com/past/2011/4/1/logs_are_streams_not_files)이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2272,8 +2272,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>but this is only an output format.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140430T235628Z" creationid="nacyot" creationdate="20140430T232754Z">
-        <seg>하지만 이는 한 가지 출력 방법일 뿐이다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T060317Z" creationid="nacyot" creationdate="20140430T232754Z">
+        <seg>하지만 이는 한 가지 출력 형식일 뿐이다.</seg>
       </tuv>
     </tu>
     <tu>
