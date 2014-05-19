@@ -477,8 +477,8 @@
       <tuv lang="EN">
         <seg>**A twelve-factor app never concerns itself with routing or storage of its output stream.**  It should not attempt to write to or manage logfiles.</seg>
       </tuv>
-      <tuv lang="KO" changeid="daekwon" changedate="20140519T060620Z" creationid="nacyot" creationdate="20140518T104700Z">
-        <seg>**Twelve Factor App은 어플리케이션의 출력 스트림의 목적지나 어디에 저장하는 지 일체 간섭하지 않는다.** 어플리케이션은 로그를 작성하거나 로그 파일을 관리하려고 해서는 안된다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T082221Z" creationid="nacyot" creationdate="20140518T104700Z">
+        <seg>**Twelve Factor App은 어플리케이션의 출력 스트림의 목적지나 어디에 저장되는 지 일체 간섭하지 않는다.** 어플리케이션은 로그를 작성하거나 로그 파일을 관리하려고 해서는 안된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1494,8 +1494,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Logs in their raw form are typically a text format with one event per line (though backtraces from exceptions may span multiple lines).</seg>
       </tuv>
-      <tuv lang="KO" changeid="daekwon" changedate="20140519T060528Z" creationid="nacyot" creationdate="20140512T225912Z">
-        <seg>일반적으로 어플리케이션이 직접 생성하는 로그는 한 줄에 하나의 이벤트를 텍스트 포맷으로 기록한다.(예외를 추적하는 로그는 여러줄로 쓰여지기도 한다)</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T082215Z" creationid="nacyot" creationdate="20140512T225912Z">
+        <seg>일반적으로 어플리케이션이 직접 생성하는 로그는 한 줄에 하나의 이벤트를 텍스트 포맷으로 기록한다(예외를 추적하는 로그는 여러줄로 쓰여지기도 한다). </seg>
       </tuv>
     </tu>
     <tu>
