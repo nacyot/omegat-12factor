@@ -695,9 +695,9 @@
       <tuv lang="EN">
         <seg>==============================</seg>
       </tuv>
-      <tuv lang="KO" changeid="daekwon" changedate="20140519T095643Z" creationid="nacyot" creationdate="20140517T170934Z">
-        <seg>
-==============================</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070411Z" creationid="nacyot" creationdate="20140517T170934Z">
+        <seg>==============================
+</seg>
       </tuv>
     </tu>
     <tu>
@@ -2180,8 +2180,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Twelve-factor strongly favors languages which provide a REPL shell out of the box, and which make it easy to run one-off scripts.</seg>
       </tuv>
-      <tuv lang="KO" changeid="daekwon" changedate="20140519T095355Z" creationid="nacyot" creationdate="20140517T160839Z">
-        <seg>REPL을 사용하면 일회성 스크립트를 쉽게 실행할 수 있으며, 따라서 Twelve-Factor App은 REPL을 잘 지원하는 언어를 선호한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T063054Z" creationid="nacyot" creationdate="20140517T160839Z">
+        <seg>REPL을 사용하면 일회성 스크립트를 쉽게 실행할 수 있으며, 따라서 Twelve-factor App은 REPL을 잘 지원하는 언어를 선호한다.</seg>
       </tuv>
     </tu>
     <tu>
