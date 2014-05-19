@@ -1240,8 +1240,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Ideally, a process takes a few seconds from the time the launch command is executed until the process is up and ready to receive requests or jobs.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T164222Z" creationid="nacyot" creationdate="20140518T022136Z">
-        <seg>이상적인 기준을 제시한다면, 하나의 프로세스는 실행되고 몇 초 안에 요청이나 작업을 처리할 준비가 되어야한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T074328Z" creationid="nacyot" creationdate="20140518T022136Z">
+        <seg>이상적인 기준을 제시한다면, 하나의 프로세스는 기동되고 몇 초 안에 요청이나 작업을 처리할 준비가 되어야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1392,8 +1392,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Instead, rely on the operating system's process manager (such as [Upstart](http://upstart.ubuntu.com/), a distributed process manager on a cloud platform, or a tool like [Foreman](http://blog.daviddollar.org/2011/05/06/introducing-foreman.html) in development) to manage [output streams](/logs), respond to crashed processes, and handle user-initiated restarts and shutdowns.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T163819Z" creationid="nacyot" creationdate="20140517T174627Z">
-        <seg>대신 운영체제의 프로세스 매니져(예를 들어 [Upstart](http://upstart.ubuntu.com)나 클라우드 플랫폼의 분산 프로세스 매니저, 개발 환경의 [Foreman](http://blog.daviddollar.org/2011/05/06/introducing-foreman.html) 등)를 사용해 [출력 스트림](/logs)을 관리하고, 프로세스의 비정상적 종료에 대응해야하며, 사용자에 의한 프로세스 재시작과 종료를 관리해야한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T074236Z" creationid="nacyot" creationdate="20140517T174627Z">
+        <seg>대신 운영체제의 프로세스 매니져(예를 들어 [Upstart](http://upstart.ubuntu.com)나 클라우드 플랫폼의 분산 프로세스 매니저, 개발 환경의 [Foreman](http://blog.daviddollar.org/2011/05/06/introducing-foreman.html) 등)을 사용해 [출력 스트림](/logs)을 관리하고, 프로세스의 비정상적 종료에 대응해야하며, 관리자에 의한 프로세스 재시작과 종료를 관리해야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1644,8 +1644,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Processes should strive to **minimize startup time**.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T164137Z" creationid="nacyot" creationdate="20140518T021627Z">
-        <seg>항상 프로세스 **기동 시간을 최소화**하기 위해 노력해야한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T074316Z" creationid="nacyot" creationdate="20140518T021627Z">
+        <seg>프로그래머는 항상 프로세스 **기동 시간을 최소화**하기 위해 노력해야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1810,8 +1810,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The array of process types and number of processes of each type is known as the *process formation*.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T163516Z" creationid="nacyot" creationdate="20140517T174307Z">
-        <seg>프로세스 타입과 각 타입의 프로세스 개수 배열은 *프로세스 포메이션*이라고 불린다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T074151Z" creationid="nacyot" creationdate="20140517T174307Z">
+        <seg>프로세스 타입과 각 타입의 프로세스 수 배열은 *프로세스 포메이션*이라고 불린다.</seg>
       </tuv>
     </tu>
     <tu>
