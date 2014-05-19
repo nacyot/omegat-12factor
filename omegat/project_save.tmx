@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.8_3" segtype="sentence" srclang="EN"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.0.8_4" segtype="sentence" srclang="EN"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -540,8 +540,8 @@
       <tuv lang="EN">
         <seg>**The twelve-factor developer resists the urge to use different backing services between development and production**, even when adapters theoretically abstract away any differences in backing services.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T010724Z" creationid="nacyot" creationdate="20140518T010724Z">
-        <seg>비록 어댑터가 이론적으로 서로 다른 백엔드 서비스들의 완벽히 추상화해내고 있다고 할지라도, **Twelve-Factor App 개발자는 개발 환경과 프로덕션 환경 간에 다른 백엔드 서비스를 사용하고자 하는 마음을 견뎌내야한다. </seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T055406Z" creationid="nacyot" creationdate="20140518T010724Z">
+        <seg>비록 어댑터가 이론적으로 서로 다른 백엔드 서비스들을 완벽히 추상화해낸다고 할 지라도, **Twelve-Factor App 개발자는 개발 환경과 프로덕션 환경에서 최대한 같은 백엔드 서비스를 사용해야한다. </seg>
       </tuv>
     </tu>
     <tu>
