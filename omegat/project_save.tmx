@@ -423,24 +423,27 @@
       <tuv lang="EN">
         <seg>* Running a console (also known as a [REPL](http://en.wikipedia.org/wiki/Read-eval-print_loop) shell) to run arbitrary code or inspect the app's models against the live database.</seg>
       </tuv>
-      <tuv lang="KO" changeid="daekwon" changedate="20140519T062119Z" creationid="nacyot" creationdate="20140517T160106Z">
-        <seg>* 특정 코드를 실행하거나 데이터베이스에 대한 어플리케이션의 모델을 확인하기 위한 콘솔([REPL](http://en.wikipedia.org/wiki/Read-eval-print_loop)이라고도 한다)</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T095134Z" creationid="nacyot" creationdate="20140517T160106Z">
+        <seg>* 특정 코드를 실행하거나 데이터베이스에 대한 어플리케이션의 모델을 확인하기 위한 콘솔([REPL](http://en.wikipedia.org/wiki/Read-eval-print_loop)이라고도 한다) 
+</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>* Running database migrations (e.g. `manage.py syncdb` in Django, `rake db:migrate` in Rails).</seg>
       </tuv>
-      <tuv lang="KO" changeid="daekwon" changedate="20140519T062044Z" creationid="nacyot" creationdate="20140517T160007Z">
-        <seg>* Django의 `manage.py sincdb`나 레일스의 `rake db` 같은 데이터베이스 마이그레이션</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T095103Z" creationid="nacyot" creationdate="20140517T160007Z">
+        <seg>* Django의 `manage.py sincdb`나 레일스의 `rake db` 같은 데이터베이스 마이그레이션
+</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>* Running one-time scripts committed into the app's repo (e.g. `php scripts/fix_bad_records.php`).</seg>
       </tuv>
-      <tuv lang="KO" changeid="daekwon" changedate="20140519T062237Z" creationid="nacyot" creationdate="20140517T160244Z">
-        <seg>* 어플리케이션 저장소에 저장되어있는 한 번 실행될 목적으로 만들어진 스크립트들.(예를 들어 `php scripts/fix_bad_records.php`)</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T095110Z" creationid="nacyot" creationdate="20140517T160244Z">
+        <seg>* 어플리케이션 저장소에 저장되어있는 한 번 실행될 목적으로 만들어진 스크립트들.(예를 들어 `php scripts/fix_bad_records.php`)
+</seg>
       </tuv>
     </tu>
     <tu>
@@ -1701,8 +1704,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Separately, developers will often wish to do one-off administrative or maintenance tasks for the app, such as:</seg>
       </tuv>
-      <tuv lang="KO" changeid="daekwon" changedate="20140519T062028Z" creationid="nacyot" creationdate="20140517T155925Z">
-        <seg>이러한 프로세스 이외에 프로그래머는 어플리케이션 관리나 유지보수를 위해 딱 한번만 실행되는 작업을 해야할 수도 있다. 아래와 같은 경우들이 한 번만 실행되는 작업의 예이다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T095053Z" creationid="nacyot" creationdate="20140517T155925Z">
+        <seg>이러한 프로세스 이외에 프로그래머는 어플리케이션 관리나 유지보수를 위해 딱 한번만 실행되는 작업을 실행해야할 수도 있다. 아래와 같은 경우들이 일회성 작업의 예이다.</seg>
       </tuv>
     </tu>
     <tu>
