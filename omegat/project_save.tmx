@@ -312,8 +312,8 @@
       <tuv lang="EN">
         <seg>* Active alerting according to user-defined heuristics (such as an alert when the quantity of errors per minute exceeds a certain threshold).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T105415Z" creationid="nacyot" creationdate="20140518T105415Z">
-        <seg>* 사용자 정의 휴리스틱에 의존해 경고를 보냄(예를 들어 일 분동안 일정 이상의 에러가 발생하면 경고를 발생시킨다.)</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T061721Z" creationid="nacyot" creationdate="20140518T105415Z">
+        <seg>* 사용자(관리자)가 정의한 특정 조건에 따라 경고 메시지를 보내줄 수 있다. 예를 들어 일정 시간 동안에 일정 수준 이상의 에러메시지가 발생할 때 이메일이나 다른 방법을 통해 알려줄 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -360,8 +360,8 @@
       <tuv lang="EN">
         <seg>* Large-scale graphing of trends (such as requests per minute).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T105329Z" creationid="nacyot" creationdate="20140518T105329Z">
-        <seg>* 큰 규모늬 경향을 그래프로 그릴 수 있다(예를 들어 분당 리퀘스트 수).</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T061629Z" creationid="nacyot" creationdate="20140518T105329Z">
+        <seg>* 분당 리퀘스트와 같은 수치를 장기에 걸쳐 그래프로 그릴 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1534,8 +1534,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Most significantly, the stream can be sent to a log indexing and analysis system such as [Splunk](http://www.splunk.com/), or a general-purpose data warehousing system such as [Hadoop/Hive](http://hive.apache.org/).</seg>
       </tuv>
-      <tuv lang="KO" changeid="daekwon" changedate="20140519T061412Z" creationid="nacyot" creationdate="20140518T105221Z">
-        <seg>이를 통해 출력 스트림은 추가적으로 로그 인덱스와 분석을 위해 [Splunk](http://www.splunk.com/)로 보내지거나 범용 데이터 웨어하우스 시스템인 [Hadoop/Hive](http://hive.apache.org/)로 보내질 수 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T061534Z" creationid="nacyot" creationdate="20140518T105221Z">
+        <seg>출력 스트림은 추가적으로 로그 인덱스와 분석을 위해 [Splunk](http://www.splunk.com/)로 보내지거나 범용 데이터 웨어하우스 시스템인 [Hadoop/Hive](http://hive.apache.org/)로 보내질 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2020,8 +2020,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>These systems allow for great power and flexibility for introspecting an app's behavior over time, including:</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T105254Z" creationid="nacyot" creationdate="20140518T105254Z">
-        <seg>이러한 시스템은 장기적인 관점에서 어플리케이션의 작동을 확인하는데 강력한 능력과 유연성을 제공하며 다음과 같은 일을 할 수 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T061533Z" creationid="nacyot" creationdate="20140518T105254Z">
+        <seg>이러한 시스템들은 장기적인 관점에서 어플리케이션의 동작을 확인하는데 매우 유연하고 강력하다. 이를 통해 아래와 같은 일들을 쉽게 할 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
