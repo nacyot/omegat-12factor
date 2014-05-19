@@ -406,9 +406,9 @@
 * Credentials to external services such as Amazon S3 or Twitter
 * Per-deploy values such as the canonical hostname for the deploy</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T144451Z" creationid="nacyot" creationdate="20140517T164353Z">
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T071426Z" creationid="nacyot" creationdate="20140517T164353Z">
         <seg>* 데이터베이스, Memcached를 비롯한 [백엔드 서비스](/backing-services)에 대한 리소스 핸들
-* Amazon S3와 Twitter와 같은 외부 서비스에 대한 인증 정보
+* Amazon S3와 Twitter 같은 외부 서비스에 대한 인증 정보
 * 각 배포환경에 대한 설정값(예를 들어 CNAME 등)</seg>
       </tuv>
     </tu>
@@ -742,8 +742,8 @@
       <tuv lang="EN">
         <seg>A litmus test for whether an app has all config correctly factored out of the code is whether the codebase could be made open source at any moment, without compromising any credentials.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T144703Z" creationid="nacyot" creationdate="20140517T164741Z">
-        <seg>어플리케이션에서 설정이 분리되어있는 지 여부를 확인할 수 있는 간단한 방법은, 어플리케이션 내부에 어떠한 인증 정보도 포함하지 않고 지금 당장 오픈소스로 공개할 수 있는지 살펴보면 된다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T071531Z" creationid="nacyot" creationdate="20140517T164741Z">
+        <seg>어플리케이션에서 설정이 분리되어있는 지 여부를 확인할 수 있는 간단한 방법은, 어플리케이션 내부에 어떠한 인증 정보도 포함시키지 않고 지금 당장 오픈소스로 공개할 수 있는 지 검토해보는 것이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -854,8 +854,8 @@
       <tuv lang="EN">
         <seg>Apps sometimes store config as constants in the code.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T144539Z" creationid="nacyot" creationdate="20140517T164508Z">
-        <seg>때때로 프로그래머들은 어플리케이션 내부에 설정 정보를 저장하기도 한다</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T071431Z" creationid="nacyot" creationdate="20140517T164508Z">
+        <seg>때때로 프로그래머들은 어플리케이션 내부에 설정 정보를 저장하기도 한다. </seg>
       </tuv>
     </tu>
     <tu>
@@ -1192,8 +1192,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>For example, the build command for Ruby/Bundler is `bundle install`, while for Clojure/[Leiningen](https://github.com/technomancy/leiningen#readme) it is `lein deps`.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T143701Z" creationid="nacyot" creationdate="20140511T154711Z">
-        <seg>예를 들어 루비 번들러의 빌드 명령어는  `bundle install`이고, 클로저(Clojure) Leiningen에서는 `lein deps` 명령어를 실행하면 된다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T071331Z" creationid="nacyot" creationdate="20140511T154711Z">
+        <seg>예를 들어 루비 번들러에서는 `bundle install`을 실행하면 되고, 클로저(Clojure) Leiningen에서는 `lein deps` 명령어를 실행하면 된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1572,8 +1572,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Note that this definition of "config" does **not** include internal application config, such as `config/routes.rb` in Rails, or how [code modules are connected](http://static.springsource.org/spring/docs/2.5.x/reference/beans.html) in [Spring](http://www.springsource.org/).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T144755Z" creationid="nacyot" creationdate="20140517T164913Z">
-        <seg>여기서 "설정"이라는 단어의 정의는 어플리케이션 자체에 영향을 주는 설정은 포함하지 **않는다는 점**에 주의할 필요가 있다. 예를 들어 레일스의 `config/routes.rb`나 스프링의 [코드 모듈이 어떻게 연결되어있는 지](http://static.springsource.org/spring/docs/2.5.x/reference/beans.html)는 어플리케이션 내부 설정이다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T071533Z" creationid="nacyot" creationdate="20140517T164913Z">
+        <seg>여기서 "설정"이라는 단어의 정의는 어플리케이션 자체에 영향을 주는 설정은 포함하지 **않는다는 점**에 주의할 필요가 있다. 예를 들어 레일스의 `config/routes.rb`나 스프링의 [코드 모듈들이 어떻게 연결되어있는 지](http://static.springsource.org/spring/docs/2.5.x/reference/beans.html)는 어플리케이션 내부 설정이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2210,8 +2210,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>While these tools may exist on many or even most systems, there is no guarantee that they will exist on all systems where the app may run in the future, or whether the version found on a future system will be compatible with the app.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T144039Z" creationid="nacyot" creationdate="20140511T155114Z">
-        <seg>이러한 프로그램들은 대개 시스템 기반으로 설치되는데, 미래에 이 어플리케이션을 돌릴 모든 시스템에 이 프로그램이 설치되어있다고 단언할 수 없으며, 설사 설치되어있다고 해도 어플리케이션과 호환되는 버전이라는 보장은 어디에도 없다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T071335Z" creationid="nacyot" creationdate="20140511T155114Z">
+        <seg>이러한 프로그램들은 대개 시스템 기반으로 설치되는데, 미래에 이 어플리케이션이 실행될 모든 시스템에 이 프로그램이 설치되어있다고 단언할 수 없으며, 설사 설치되어있다고 해도 어플리케이션과 호환되는 버전이라는 보장은 어디에도 없다.</seg>
       </tuv>
     </tu>
     <tu>
