@@ -685,8 +685,9 @@
       <tuv lang="EN">
         <seg>==============================</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T170934Z" creationid="nacyot" creationdate="20140517T170934Z">
-        <seg>==============================</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070411Z" creationid="nacyot" creationdate="20140517T170934Z">
+        <seg>==============================
+</seg>
       </tuv>
     </tu>
     <tu>
@@ -845,8 +846,8 @@
       <tuv lang="EN">
         <seg>Any developer building applications which run as a service.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T140736Z" creationid="nacyot" creationdate="20140517T170953Z">
-        <seg>서비스로서 작동하는 어플리케이션을 개발하는 모든 프로그래머</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070420Z" creationid="nacyot" creationdate="20140517T170953Z">
+        <seg>서비스로서 작동하는 어플리케이션을 개발하는 모든 프로그래머.</seg>
       </tuv>
     </tu>
     <tu>
@@ -999,8 +1000,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Each component in a distributed system is an app, and each can individually comply with twelve-factor.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T141442Z" creationid="nacyot" creationdate="20140517T172310Z">
-        <seg>물론 분산 시스템에서도 구성 요소가 되는 각각의 컴포넌트는 하나의 어플리케이션이며, 따라서 Twelve-Factor를 따를 수 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070528Z" creationid="nacyot" creationdate="20140517T172310Z">
+        <seg>물론 분산 시스템의 구성 요소가 되는 각각의 컴포넌트는 하나의 어플리케이션이며, Twelve-Factor를 따를 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1881,8 +1882,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The format is inspired by Martin Fowler's books *[Patterns of Enterprise Application Architecture](http://books.google.com/books/about/Patterns_of_enterprise_application_archi.html?id=FyWZt5DdvFkC)* and *[Refactoring](http://books.google.com/books/about/Refactoring.html?id=1MsETFPD3I0C)*.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T140459Z" creationid="nacyot" creationdate="20140518T125155Z">
-        <seg>이 책의 형식은 Martin Fowler의 서적 *[Patterns of Enterprise Application Architecture](http://books.google.com/books/about/Patterns_of_enterprise_application_archi.html?id=FyWZt5DdvFkC)*과 *[Refactoring](http://books.google.com/books/about/Refactoring.html?id=1MsETFPD3I0C)*의 영향을 받았다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070406Z" creationid="nacyot" creationdate="20140518T125155Z">
+        <seg>이 책의 형식은 Martin Fowler의 서적 *[Patterns of Enterprise Application Architecture](http://books.google.com/books/about/Patterns_of_enterprise_application_archi.html?id=FyWZt5DdvFkC)*와 *[Refactoring](http://books.google.com/books/about/Refactoring.html?id=1MsETFPD3I0C)*의 영향을 받았다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1937,8 +1938,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The solution here is to factor shared code into libraries which can be included through the [dependency manager](/dependencies).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T141609Z" creationid="nacyot" creationdate="20140517T172430Z">
-        <seg>이러한 문제를 해결하려면, 먼저 공통된 부분을 라이브러리로 분리하고 이 라이브러리를 [의존성 관리](/dependencies)를 통해서 사용하면 된다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070536Z" creationid="nacyot" creationdate="20140517T172430Z">
+        <seg>이러한 문제를 해결하려면 먼저 공통된 부분을 라이브러리로 분리하고 이 라이브러리를 [의존성 관리](/dependencies)를 통해서 사용하면 된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1993,8 +1994,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>There is only one codebase per app, but there will be many deploys of the app.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T141648Z" creationid="nacyot" creationdate="20140517T172458Z">
-        <seg>코드베이스는 각 어플리케이션마다 단 하나만 존재하지만, 어플리케이션은 여러 번 배포될 수 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070630Z" creationid="nacyot" creationdate="20140517T172458Z">
+        <seg>코드베이스는 각 어플리케이션마다 단 하나만 존재하지만, 어플리케이션의 배포는 다수 존재할 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
