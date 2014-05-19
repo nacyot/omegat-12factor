@@ -1534,8 +1534,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Most significantly, the stream can be sent to a log indexing and analysis system such as [Splunk](http://www.splunk.com/), or a general-purpose data warehousing system such as [Hadoop/Hive](http://hive.apache.org/).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T105221Z" creationid="nacyot" creationdate="20140518T105221Z">
-        <seg>가장 중요한 용도로 스트림은 로그 인덱스와 분석에 사용되는 [Splunk](http://www.splunk.com/)나 범용 데이터 웨어하우스 시스템은 [Hadoop/Hive](http://hive.apache.org/)에 보내질 수 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T061412Z" creationid="nacyot" creationdate="20140518T105221Z">
+        <seg>이를 통해 출력 스트림은 추가적으로 로그 인덱스와 분석을 위해 [Splunk](http://www.splunk.com/)로 보내지거나 범용 데이터 웨어하우스 시스템인 [Hadoop/Hive](http://hive.apache.org/)로 보내질 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1598,8 +1598,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Open-source log routers (such as [Logplex](https://github.com/heroku/logplex) and [Fluent](https://github.com/fluent/fluentd)) are available for this purpose.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T105054Z" creationid="nacyot" creationdate="20140518T105054Z">
-        <seg>[Logplex](https://github.com/heroku/logplex)나 [Fluent](https://github.com/fluent/fluentd)와 같은 오픈소스 로그 라우터가 이러한 목적으로 사용된다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T061208Z" creationid="nacyot" creationdate="20140518T105054Z">
+        <seg>오픈소스 로그 라우터 [Logplex](https://github.com/heroku/logplex)나 [Fluent](https://github.com/fluent/fluentd)가 로그를 관리하는 목적으로 사용된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1868,8 +1868,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>The event stream for an app can be routed to a file, or watched via realtime tail in a terminal.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T105128Z" creationid="nacyot" creationdate="20140518T105125Z">
-        <seg>어플리케이션의 이벤트 스트림은 파일로 보내지거나 터미널에서 tail 명령어를 사용해 실시간으로 볼 수 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T061223Z" creationid="nacyot" creationdate="20140518T105125Z">
+        <seg>어플리케이션의 이벤트 스트림은 파일로 보내지거나 터미널에서 tail 명령어를 통해 실시간으로 볼 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2004,8 +2004,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>These archival destinations are not visible to or configurable by the app, and instead are completely managed by the execution environment.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T105024Z" creationid="nacyot" creationdate="20140518T105024Z">
-        <seg>이들을 저장하기 위한 목적지는 어플리케이션에서는 볼 수도 없고 설정할 수도 없으며  대신에 실행 환경에 의해 완전히 관리된다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T061118Z" creationid="nacyot" creationdate="20140518T105024Z">
+        <seg>이러한 최종 목적지는 어플리케이션에서는 볼 수도 없고 설정할 수도 없으며, 오직 실행 환경에 의해서만 관리된다.</seg>
       </tuv>
     </tu>
     <tu>
