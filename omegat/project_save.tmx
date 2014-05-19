@@ -497,8 +497,8 @@
       <tuv lang="EN">
         <seg>**The code for a twelve-factor app makes no distinction between local and third party services.**  To the app, both are attached resources, accessed via a URL or other locator/credentials stored in the [config](/config).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T151319Z" creationid="nacyot" creationdate="20140517T161627Z">
-        <seg>** Twelve-Factor App의 코드는 로컬 서비스와 써드 파티 서비스의 차이를 구분하지 않는다. 어플리케이션 입장에서 보자면 어느 쪽이건 이러한 서비스들은 [설정](/config)에 저장된 URL이나 추가적인 정보들을 통해서 접근 가능한 붙여진 리소스일 뿐이다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T072311Z" creationid="nacyot" creationdate="20140517T161627Z">
+        <seg>** Twelve-Factor App의 코드는 로컬 서비스와 써드 파티 서비스의 차이를 구분하지 않는다.** 어플리케이션 입장에서 보자면 로컬 서비스건 써드파티 서비스건 서비스들은 [설정](/config)에 저장된 URL이나 추가적인 정보들을 통해서 접근 가능한 붙여진 리소스일 뿐이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -726,8 +726,8 @@
       <tuv lang="EN">
         <seg>A [deploy](/codebase) of the twelve-factor app should be able to swap out a local MySQL database with one managed by a third party (such as [Amazon RDS](http://aws.amazon.com/rds/)) without any changes to the app's code.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T151420Z" creationid="nacyot" creationdate="20140517T162937Z">
-        <seg>Twelve-Factor App의 [배포](/codebase)는 어플리케이션 코드의 변경 없이도 로컬에서 관리되는 Mysql 데이터베이스를 써드 파티에서 관리되는 서비스(예를 들어 [Amazon RDS](http://aws.amazon.com/rds/))로 대체할 수 있어야한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T072341Z" creationid="nacyot" creationdate="20140517T162937Z">
+        <seg>Twelve-Factor App의 [배포](/codebase)에서는 어플리케이션 코드의 변경 없이도 로컬 Mysql 데이터베이스 서비스를 써드파티 서비스(예를 들어인 [Amazon RDS](http://aws.amazon.com/rds/))로 대체할 수 있어야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1168,8 +1168,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>For example, if the app's database is misbehaving due to a hardware issue, the app's administrator might spin up a new database server restored from a recent backup.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T151827Z" creationid="nacyot" creationdate="20140517T163429Z">
-        <seg>예를 들어 하드웨어에 문제가 발생해 어플리케이션이 정상적으로 작동하지 않을 때, 관리자는 백업 파일로부터 새로운 데이터베이스 서버를 실행시킬 수 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T072524Z" creationid="nacyot" creationdate="20140517T163429Z">
+        <seg>예를 들어 하드웨어에 문제가 발생해 어플리케이션이 정상적으로 작동하지 않는다면 관리자는 백업 파일로부터 새로운 데이터베이스 서버를 실행시킬 것이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1312,8 +1312,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>In both cases, only the resource handle in the config needs to change.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T151457Z" creationid="nacyot" creationdate="20140517T163041Z">
-        <seg>두 경우 모두 변경이 필요한 부분은 설정의 리소스 핸들 부분 뿐이다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T072402Z" creationid="nacyot" creationdate="20140517T163041Z">
+        <seg>두 경우 모두 변경이 필요한 부분은 설정의 리소스 핸들 뿐이다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1678,8 +1678,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Resources can be attached and detached to deploys at will.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T151759Z" creationid="nacyot" creationdate="20140517T163354Z">
-        <seg>리소스는 언제든지 붙여지거나 대체될 수 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T072456Z" creationid="nacyot" creationdate="20140517T163354Z">
+        <seg>리소스는 언제든지 붙이거나 떼어낼 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
