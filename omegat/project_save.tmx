@@ -412,24 +412,24 @@
       <tuv lang="EN">
         <seg>* Running a console (also known as a [REPL](http://en.wikipedia.org/wiki/Read-eval-print_loop) shell) to run arbitrary code or inspect the app's models against the live database.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T160106Z" creationid="nacyot" creationdate="20140517T160106Z">
-        <seg>* 임의의 코드를 실행하거나 데이터베이스에 대한 어플리케이션의 모델을 확인하기 위한 콘솔([REPL](http://en.wikipedia.org/wiki/Read-eval-print_loop)이라고도 한다)</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T062119Z" creationid="nacyot" creationdate="20140517T160106Z">
+        <seg>* 특정 코드를 실행하거나 데이터베이스에 대한 어플리케이션의 모델을 확인하기 위한 콘솔([REPL](http://en.wikipedia.org/wiki/Read-eval-print_loop)이라고도 한다)</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>* Running database migrations (e.g. `manage.py syncdb` in Django, `rake db:migrate` in Rails).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T160007Z" creationid="nacyot" creationdate="20140517T160007Z">
-        <seg>* 데이터베이스 마이그레이션(예를 들면 Django의 `manage.py sincdb`나 레일스의 `rake db`)</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T062044Z" creationid="nacyot" creationdate="20140517T160007Z">
+        <seg>* Django의 `manage.py sincdb`나 레일스의 `rake db` 같은 데이터베이스 마이그레이션</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN">
         <seg>* Running one-time scripts committed into the app's repo (e.g. `php scripts/fix_bad_records.php`).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T160244Z" creationid="nacyot" creationdate="20140517T160244Z">
-        <seg>* 어플리케이션 저장소에 커밋된 한 번만 실행하기 위한 스크립트.(예를 들어 `php scripts/fix_bad_records.php`)</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T062237Z" creationid="nacyot" creationdate="20140517T160244Z">
+        <seg>* 어플리케이션 저장소에 저장되어있는 한 번 실행될 목적으로 만들어진 스크립트들.(예를 들어 `php scripts/fix_bad_records.php`)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1518,8 +1518,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Most languages provide a REPL by running the interpreter without any arguments (e.g. `python` or `erl`) or in some cases have a separate command (e.g. `irb` for Ruby, `rails console` for Rails).</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T160202Z" creationid="nacyot" creationdate="20140517T160202Z">
-        <seg>많은 언어에서는 별다른 인자없이 인터프리터를 실행하면 REPL을 실행할 수 있다. 혹은 루비의 `irb`나 `rails console`과 같이 별도의 명령어를 제공하기도 한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T062212Z" creationid="nacyot" creationdate="20140517T160202Z">
+        <seg>`pyhton`이나 `erl` 명령어와 같이 대부분의 스크립트 언어에서는 별다른 인자없이 인터프리터를 실행하면 REPL이 실행된다. 이와 달리 루비에서는 `irb`나 `rails console` 같은 별도의 명령어를 실행해야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1590,8 +1590,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>One-off admin processes should be run in an identical environment as the regular [long-running processes](/processes) of the app.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T160321Z" creationid="nacyot" creationdate="20140517T160321Z">
-        <seg>한 번만 실행되는 프로세스들은 일반적으로 [장기간 실행되는 프로세스들](/processes)과 같은 환경에서 실행되어야한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T062258Z" creationid="nacyot" creationdate="20140517T160321Z">
+        <seg>한 번만 실행되는 프로세스들은 [장시간에 걸쳐 실행되는 프로세스들](/processes)과 같은 환경에서 실행되어야한다.</seg>
       </tuv>
     </tu>
     <tu>
