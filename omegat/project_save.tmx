@@ -481,8 +481,8 @@
       <tuv lang="EN">
         <seg>**A twelve-factor app never relies on implicit existence of system-wide packages.**  It declares all dependencies, completely and exactly, via a *dependency declaration* manifest.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T142658Z" creationid="nacyot" creationdate="20140511T153353Z">
-        <seg>**Twelve-Factor App은 결코 암묵적으로 시스템 전체에 적용되는 패키지가 설치되어있다고 전제하지 않는다.** 모든 의존 관계는 *의존성 선언(dependency declaration)*을 통해서 완전하고 정확하게 선언된다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070852Z" creationid="nacyot" creationdate="20140511T153353Z">
+        <seg>**Twelve-Factor App은 결코 시스템 전체에 적용되는 패키지가 설치되어있다고 암묵적으로 전제하지 않는다.** 모든 의존 관계는 *의존성 선언(dependency declaration)*을 통해서 완전하고 정확하게 선언되어야한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -920,8 +920,8 @@
       <tuv lang="EN">
         <seg>But they all share the same codebase, thus making them identifiable as different deploys of the same app.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T142210Z" creationid="nacyot" creationdate="20140517T172859Z">
-        <seg>하지만 로컬과 스테이징, 프로덕션은 모두 같은 코드베이스를 공유하고 있으며, 따라서 같은 어플리케이션의 다른 배포라고 할 수 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070735Z" creationid="nacyot" creationdate="20140517T172859Z">
+        <seg>하지만 로컬과 스테이징, 프로덕션은 모두 같은 코드베이스를 공유하고 있으며, 따라서 이들은 같은 어플리케이션의 다른 배포라고 할 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1144,8 +1144,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>For example, a developer has some commits not yet deployed to staging;</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T142044Z" creationid="nacyot" creationdate="20140517T172814Z">
-        <seg>예를 들어 프로그래머 로컬 환경에는 스테이징 환경에 아직 배포되지 않은 커밋이 포함되어있을 수도 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070713Z" creationid="nacyot" creationdate="20140517T172814Z">
+        <seg>예를 들어 프로그래머의 로컬 환경에는 스테이징 환경에 아직 배포되지 않은 커밋이 포함되어있을 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1532,8 +1532,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Most programming languages offer a packaging system for distributing support libraries, such as [CPAN](http://www.cpan.org/) for Perl or [Rubygems](http://rubygems.org/) for Ruby.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T142349Z" creationid="nacyot" creationdate="20140511T152411Z">
-        <seg>많은 프로그래밍 언어에서 Perl의 [CPAN](http://www.cpan.org/)이나 루비의 [루비젬](http://rubygems.org/)과 같은 의존 라이브러리 관리를 위한 패키지 관리 시스템을 제공한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070834Z" creationid="nacyot" creationdate="20140511T152411Z">
+        <seg>대부분의 프로그래밍 언어들은 Perl의 [CPAN](http://www.cpan.org/)이나 루비의 [RubyGem](http://rubygems.org/) 같은 의존 라이브러리 관리를 위한 패키지 관리 시스템을 제공한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2314,8 +2314,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>staging has some commits not yet deployed to production.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T142053Z" creationid="nacyot" creationdate="20140517T172831Z">
-        <seg>마찬가지로 스테이징에에는 아직 프로덕션 환경에 배포되지 않는 커밋이 포함되어있을 수도 있다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T070720Z" creationid="nacyot" creationdate="20140517T172831Z">
+        <seg>마찬가지로 스테이징에는 아직 프로덕션 환경에 배포되지 않는 커밋이 포함되어있을 수도 있다.</seg>
       </tuv>
     </tu>
     <tu>
