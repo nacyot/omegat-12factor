@@ -1256,8 +1256,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Implicit in this model is that HTTP requests are short (no more than a few seconds), or in the case of long polling, the client should seamlessly attempt to reconnect when the connection is lost.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T164723Z" creationid="nacyot" creationdate="20140518T022905Z">
-        <seg>이는 HTTP 요청이 짧다(길어야 몇 도)는 것을 암묵적으로 전제한다. 롱 풀링(long polling)을 사용하고 있다면 클라이언트는 연결이 끊어지면 자연스럽게 접속을 재시도한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T075826Z" creationid="nacyot" creationdate="20140518T022905Z">
+        <seg>이는 HTTP 요청이 짧다는 것(길어야 몇 초)을 암묵적으로 전제한다. 롱 풀링(long polling)을 사용하고 있다면 클라이언트는 연결이 끊어지면 자연스럽게 접속을 재시도한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2298,8 +2298,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>on [Beanstalkd](http://kr.github.com/beanstalkd/), the job is returned to the queue automatically whenever a worker disconnects.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T164819Z" creationid="nacyot" creationdate="20140518T023257Z">
-        <seg>[Beanstalkd](http://kr.github.com/beanstalkd/)에서는 워커 접속이 종료되면 때 작업이 자동적으로 큐로 되돌아간다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T075900Z" creationid="nacyot" creationdate="20140518T023257Z">
+        <seg>[Beanstalkd](http://kr.github.com/beanstalkd/)에서는 워커 접속이 종료되면 작업이 자동적으로 큐로 되돌아간다.</seg>
       </tuv>
     </tu>
     <tu>
