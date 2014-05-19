@@ -505,8 +505,8 @@
       <tuv lang="EN">
         <seg>**The twelve-factor app is completely self-contained** and does not rely on runtime injection of a webserver into the execution environment to create a web-facing service.</seg>
       </tuv>
-      <tuv lang="KO" changeid="daekwon" changedate="20140519T073433Z" creationid="hsin" creationdate="20140517T063416Z">
-        <seg>**Twelve-Factor App은 스스로 완결된다.** 달리 말해 웹에 공개되는 서비스를 만들기 위해, 실행 환경에서 어플리케이션 실행하고자 웹서버를 직접적으로 사용하지 않는다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T073524Z" creationid="hsin" creationdate="20140517T063416Z">
+        <seg>**Twelve-Factor App은 스스로 완결된다.** 달리 말해 웹에 공개되는 서비스를 만들 때, 실행 환경에서 어플리케이션 실행하고자 웹서버를 직접적으로 사용하지 않는다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1328,8 +1328,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>In deployment, a routing layer handles routing requests from a public-facing hostname to the port-bound web processes.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T161354Z" creationid="hsin" creationdate="20140517T070838Z">
-        <seg>프로덕션 배포에서는 라우팅 계층을 추가해 외부에 공개된 호스트 이름을 통해 내부 포트에 바인딩된 웹 프로세스로 요청을 라우트한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T073619Z" creationid="hsin" creationdate="20140517T070838Z">
+        <seg>프로덕션 배포에서는 라우트 계층을 추가해 외부 공개된 호스트 이름에 대한 요청을 내부 포트에 바인딩된 웹 프로세스에 보내준다(route).</seg>
       </tuv>
     </tu>
     <tu>
@@ -1564,8 +1564,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Note also that the port-binding approach means that one app can become the [backing service](/backing-services) for another app, by providing the URL to the backing app as a resource handle in the [config](/config) for the consuming app.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T162214Z" creationid="nacyot" creationdate="20140518T121416Z">
-        <seg>포트 바인딩에서 가장 중요한 점은 공개된 포트를 통해서 특정 어플리케이션이 다른 어플리케이션에 대한 [백엔드 서비스](/backing-services)가 된다는 점이다. 백엔드 어플리케이션의 접근가능한 URL을 가지며, 이를 이용하고자 하는 어플리케이션은 [설정](/config)에 해당하는 백엔드 서비스의 리소스 핸들을 저장하기만 하면 된다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T073804Z" creationid="nacyot" creationdate="20140518T121416Z">
+        <seg>포트 바인딩에서 가장 중요한 점은 공개된 포트를 통해서 특정 어플리케이션이 다른 어플리케이션에 대한 [백엔드 서비스](/backing-services)가 된다는 점이다. 백엔드 어플리케이션은 접근가능한 URL을 가지며, 이를 이용하고자 하는 어플리케이션은 [설정](/config)에 해당하는 백엔드 서비스의 리소스 핸들을 저장하기만 하면 된다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2082,8 +2082,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>This happens entirely in *user space*, that is, within the app's code.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140518T161627Z" creationid="nacyot" creationdate="20140518T111502Z">
-        <seg>이 구현은 완전히 *사용자 공간*에서 일어나는 일로, 다르게 말하자면 어플리케이션 코드 내에서 구현된다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T073712Z" creationid="nacyot" creationdate="20140518T111502Z">
+        <seg>이 구현은 완전히 *사용자 공간*에서 일어나는 일이다. 즉, 어플리케이션 코드 내에서 구현된다.</seg>
       </tuv>
     </tu>
     <tu>
