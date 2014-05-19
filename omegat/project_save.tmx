@@ -1266,8 +1266,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>In a local deploy, developers invoke one-off admin processes by a direct shell command inside the app's checkout directory.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T160957Z" creationid="nacyot" creationdate="20140517T160957Z">
-        <seg>로컬 배포에서 개발자는 한 번만 사용하는 관리 프로세스를 어플리케이션을 체크아웃한 디렉토리 안에서 쉘 명령어로서 직접 실행한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T063105Z" creationid="nacyot" creationdate="20140517T160957Z">
+        <seg>로컬 배포에서 개발자는 일회성 관리 프로세스를 어플리케이션을 체크아웃한 디렉토리 안에서 직접 실행한다.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2164,8 +2164,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>Twelve-factor strongly favors languages which provide a REPL shell out of the box, and which make it easy to run one-off scripts.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T160839Z" creationid="nacyot" creationdate="20140517T160839Z">
-        <seg>Twelve-factor는 특별한 설정없이도 REPL을 사용할 수 있는 언어를 선호한다. 이는 1번만 사용하는 스크립트를 실행하기 쉽기 때문이다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T063054Z" creationid="nacyot" creationdate="20140517T160839Z">
+        <seg>REPL을 사용하면 일회성 스크립트를 쉽게 실행할 수 있으며, 따라서 Twelve-factor App은 REPL을 잘 지원하는 언어를 선호한다.</seg>
       </tuv>
     </tu>
     <tu>
