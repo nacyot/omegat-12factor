@@ -1282,8 +1282,8 @@ Jomphe, Mattt Thompson, Anand Narasimhan, Lucas Fais, Pete Hodgson</seg>
       <tuv lang="EN">
         <seg>In a production deploy, developers can use ssh or other remote command execution mechanism provided by that deploy's execution environment to run such a process.</seg>
       </tuv>
-      <tuv lang="KO" changeid="nacyot" changedate="20140517T160959Z" creationid="nacyot" creationdate="20140517T160959Z">
-        <seg>실제 배포 과정에서 개발자는 SSH나 배포 환경이 제공하는 다른 리모트 커맨드 실행 방법을 사용해 해당하는 프로세스를 실행한다.</seg>
+      <tuv lang="KO" changeid="daekwon" changedate="20140519T063931Z" creationid="nacyot" creationdate="20140517T160959Z">
+        <seg>프로덕션 배포 시에는 SSH나 프로덕션 배포 환경이 제공하는 다른 원격 도구를 사용해 관리 프로세스를 실행할 수 있다.</seg>
       </tuv>
     </tu>
     <tu>
